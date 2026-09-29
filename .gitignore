@@ -1,0 +1,26 @@
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# HuggingFace / model caches that might land in the project
+.cache/
+models/
+*.safetensors
+*.bin
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Notes: results/ is intentionally kept in the repo (small, evidence of runs).
