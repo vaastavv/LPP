@@ -70,7 +70,14 @@ def run_latent(runner, families: list, use_chat_template: bool, model_label: str
                 "max_PR": sig["max_PR"],
                 "last_layer_ER": sig["last_layer_ER"],
                 "last_layer_PR": sig["last_layer_PR"],
+                # Per-layer profiles — kept so #2 (hourglass plot) and every
+                # later layerwise analysis can read them straight from the
+                # results JSONL, no re-running the model. LPP paper
+                # §"Formal definition"; Supplement §2.2, Figure 4.
+                "ER_by_layer": sig["ER_by_layer"],
+                "PR_by_layer": sig["PR_by_layer"],
                 "num_tokens": sig["num_tokens"],
+                "num_layers": sig["num_layers"],
             })
     return records
 

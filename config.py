@@ -18,8 +18,9 @@ import os
 # ---------------------------------------------------------------------------
 MODELS = {
     "llama-1b": os.environ.get("HF_MODEL", "meta-llama/Llama-3.2-1B-Instruct"),
+    "qwen-0.5b": "Qwen/Qwen2.5-0.5B-Instruct",
+    "qwen-1.5b": "Qwen/Qwen2.5-1.5B-Instruct",
     # "llama-3b":  "meta-llama/Llama-3.2-3B-Instruct",
-    # "qwen-1.5b": "Qwen/Qwen2.5-1.5B-Instruct",
     # "qwen-7b":   "Qwen/Qwen2.5-7B-Instruct",
     # "mistral-7b":"mistralai/Mistral-7B-Instruct-v0.3",
 }
