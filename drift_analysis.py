@@ -136,6 +136,39 @@ def plot_one(model: str, kind: str, res: dict, plots_dir: str) -> None:
     print(f"Wrote {out}")
 
 
+def plot_lead_comparison(rows_out: list, plots_dir: str) -> None:
+    """
+    Cross-model comparison: for each drift kind with >=2 models, bar the entropy
+    lead (levels the entropy floor detects drift ahead of accuracy) per model.
+    Positive bars = the metric gives early warning for that model.
+    """
+    by_kind: dict[str, list] = {}
+    for row in rows_out:
+        by_kind.setdefault(row["kind"], []).append(row)
+
+    plt = None
+    for kind, rows in sorted(by_kind.items()):
+        rows = [r for r in rows if r["lead_entropy_levels"] is not None]
+        if len(rows) < 2:
+            continue   # a comparison needs at least two models
+        if plt is None:
+            plt = _get_plt()
+        rows.sort(key=lambda r: r["model"])
+        models = [r["model"] for r in rows]
+        leads = [r["lead_entropy_levels"] for r in rows]
+        fig, ax = plt.subplots(figsize=(max(6, 1.2 * len(models) + 2), 4.5))
+        ax.bar(models, leads, color="tab:red")
+        ax.axhline(0, color="black", linewidth=0.6)
+        ax.set_ylabel("entropy lead over accuracy (levels)")
+        ax.set_title(f"Cross-model drift early-warning lead ({kind})")
+        ax.tick_params(axis="x", rotation=20)
+        fig.tight_layout()
+        out = os.path.join(plots_dir, f"drift_lead_comparison_{kind}.png")
+        fig.savefig(out, dpi=150)
+        plt.close(fig)
+        print(f"Wrote {out}")
+
+
 def main() -> int:
     results_dir = config.RESULTS_DIR
     plots_dir = os.path.join(results_dir, "plots")
@@ -171,6 +204,8 @@ def main() -> int:
               f"ER@{row['ER_detect_severity']} PR@{row['PR_detect_severity']} "
               f"acc@{row['acc_detect_severity']} "
               f"(entropy lead {row['lead_entropy_levels']} levels)")
+
+    plot_lead_comparison(rows_out, plots_dir)
 
     csv_path = os.path.join(results_dir, "drift_summary.csv")
     cols = ["model", "kind", "acc_detect_severity", "entropy_detect_severity",

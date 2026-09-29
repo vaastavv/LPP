@@ -20,6 +20,13 @@ MODELS = {
     "llama-1b": os.environ.get("HF_MODEL", "meta-llama/Llama-3.2-1B-Instruct"),
     "qwen-0.5b": "Qwen/Qwen2.5-0.5B-Instruct",
     "qwen-1.5b": "Qwen/Qwen2.5-1.5B-Instruct",
+    # SmolLM2-1.7B is fully open (no HF auth). Adds a third family, useful for
+    # the cross-model correlations (#3/#4) which need >=3 models.
+    "smollm-1.7b": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    # Gemma-2-2B is GATED on HuggingFace: accept the license at
+    # https://huggingface.co/google/gemma-2-2b-it then `huggingface-cli login`
+    # once before running --model gemma2-2b.
+    "gemma2-2b": "google/gemma-2-2b-it",
     # "llama-3b":  "meta-llama/Llama-3.2-3B-Instruct",
     # "qwen-7b":   "Qwen/Qwen2.5-7B-Instruct",
     # "mistral-7b":"mistralai/Mistral-7B-Instruct-v0.3",
