@@ -7,3 +7,5 @@ tqdm>=4.66
 # Optional (nicer analysis/exports)
 pandas>=2.0
 matplotlib>=3.7
+scipy>=1.10          # Spearman / Kendall correlations (#3, #4)
+datasets>=2.14       # Alpaca / Dolly / WikiText calibration sets (#6, #10)

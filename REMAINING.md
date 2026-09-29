@@ -14,17 +14,25 @@ Models*, arXiv:2605.30018v2, 29 May 2026 — full PDF at
 | # | Item | Status |
 |---|------|--------|
 | 1 | Per-layer ER/PR persisted in latent records | **Done** ([`16704d0`](https://github.com/vaastavv/LPP/commit/16704d0)) |
-| 5 | Rolling-context entropy schedule | Next |
-| 6 | Real calibration set: 100 Alpaca prompts | Ready (pair with #5) |
-| 11 | SPC synthetic task | Ready (no prerequisites) |
-| 7 | Sensitivity: prefix length | Blocked on #5 |
-| 2 | Layerwise ER/PR plot + hourglass detector | Blocked on #1 (unblocked now) |
-| 8 | Sensitivity: context length | Blocked on #6 |
-| 9 | Sensitivity: sample size | Blocked on #6 |
-| 10 | Sensitivity: dataset (Alpaca/Dolly/WikiText) | Blocked on #6 |
-| 3 | Cross-model Spearman correlations | Ready; needs ≥3 models to be interesting |
-| 4 | Aggregation-invariance check | Ready; needs ≥3 models to be interesting |
-| 12 | AR synthetic task | Ready (no strict prerequisites); heaviest |
+| 5 | Rolling-context entropy schedule | **Code done** — `src/latent_rolling.py`, `run_latent_rolling.py` |
+| 6 | Real calibration set: 100 Alpaca prompts | **Code done** — `src/calibration.py`, `run_calibration.py` |
+| 11 | SPC synthetic task | **Code done** — `src/spc_task.py`, `run_spc.py` |
+| 7 | Sensitivity: prefix length | **Code done** — `plot_prefix_sensitivity` in `latent_analysis.py` |
+| 2 | Layerwise ER/PR plot + hourglass detector | **Code done** — `latent_analysis.py` |
+| 8 | Sensitivity: context length | **Code done** — `plot_context_sensitivity` in `latent_analysis.py` |
+| 9 | Sensitivity: sample size | **Code done** — `plot_sample_size_sensitivity` in `latent_analysis.py` |
+| 10 | Sensitivity: dataset (Alpaca/Dolly/WikiText) | **Code done** — `load_dataset_sample` + `plot_dataset_sensitivity` |
+| 3 | Cross-model Spearman correlations | **Code done** — `correlation_table` in `analyze_results.py`; needs ≥3 models |
+| 4 | Aggregation-invariance check | **Code done** — `aggregation_invariance` in `latent_analysis.py`; needs ≥3 models |
+| 12 | AR synthetic task | **Code done** — `src/ar_task.py`, `run_ar.py` |
+
+> **Code done** means the module and CLI are written, byte-compile clean, and
+> the pure-Python logic is covered by `tests/test_tasks.py` (14 tests, all
+> passing offline). The model-driven *runs* that produce `results/*.jsonl` and
+> the plots still need to be launched by hand — install the deps
+> (`pip install -r requirements.txt`, which now includes `scipy` and
+> `datasets`) and run the commands in each item's section below. #3 and #4 only
+> become meaningful once ≥3 models have results.
 
 ## Recommended order
 

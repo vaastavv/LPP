@@ -139,6 +139,73 @@ def build_table(acc_by_model: dict, lat_by_model: dict) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------------------
+# #3 · Cross-model Spearman correlations
+# ---------------------------------------------------------------------------
+def correlation_table(df: pd.DataFrame, results_dir: str) -> "pd.DataFrame | None":
+    """
+    Spearman correlation between each latent metric and each extrinsic metric
+    across models. LPP paper Results §"Intrinsic metrics versus extrinsic
+    performance" (page 4); Figure 2D (page 5).
+
+    Extrinsic metrics default to what we measure in-repo (baseline_accuracy,
+    answer_consistency). If results/external_scores.csv exists with a 'model'
+    column plus any of {mmlu_pro, bbh, ifeval} (paper values from the
+    open-llm-leaderboard), those columns are merged in and correlated too.
+
+    Needs >=3 models to be meaningful; returns None and prints a note otherwise.
+    """
+    try:
+        from scipy.stats import spearmanr
+    except ImportError:
+        print("  (scipy not installed — skipping correlations; pip install scipy)")
+        return None
+
+    work = df.copy()
+
+    # optional external benchmark scores the user drops in by hand
+    ext_path = os.path.join(results_dir, "external_scores.csv")
+    external_cols: list[str] = []
+    if os.path.exists(ext_path):
+        ext = pd.read_csv(ext_path)
+        if "model" in ext.columns:
+            work = work.merge(ext, on="model", how="left")
+            external_cols = [c for c in ext.columns if c != "model"]
+
+    latent = [c for c in ["min_entropy", "max_ER", "max_PR"] if c in work.columns]
+    extrinsic = [c for c in ["baseline_accuracy", "answer_consistency", *external_cols]
+                 if c in work.columns]
+    if not latent or not extrinsic:
+        print("  (need both latent and extrinsic columns — skipping correlations)")
+        return None
+
+    rows = []
+    for lm in latent:
+        for em in extrinsic:
+            sub = work[[lm, em]].dropna()
+            if len(sub) < 3:
+                continue
+            rho, p = spearmanr(sub[lm], sub[em])
+            rows.append({"latent_metric": lm, "extrinsic_metric": em,
+                         "spearman_rho": round(float(rho), 4),
+                         "p_value": round(float(p), 4),
+                         "n_models": len(sub)})
+
+    if not rows:
+        n_models = work["model"].nunique()
+        print(f"  (only {n_models} model(s) with paired data; need >=3 — "
+              f"skipping correlations)")
+        return None
+
+    corr = pd.DataFrame(rows)
+    out = os.path.join(results_dir, "correlations.csv")
+    corr.to_csv(out, index=False)
+    print(f"Wrote {out}")
+    with pd.option_context("display.max_columns", None, "display.width", 200):
+        print(corr.to_string(index=False))
+    return corr
+
+
+# ---------------------------------------------------------------------------
 # Plots
 # ---------------------------------------------------------------------------
 def plot_degradation(df: pd.DataFrame, out_path: str) -> None:
@@ -221,6 +288,9 @@ def main() -> int:
                            "display.width", 200):
         print(df.to_string(index=False))
     print(f"\nWrote {csv_path}")
+
+    print("\n#3  cross-model Spearman correlations:")
+    correlation_table(df, results_dir)
 
     deg_png = os.path.join(plots_dir, "degradation_by_transform.png")
     plot_degradation(df, deg_png)
