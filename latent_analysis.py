@@ -233,20 +233,34 @@ def plot_prefix_sensitivity(rolling_by_model: dict, plots_dir: str) -> None:
     print(f"Wrote {out}")
 
 
+# The paper's sensitivity figures (Figs 2, 3, 4B) report all three LPP metrics
+# side by side. Each maps to the per-record scalar we persist.
+SENSITIVITY_METRICS = [
+    ("min_entropy", "entropy floor (mean min entropy, nats)"),
+    ("max_ER", "effective rank (mean max-ER)"),
+    ("max_PR", "participation ratio (mean max-PR)"),
+]
+
+
 # ---------------------------------------------------------------------------
 # #8 · Context-length sensitivity
 # ---------------------------------------------------------------------------
 def plot_context_sensitivity(results_dir: str, plots_dir: str) -> None:
-    """Figure 4B analogue: metric vs context length. Reads calibration_*_ctx<L>.jsonl."""
-    # model -> {ctx: mean_min_entropy}
-    by_model: dict[str, dict[int, float]] = {}
+    """
+    Figure 4B analogue: entropy / ER / PR vs context length, one line per model.
+    Reads calibration_*_ctx<L>.jsonl.
+    """
+    # model -> {ctx: {metric: mean}}
+    by_model: dict[str, dict[int, dict[str, float]]] = {}
     for p in sorted(glob.glob(os.path.join(results_dir, "calibration_*_ctx*.jsonl"))):
         _, model, ctx = _parse_calibration_name(p)
         if ctx is None:
             continue
         recs = _read_jsonl(p)
         if recs:
-            by_model.setdefault(model, {})[ctx] = _mean(r["min_entropy"] for r in recs)
+            by_model.setdefault(model, {})[ctx] = {
+                key: _mean(r[key] for r in recs) for key, _ in SENSITIVITY_METRICS
+            }
 
     if not by_model:
         print("  (no calibration_*_ctx*.jsonl — skipping context sensitivity; run "
@@ -254,14 +268,15 @@ def plot_context_sensitivity(results_dir: str, plots_dir: str) -> None:
         return
 
     plt = _get_plt()
-    fig, ax = plt.subplots(figsize=(6, 4.5))
-    for model, series in sorted(by_model.items()):
-        xs = sorted(series)
-        ax.plot(xs, [series[x] for x in xs], marker="o", label=model)
-    ax.set_xlabel("context length (tokens)")
-    ax.set_ylabel("uncertainty floor (mean min entropy, nats)")
-    ax.set_title("Context-length sensitivity")
-    ax.legend(title="model", frameon=False)
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4.5))
+    for ax, (key, ylabel) in zip(axes, SENSITIVITY_METRICS):
+        for model, series in sorted(by_model.items()):
+            xs = sorted(series)
+            ax.plot(xs, [series[x][key] for x in xs], marker="o", label=model)
+        ax.set_xlabel("context length (tokens)")
+        ax.set_ylabel(ylabel)
+        ax.legend(title="model", frameon=False)
+    fig.suptitle("Context-length sensitivity")
     fig.tight_layout()
     out = os.path.join(plots_dir, "sensitivity_context.png")
     fig.savefig(out, dpi=150)
@@ -275,8 +290,9 @@ def plot_context_sensitivity(results_dir: str, plots_dir: str) -> None:
 def plot_sample_size_sensitivity(results_dir: str, plots_dir: str,
                                  sizes=(10, 100, 500, 1000)) -> None:
     """
-    Supplement §2.1, Figure 2: metric estimate as a function of sample size.
-    Subsamples the canonical calibration files post-hoc.
+    Supplement §2.1, Figure 2: entropy / ER / PR estimate as a function of
+    sample size, one line per model. Subsamples the canonical calibration files
+    post-hoc.
     """
     # model -> records (largest canonical alpaca calibration file available)
     by_model: dict[str, list] = {}
@@ -293,26 +309,18 @@ def plot_sample_size_sensitivity(results_dir: str, plots_dir: str,
         return
 
     plt = _get_plt()
-    fig, ax = plt.subplots(figsize=(6, 4.5))
-    drew = False
-    for model, recs in sorted(by_model.items()):
-        avail = [s for s in sizes if s <= len(recs)]
-        if not avail:
-            avail = [len(recs)]
-        xs, ys = [], []
-        for s in avail:
-            xs.append(s)
-            ys.append(_mean(r["min_entropy"] for r in recs[:s]))
-        ax.plot(xs, ys, marker="o", label=model)
-        drew = True
-    if not drew:
-        plt.close(fig)
-        return
-    ax.set_xscale("log")
-    ax.set_xlabel("sample size (number of prompts)")
-    ax.set_ylabel("uncertainty floor (mean min entropy, nats)")
-    ax.set_title("Sample-size sensitivity")
-    ax.legend(title="model", frameon=False)
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4.5))
+    for ax, (key, ylabel) in zip(axes, SENSITIVITY_METRICS):
+        for model, recs in sorted(by_model.items()):
+            avail = [s for s in sizes if s <= len(recs)] or [len(recs)]
+            xs = avail
+            ys = [_mean(r[key] for r in recs[:s]) for s in avail]
+            ax.plot(xs, ys, marker="o", label=model)
+        ax.set_xscale("log")
+        ax.set_xlabel("sample size (number of prompts)")
+        ax.set_ylabel(ylabel)
+        ax.legend(title="model", frameon=False)
+    fig.suptitle("Sample-size sensitivity")
     fig.tight_layout()
     out = os.path.join(plots_dir, "sensitivity_sample_size.png")
     fig.savefig(out, dpi=150)
@@ -324,9 +332,13 @@ def plot_sample_size_sensitivity(results_dir: str, plots_dir: str,
 # #10 · Dataset sensitivity
 # ---------------------------------------------------------------------------
 def plot_dataset_sensitivity(results_dir: str, plots_dir: str) -> None:
-    """Supplement §2.1, Figure 3: metric per dataset per model (grouped bars)."""
-    # dataset -> model -> mean_min_entropy (canonical files only)
-    data: dict[str, dict[str, float]] = {}
+    """
+    Supplement §2.1, Figure 3: entropy / ER / PR per dataset per model, as a
+    1x3 grid of grouped bar charts (canonical calibration files only).
+    """
+    # metric -> dataset -> model -> mean
+    data: dict[str, dict[str, dict[str, float]]] = {k: {} for k, _ in SENSITIVITY_METRICS}
+    datasets_seen: set[str] = set()
     models: set[str] = set()
     for p in sorted(glob.glob(os.path.join(results_dir, "calibration_*.jsonl"))):
         dataset, model, ctx = _parse_calibration_name(p)
@@ -334,28 +346,31 @@ def plot_dataset_sensitivity(results_dir: str, plots_dir: str) -> None:
             continue
         recs = _read_jsonl(p)
         if recs:
-            data.setdefault(dataset, {})[model] = _mean(r["min_entropy"] for r in recs)
+            for key, _ in SENSITIVITY_METRICS:
+                data[key].setdefault(dataset, {})[model] = _mean(r[key] for r in recs)
+            datasets_seen.add(dataset)
             models.add(model)
 
-    if len(data) < 2:
+    if len(datasets_seen) < 2:
         print("  (need >=2 datasets in calibration files — skipping dataset sensitivity)")
         return
 
-    datasets = sorted(data)
+    datasets = sorted(datasets_seen)
     models = sorted(models)
     plt = _get_plt()
-    fig, ax = plt.subplots(figsize=(max(6, 1.5 * len(datasets) + 2), 4.5))
+    fig, axes = plt.subplots(1, 3, figsize=(16, 4.5))
     width = 0.8 / max(len(models), 1)
     x = list(range(len(datasets)))
-    for i, m in enumerate(models):
-        vals = [data[d].get(m, 0.0) for d in datasets]
-        offsets = [xi + (i - (len(models) - 1) / 2) * width for xi in x]
-        ax.bar(offsets, vals, width=width, label=m)
-    ax.set_xticks(x)
-    ax.set_xticklabels(datasets)
-    ax.set_ylabel("uncertainty floor (mean min entropy, nats)")
-    ax.set_title("Dataset sensitivity")
-    ax.legend(title="model", frameon=False)
+    for ax, (key, ylabel) in zip(axes, SENSITIVITY_METRICS):
+        for i, m in enumerate(models):
+            vals = [data[key].get(d, {}).get(m, 0.0) for d in datasets]
+            offsets = [xi + (i - (len(models) - 1) / 2) * width for xi in x]
+            ax.bar(offsets, vals, width=width, label=m)
+        ax.set_xticks(x)
+        ax.set_xticklabels(datasets)
+        ax.set_ylabel(ylabel)
+        ax.legend(title="model", frameon=False)
+    fig.suptitle("Dataset sensitivity")
     fig.tight_layout()
     out = os.path.join(plots_dir, "sensitivity_dataset.png")
     fig.savefig(out, dpi=150)

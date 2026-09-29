@@ -205,6 +205,88 @@ def correlation_table(df: pd.DataFrame, results_dir: str) -> "pd.DataFrame | Non
     return corr
 
 
+def _load_task_scores(results_dir: str) -> dict:
+    """
+    model -> {'AR_mean_accuracy': ..., 'SPC_mean_char_f1': ...} from any
+    spc_<model>.jsonl / ar_<model>.jsonl present.
+    """
+    from src.spc_task import grade_spc
+    from src.ar_task import grade_ar
+    scores: dict[str, dict] = {}
+    for p in sorted(glob.glob(os.path.join(results_dir, "spc_*.jsonl"))):
+        model = _model_from_name(p, "spc_")
+        recs = _read_jsonl(p)
+        if recs:
+            scores.setdefault(model, {})["SPC_mean_char_f1"] = grade_spc(recs)["mean_char_f1"]
+    for p in sorted(glob.glob(os.path.join(results_dir, "ar_*.jsonl"))):
+        model = _model_from_name(p, "ar_")
+        recs = _read_jsonl(p)
+        if recs:
+            scores.setdefault(model, {})["AR_mean_accuracy"] = grade_ar(recs)["mean_accuracy"]
+    return scores
+
+
+def task_latent_correlation(lat_by_model: dict, results_dir: str) -> "pd.DataFrame | None":
+    """
+    Spearman correlation between synthetic-task performance (AR mean accuracy,
+    SPC mean char-F1) and the latent metrics. LPP paper Figure 2E (page 5): "AR
+    accuracy is strongly negatively correlated with minimum entropy"; "SPC
+    performance ... negative correlation with both PR and ER".
+
+    Needs >=3 models with both a task score and latent results.
+    """
+    try:
+        from scipy.stats import spearmanr
+    except ImportError:
+        print("  (scipy not installed — skipping task/latent correlations)")
+        return None
+
+    task_scores = _load_task_scores(results_dir)
+    if not task_scores:
+        print("  (no spc_*/ar_*.jsonl results yet — skipping task/latent correlations)")
+        return None
+
+    # assemble a per-model frame: latent extremes + task scores
+    recs = []
+    for model, lat in lat_by_model.items():
+        row = {"model": model, **_latent_extremes(lat)}
+        row.update(task_scores.get(model, {}))
+        recs.append(row)
+    frame = pd.DataFrame(recs)
+
+    latent = [c for c in ["min_entropy", "max_ER", "max_PR"] if c in frame.columns]
+    tasks = [c for c in ["AR_mean_accuracy", "SPC_mean_char_f1"] if c in frame.columns]
+    if not latent or not tasks:
+        print("  (need both latent and task columns — skipping task/latent correlations)")
+        return None
+
+    rows = []
+    for tm in tasks:
+        for lm in latent:
+            sub = frame[[tm, lm]].dropna()
+            if len(sub) < 3:
+                continue
+            rho, p = spearmanr(sub[tm], sub[lm])
+            rows.append({"task_metric": tm, "latent_metric": lm,
+                         "spearman_rho": round(float(rho), 4),
+                         "p_value": round(float(p), 4),
+                         "n_models": len(sub)})
+
+    if not rows:
+        n = sum(1 for m in task_scores if m in lat_by_model)
+        print(f"  (only {n} model(s) with both task and latent data; need >=3 — "
+              f"skipping task/latent correlations)")
+        return None
+
+    corr = pd.DataFrame(rows)
+    out = os.path.join(results_dir, "task_correlations.csv")
+    corr.to_csv(out, index=False)
+    print(f"Wrote {out}")
+    with pd.option_context("display.max_columns", None, "display.width", 200):
+        print(corr.to_string(index=False))
+    return corr
+
+
 # ---------------------------------------------------------------------------
 # Plots
 # ---------------------------------------------------------------------------
@@ -289,8 +371,11 @@ def main() -> int:
         print(df.to_string(index=False))
     print(f"\nWrote {csv_path}")
 
-    print("\n#3  cross-model Spearman correlations:")
+    print("\n#3  cross-model Spearman correlations (latent vs extrinsic, Fig 2D):")
     correlation_table(df, results_dir)
+
+    print("\n#3  synthetic-task vs latent correlations (Fig 2E):")
+    task_latent_correlation(lat, results_dir)
 
     deg_png = os.path.join(plots_dir, "degradation_by_transform.png")
     plot_degradation(df, deg_png)

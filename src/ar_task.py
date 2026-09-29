@@ -178,23 +178,23 @@ def prompt_template(item: dict, in_context: list[dict]) -> str:
     Build the AR prompt (Table 2 format) with `in_context` (paper: 10) examples,
     each shown with its expected two-line response.
     """
+    # Wording mirrors the paper's Table 2 AR example (page 9).
     header = (
-        "Consider the ambiguous prefix and two possible senses. First judge the "
+        "Consider the ambiguous prefix and two possible senses. First, judge the "
         "prefix alone as AMBIGUOUS or NOT AMBIGUOUS. Then, after reading the hint, "
-        "choose the correct option A or B. Respond strictly as:\n"
-        "status=AMBIGUOUS or NOT AMBIGUOUS\n"
-        "answer=A or B\n"
+        "choose the correct option A or B. Respond strictly as: ambiguous "
+        "status=AMBIGUOUS or NOT AMBIGUOUS and answer=A or B.\n"
     )
 
     def _block(it: dict, with_answer: bool) -> str:
         status_word = "AMBIGUOUS" if it["gold_status"] == AMBIGUOUS else "NOT AMBIGUOUS"
         body = (
-            f"Prefix: {it['prefix']}. "
+            f"Prefix: {it['prefix']}, "
             f"Options: A. {it['option_a']} or B. {it['option_b']}. "
-            f"Hint: {it['hint']}. Your response:"
+            f"Hint: {it['hint']} Your response:"
         )
         if with_answer:
-            body += f"\nstatus={status_word}\nanswer={it['gold_answer']}\n"
+            body += f" ambiguous status={status_word}; answer={it['gold_answer']}\n"
         return body
 
     shots = "\n\n".join(_block(ex, with_answer=True) for ex in in_context)
