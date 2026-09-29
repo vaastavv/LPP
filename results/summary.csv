@@ -1,2 +1,2 @@
 model,baseline_accuracy,answer_consistency,n_families,n_records,accuracy_baseline,accuracy_contradiction,accuracy_noop,accuracy_novel_combo,accuracy_numeric,accuracy_paraphrase,degradation_pts_contradiction,degradation_pts_noop,degradation_pts_novel_combo,degradation_pts_numeric,degradation_pts_paraphrase,min_entropy,max_ER,max_PR
-llama-1b,1.0,0.81,5,18,1.0,1.0,1.0,1.0,0.667,0.8,0.0,0.0,0.0,33.3,20.0,0.0001,36.29,27.36
+qwen-0.5b,1.0,0.81,5,18,1.0,1.0,1.0,1.0,0.667,0.8,0.0,0.0,0.0,33.3,20.0,0.0001,36.29,27.36
