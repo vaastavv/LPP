@@ -1,0 +1,2 @@
+model,kind,acc_detect_severity,entropy_detect_severity,ER_detect_severity,PR_detect_severity,lead_entropy_levels,lead_ER_levels,lead_PR_levels
+SYNTHDEMO,char_noise,0.3,0.05,0.05,0.15,4,4,2
