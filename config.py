@@ -17,18 +17,22 @@ import os
 # to the Latent Performance Profiling paper you are building on.
 # ---------------------------------------------------------------------------
 MODELS = {
+    # --- Recommended ~3B trio (three families, all fp16-safe on a Colab T4) ---
+    # Two are fully open; llama-3.2-3b is gated (one `huggingface-cli login`).
+    "qwen2.5-3b": "Qwen/Qwen2.5-3B-Instruct",            # Qwen family, open
+    "falcon3-3b": "tiiuae/Falcon3-3B-Instruct",          # Falcon family, open
+    "llama-3.2-3b": "meta-llama/Llama-3.2-3B-Instruct",  # Llama family, GATED
+
+    # --- Small models (fast plumbing / the paper's 0.5-1.5B points) ---
     "llama-1b": os.environ.get("HF_MODEL", "meta-llama/Llama-3.2-1B-Instruct"),
     "qwen-0.5b": "Qwen/Qwen2.5-0.5B-Instruct",
     "qwen-1.5b": "Qwen/Qwen2.5-1.5B-Instruct",
-    # SmolLM2-1.7B is fully open (no HF auth). Adds a third family, useful for
-    # the cross-model correlations (#3/#4) which need >=3 models.
-    "smollm-1.7b": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
-    # Gemma-2-2B is GATED on HuggingFace: accept the license at
-    # https://huggingface.co/google/gemma-2-2b-it then `huggingface-cli login`
-    # once before running --model gemma2-2b.
+    "smollm-1.7b": "HuggingFaceTB/SmolLM2-1.7B-Instruct",  # open, Microsoft/HF
+
+    # Gemma-2-2B is GATED and needs bf16/fp32 (fp16 can NaN on T4); the runner
+    # defaults to fp16 on GPU, so use with care.
     "gemma2-2b": "google/gemma-2-2b-it",
-    # "llama-3b":  "meta-llama/Llama-3.2-3B-Instruct",
-    # "qwen-7b":   "Qwen/Qwen2.5-7B-Instruct",
+    # "qwen-7b":   "Qwen/Qwen2.5-7B-Instruct",     # ~14GB fp16: needs A100, OOMs a T4
     # "mistral-7b":"mistralai/Mistral-7B-Instruct-v0.3",
 }
 
