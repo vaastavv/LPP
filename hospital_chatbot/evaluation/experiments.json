@@ -1,0 +1,21 @@
+[
+  {
+    "model": "TF-IDF + LogisticRegression",
+    "kind": "tfidf_logreg",
+    "dataset_version": "v1.0-reconstructed",
+    "train_size": 1757,
+    "validation_size": 376,
+    "test_size": 376,
+    "learning_rate": null,
+    "batch_size": null,
+    "epochs": null,
+    "best_epoch": null,
+    "C": 5.0,
+    "accuracy": 0.8697,
+    "macro_precision": 0.8763,
+    "macro_recall": 0.8694,
+    "macro_f1": 0.8683,
+    "weighted_f1": 0.8686,
+    "selected": true
+  }
+]

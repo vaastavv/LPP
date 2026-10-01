@@ -1,0 +1,107 @@
+# Curated expansion for goodbye. Theme: ending the conversation.
+Bye, take care
+Bye now
+Goodbye for now
+Okay, goodbye
+Ok, bye then
+Alright, bye
+Bye bye, thanks
+See you soon
+See you next time
+See you tomorrow
+See ya
+Cya
+bbye
+byee
+gtg bye
+Gotta go
+I have to go now
+I need to go now, bye
+I'll go now
+I'm leaving now
+I'll talk to you later
+Talk soon
+Speak to you later
+Until next time
+Have a good day
+Have a great evening
+Have a good night
+Good night, take care
+Nighty night
+Have a wonderful day ahead
+Take care of yourself
+Take care, goodbye
+That's all for today
+That's all I wanted to know
+That's it from my side
+That's all, nothing more
+Nothing more for now
+No more questions, bye
+I don't have any other questions, goodbye
+I'm all set, bye
+I'm good now, bye
+All done, thanks, bye
+We're done here
+I think we're done
+End chat
+End the conversation
+Close the chat
+Please end this session
+Exit
+Quit
+Log me out
+I'm finished
+That will be all
+That's everything, goodbye
+Okay then, see you
+Bye, have a nice day
+Bye, see you at my appointment
+See you at the hospital
+I'll see you at the clinic
+Goodbye and thank you for everything
+Thanks, bye
+Thanks and goodbye
+Bye, and thanks again
+Cheerio
+Ta-ta
+Tata bye
+Later
+Laters
+Peace out
+So long
+Adios
+Au revoir
+Alvida
+Phir milenge
+Okay, I'll check back later
+I'll come back if I have more questions
+I'll reach out again later, bye
+I'll message again tomorrow
+Signing out now
+Logging off
+Bye for today
+Good evening and goodbye
+Goodbye, have a pleasant day
+Okay that's fine, bye
+Fine, bye
+I'm off now
+Leaving the chat now
+Take it easy
+Catch you soon
+Okay, thanks, I'm done
+Nothing else needed, goodbye
+I'll be going, bye
+Bye bye, take care
+# --- hard negatives / boundary examples ---
+Bye, see you at my appointment tomorrow
+I'll see you at the follow-up, bye
+Goodbye, I'll come to the hospital next week
+Okay bye, I'll call the reception if needed
+That's all regarding my bill, goodbye
+Goodbye, I'll check my reports later
+Bye, I'll book later on my own
+I'm done for today, take care
+Bye, I'll be in touch
+Goodbye, have a nice evening
+See you soon, bye bye
+Alright then, goodbye

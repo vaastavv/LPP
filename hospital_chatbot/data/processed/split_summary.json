@@ -1,0 +1,95 @@
+{
+  "seed": 42,
+  "sizes": {
+    "train": 1757,
+    "validation": 376,
+    "test": 376
+  },
+  "per_intent": {
+    "train": {
+      "greeting": 84,
+      "goodbye": 84,
+      "medical_records": 86,
+      "appointment_rescheduling": 91,
+      "thank_you": 86,
+      "lab_reports": 87,
+      "admission_query": 86,
+      "appointment_cancellation": 93,
+      "billing_query": 90,
+      "appointment_booking": 95,
+      "facility_information": 86,
+      "discharge_query": 85,
+      "insurance_query": 90,
+      "contact_information": 86,
+      "pharmacy_query": 85,
+      "emergency_assistance": 87,
+      "doctor_search": 91,
+      "hospital_timings": 91,
+      "department_information": 89,
+      "prescription_query": 85
+    },
+    "validation": {
+      "lab_reports": 19,
+      "thank_you": 19,
+      "hospital_timings": 19,
+      "doctor_search": 20,
+      "discharge_query": 18,
+      "billing_query": 19,
+      "department_information": 19,
+      "appointment_cancellation": 20,
+      "appointment_rescheduling": 20,
+      "goodbye": 18,
+      "pharmacy_query": 18,
+      "appointment_booking": 20,
+      "greeting": 18,
+      "contact_information": 19,
+      "admission_query": 18,
+      "prescription_query": 18,
+      "medical_records": 18,
+      "facility_information": 18,
+      "emergency_assistance": 19,
+      "insurance_query": 19
+    },
+    "test": {
+      "lab_reports": 19,
+      "thank_you": 19,
+      "hospital_timings": 19,
+      "doctor_search": 20,
+      "discharge_query": 18,
+      "billing_query": 19,
+      "department_information": 19,
+      "appointment_cancellation": 20,
+      "appointment_rescheduling": 20,
+      "goodbye": 18,
+      "pharmacy_query": 18,
+      "appointment_booking": 20,
+      "greeting": 18,
+      "contact_information": 19,
+      "admission_query": 18,
+      "prescription_query": 18,
+      "medical_records": 18,
+      "facility_information": 18,
+      "emergency_assistance": 19,
+      "insurance_query": 19
+    }
+  },
+  "leakage": {
+    "validation": {
+      "max_similarity_to_train_same_intent": 0.7429124604332896,
+      "mean_max_similarity_to_train_same_intent": 0.4658669762709146,
+      "max_similarity_to_train_any_intent": 0.8940864570138637,
+      "n_exact_overlap": 0
+    },
+    "test": {
+      "max_similarity_to_train_same_intent": 0.7477954311056049,
+      "mean_max_similarity_to_train_same_intent": 0.4779906408912899,
+      "max_similarity_to_train_any_intent": 0.7566598609974908,
+      "n_exact_overlap": 0
+    }
+  },
+  "ood_sizes": {
+    "validation": 72,
+    "test": 71
+  },
+  "leakage_group_threshold": 0.75
+}

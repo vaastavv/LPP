@@ -1,0 +1,110 @@
+# Curated expansion for billing_query. Theme: amounts, charges, payments, invoices, refunds, estimates paid by the patient.
+# Boundary vs insurance_query: money owed/paid/refunded -> billing; coverage/claims/cashless/policy -> insurance.
+I want to understand the charges on my hospital bill
+Can I get an itemized bill for my stay?
+Why was I charged for a room I didn't use?
+How do I pay the outstanding amount on my account?
+Can I pay my bill over the phone?
+Do you accept debit cards?
+Can I pay in cash?
+Can I pay through net banking?
+Where do I pay the consultation fee?
+How much is the consultation fee for a specialist?
+What does a general check-up cost?
+How much will a knee replacement cost me?
+Can you give me a cost estimate for a C-section?
+What's the price of the full body check-up package?
+How much does a CT scan cost?
+What is the cost of a blood test?
+What are the room charges per day?
+How much does a private room cost per night?
+What is the ICU charge per day?
+How much is the deposit I have to pay?
+How much is the advance payment for admission?
+I paid but the bill still shows pending
+My payment failed but money was deducted
+I was billed for a test I never had
+I think there's an error in my bill
+There's a mistake in the bill amount
+Can I get a GST invoice?
+I need a duplicate receipt
+Please send me a copy of my receipt by email
+I need the final bill for my records
+Can I get my bill in my company's name?
+When will I get my refund?
+How long does a refund take?
+I cancelled my appointment, where is my refund?
+My refund hasn't been credited yet
+Can I pay my father's bill on his behalf?
+Can the bill be split between two cards?
+Do you offer any discounts for senior citizens?
+Is there a payment plan for expensive surgery?
+Can I pay the balance after discharge?
+Why are the pharmacy charges so high on my bill?
+What are the charges for an ambulance?
+How much do you charge for a home visit?
+How much is the registration fee?
+Is there a separate fee for the doctor's visit during admission?
+Why is there a service charge on my bill?
+Can someone explain the miscellaneous charges?
+I want to dispute a charge
+Who do I talk to about billing problems?
+Where is the cashier?
+Is the billing counter on the ground floor?
+Can I pay online through your website?
+Is there a payment link you can send?
+I didn't get an SMS confirming my payment
+Can I get a bill for my tax filing?
+What is the total amount I need to pay before discharge?
+How much will I be charged if I stay one more day?
+Do you charge for medical certificates?
+How much does a teleconsultation cost?
+What's the fee for a follow-up visit?
+Is the follow-up consultation free?
+how much is the bill
+bill amount pls
+whats the fees for consultation
+I was overcharged
+Why did my bill increase overnight?
+Can I see my bill online before paying?
+I need a proforma invoice for my employer
+Can I get an interim bill while still admitted?
+How much have I paid so far?
+How much is pending on my account?
+My card was charged twice for the same consultation
+Can I get the payment receipt for the lab tests?
+I need a refund for the unused advance deposit
+I have a question about package pricing for maternity
+Are taxes included in the quoted price?
+How much does physiotherapy cost per session?
+Do you charge extra on weekends?
+What is the price of an MRI with contrast?
+Can I pay with a cheque?
+Do you accept international cards?
+Can I pay in dollars?
+I'm paying out of pocket, what's the self-pay rate?
+What will I have to pay myself since I don't have insurance?
+Can I get the bill amount reduced?
+Is financial assistance available for poor patients?
+Is there a charity scheme for patients who can't afford the bill?
+Can I get an estimate before I agree to the procedure?
+Who approves billing adjustments?
+I need clarification on the doctor fees in my bill
+The bill shows medicines I never received
+Why am I being charged for consumables?
+What does the package cost include?
+Is there a cancellation fee deducted from my refund?
+I paid the deposit, will it be adjusted in the final bill?
+Can I settle my bill at the billing counter during discharge?
+# --- hard negatives / boundary examples ---
+Hi, I have a doubt about my bill
+Not insurance, I'm paying myself, what's the total?
+Insurance paid part, how much balance do I need to pay?
+I need a receipt for the amount I paid, not an insurance claim
+Why does my bill show a charge that insurance didn't cover?
+How much do I have to pay upfront for the surgery?
+Can I pay the remaining hospital bill by card?
+I need a refund of the extra amount I paid
+What is the consultation charge for a cardiologist?
+How much does the admission deposit cost?
+Can I get a final invoice before discharge?

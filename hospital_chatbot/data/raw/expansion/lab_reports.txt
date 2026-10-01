@@ -1,0 +1,108 @@
+# Curated expansion for lab_reports. Theme: results of a specific test/scan (lab, pathology, radiology) - readiness, access, delivery.
+# Boundary vs medical_records: a particular test result -> lab_reports; the full file/history/old records -> medical_records.
+When will my blood work results be ready?
+I gave a blood sample yesterday, are the results out?
+Can I get my test results on WhatsApp?
+How do I see my lab results on the patient portal?
+My report is not showing up in the app
+I can't log in to download my report
+Can you send my report to my email address?
+Can my doctor see my test results directly?
+Please forward my lab results to Dr. Iyer
+I want the results of my HbA1c test
+Is my lipid profile report ready?
+When will my CBC report come?
+Has my culture report come back?
+How long does a urine culture take?
+How many days for the biopsy results?
+Can I get a printed copy of my blood report?
+Where is the report collection counter?
+Can someone else collect my lab report for me?
+I need a hard copy of my X-ray films
+Can I get the CT scan images on a CD?
+I want my MRI films and report
+My ultrasound report hasn't been uploaded yet
+I had an ECG done this morning, where can I get the report?
+I need my echo report
+Is my stress test report ready?
+I took a COVID RT-PCR test, when will I get the result?
+Can I get my test results in a different language?
+The name on my lab report is spelled wrong
+My report has the wrong date of birth
+I think my test results were mixed up with someone else's
+The values on my report look incorrect, can it be rechecked?
+Can I get a retest if I think the result is wrong?
+Can the doctor go over my test results with me?
+What do the normal ranges on my report mean?
+I want to discuss my blood test results with a doctor
+Are the pathology results back from the outside lab?
+My doctor is waiting for my lab report
+When is the report delivery time for thyroid tests?
+I got a message that my report is ready, where can I see it?
+I received an SMS link for my report but it isn't opening
+Can I get yesterday's test results today?
+How will I be notified when my results are ready?
+lab report status
+report ready?
+my blood test reslts
+when will i get my test reprt
+Has my vitamin D test report been released?
+My son's allergy test report, is it ready?
+Can I get my stool test report?
+I need my pregnancy test result
+When will the semen analysis report be ready?
+Is my PAP smear result available?
+I want the results of my mammogram
+Can I get the radiologist's report for my chest X-ray?
+Has my bone density scan report come?
+Can my report be couriered to my home?
+Can I collect reports for my whole family together?
+Is there a fee for a duplicate lab report?
+I need a signed copy of my lab report for my visa medical
+I need the lab report with the doctor's seal for my employer
+Can the report be issued urgently?
+I need my test results before my appointment tomorrow
+Can I get a preliminary report while the final one is pending?
+Why is my report taking so long?
+It's been a week and my biopsy report is still not ready
+The lab said the sample was insufficient, what happens now?
+Do I need to give another sample?
+My sample got rejected, do I need to come back?
+Can I see my previous test results to compare with today's?
+I want the trend of my sugar reports over the last three tests
+Do you share reports with insurance companies directly?
+Can my reports be uploaded to my health locker account?
+I want my reports in PDF format
+I need my reports translated for a doctor abroad
+Where can I get my dental X-ray report?
+Can I get my eye test results printed?
+Is my audiometry report ready?
+I need my sleep study results
+Has the genetic test result come back?
+How do I get my histopathology slides and report?
+I want my report reviewed by another pathologist
+Are my liver function test results available?
+Are my kidney function test results out?
+Is my dengue test result positive or negative, has it come?
+Please check if my malaria test report is ready
+I'm waiting for my ECG and blood reports from this morning
+Can I access my reports without coming to the hospital?
+My report shows another patient's name
+I want the soft copy of my scan
+My doctor asked me to bring my test reports, how do I get them?
+I need the report of the test done last Monday
+How can I get my child's blood test report?
+I haven't got the PET scan report yet
+Can I get my lab report for my insurance claim?
+Can I pick up my results after 6 pm?
+# --- hard negatives / boundary examples ---
+Hi, are my test results ready?
+Not my whole file, I only need yesterday's blood test report
+I just need the result of my latest scan
+Can I get only my thyroid report, not my full records?
+Is the report for the test I took this morning out?
+I need the MRI report from last week
+Can I get the report of my child's blood test today?
+I'm waiting for my lab test results
+Has the lab finished my sample analysis?
+Where can I download today's test report?

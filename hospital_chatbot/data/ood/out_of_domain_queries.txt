@@ -1,0 +1,145 @@
+# Out-of-domain / out-of-scope queries. NOT an intent class. Used only to calibrate and evaluate the unknown-intent threshold.
+# Split deterministically into ood_validation (threshold selection) and ood_test (final report).
+Tell me a joke
+Tell me something funny
+What's the weather like today?
+Will it rain tomorrow?
+Who won the cricket match yesterday?
+What's the football score?
+Recommend a good movie
+What should I watch on Netflix tonight?
+Play some music
+Sing me a song
+What is the capital of France?
+How far is the moon from the earth?
+Who is the prime minister of India?
+Translate hello into Japanese
+Write me a poem about the sea
+Write a Python function to sort a list
+How do I fix my laptop's wifi?
+My phone screen is cracked, where can I repair it?
+How do I reset my email password?
+What's the best smartphone to buy?
+Book a flight to Delhi
+Find me a cheap hotel in Goa
+Order a pizza for me
+What's a good recipe for biryani?
+How do I bake a chocolate cake?
+What time is it in London?
+Set an alarm for 6 am
+Remind me to call my mom
+What's the stock price of Tesla?
+Should I invest in crypto?
+How do I file my income tax return?
+What's the exchange rate for dollars to rupees?
+Can you help me with my maths homework?
+What is 25 times 48?
+Explain quantum physics simply
+Who wrote Romeo and Juliet?
+What's the meaning of life?
+Do you believe in God?
+Are you human?
+What's your favourite colour?
+Do you have feelings?
+Tell me about yourself
+What is your name?
+Who created you?
+Can you be my friend?
+I'm bored
+Let's play a game
+Tell me a riddle
+Give me a fun fact
+How do I get a driving licence?
+Where can I renew my passport?
+How do I apply for a credit card?
+What are the train timings to Chennai?
+When does the bus to the airport leave?
+Where is the nearest petrol pump?
+Is the shopping mall open today?
+What are the timings of the cinema hall?
+Where can I buy a new car?
+How do I train my dog?
+What should I feed my cat?
+How do I grow tomatoes?
+How do I learn to swim?
+Suggest a holiday destination
+How do I learn guitar?
+What's trending on Twitter?
+Who is the richest person in the world?
+How tall is Mount Everest?
+How do I make coffee?
+What's the best laptop for gaming?
+Can you write my college essay?
+How do I get a job at Google?
+Help me write a cover letter
+What's the score of the tennis final?
+asdfghjkl
+blah blah blah
+qwerty
+lol
+hmm
+ok
+???
+banana
+purple elephant
+Can you order groceries for me?
+What's the news today?
+How do I unsubscribe from this newsletter?
+Is it going to be sunny this weekend?
+How do I connect my TV to the internet?
+What's the best way to lose weight fast?
+Is coffee bad for you?
+What are the symptoms of diabetes?
+Do I have cancer?
+What disease do I have if my knee hurts?
+Is a fever of 100 dangerous?
+How many calories are in an apple?
+What vitamins should I take daily?
+Can you diagnose my rash?
+Is it normal to feel tired all the time?
+What is the best diet for heart health?
+How do vaccines work?
+What does cholesterol do in the body?
+How do I meditate?
+Recommend a good book
+Who painted the Mona Lisa?
+How do airplanes fly?
+How do I change a flat tyre?
+Where can I buy shoes?
+What's the population of Japan?
+How do I cook rice?
+Tell me a bedtime story
+Can you speak French?
+What's 2 plus 2?
+How old are you?
+Teach me a magic trick
+What's the best pizza place nearby?
+How do I clean my kitchen?
+Which phone has the best camera?
+What's the date today?
+How do I book a cab?
+Where's the nearest ATM in the city?
+What's the price of gold today?
+Who is going to win the election?
+What are the lottery results?
+How do I make a website?
+Can you do my shopping list?
+Is it safe to travel to Bali?
+What are the rules of chess?
+Recommend a podcast
+What's a black hole?
+Why is the sky blue?
+How do I fix a leaking tap?
+Where can I get my watch repaired?
+What is machine learning?
+Can you hack my neighbour's wifi?
+Write a rap song
+What's the best anime?
+How do I say thank you in German?
+Give me a motivational quote
+What's the speed of light?
+How do I knit a scarf?
+Help me plan a birthday party
+Where can I adopt a puppy?
+What's the plot of Harry Potter?
+How do I get rid of ants in my house?

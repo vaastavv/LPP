@@ -1,0 +1,112 @@
+# Curated expansion for department_information. Theme: a hospital DEPARTMENT/UNIT - what exists, what it does, its services, where it is.
+# Boundary vs doctor_search: about the unit, not a specific doctor/specialist.
+What services does the cardiology department provide?
+Do you have a cardiac cath lab?
+Is there a heart centre in this hospital?
+What procedures does the cardiology unit do?
+Does your hospital have a stroke unit?
+Is there a dedicated neurosciences department?
+What does the nephrology department handle?
+Do you have a kidney transplant programme?
+Is there a liver transplant unit?
+Do you have a bone marrow transplant centre?
+What kind of cancer treatments does oncology offer?
+Do you provide radiation therapy?
+Is chemotherapy given at this hospital?
+Do you have a day-care chemotherapy unit?
+Is there a pain clinic?
+Is there a sleep lab?
+Do you have a dedicated diabetes centre?
+What does the endocrinology department treat?
+Is there a pulmonology department?
+Do you have a respiratory care unit?
+What surgeries does the general surgery department perform?
+Do you have a robotic surgery department?
+Is there a minimally invasive surgery unit?
+Is there a plastic surgery department?
+Do you have a cosmetic surgery wing?
+What does the urology department offer?
+Is there an andrology clinic?
+Do you have an IVF centre?
+Does the gynaecology department do laparoscopic surgery?
+Is there a high-risk pregnancy unit?
+Do you have a labour room?
+Is there a neonatal intensive care unit?
+Do you have a paediatric ICU?
+Is there a paediatric surgery department?
+Do you have a child development centre?
+Is there a geriatric care unit?
+Is there a palliative care department?
+Do you offer hospice services?
+What does the rheumatology department treat?
+Is there an orthopaedics and joint replacement centre?
+Do you have a spine surgery unit?
+Is there a sports medicine department?
+What does the physical medicine and rehabilitation department do?
+Is there an occupational therapy unit?
+Do you have speech therapy services?
+Is there an audiology department?
+Does the ENT department do cochlear implants?
+Is there an ophthalmology department?
+Does the eye department do LASIK?
+Is there a dental and maxillofacial department?
+Do you have a dermatology department?
+Does dermatology offer laser treatments?
+What does the gastroenterology department do?
+Do you have an endoscopy unit?
+Is there a hepatology department?
+Is there a haematology department?
+Is there a blood bank in the hospital?
+Do you have a pathology lab on site?
+Is there a radiology department with MRI?
+Do you have a PET-CT scan facility?
+Does the radiology department do interventional procedures?
+Is there a nuclear medicine department?
+Do you have a psychiatry ward?
+Is there a de-addiction centre?
+Do you have a mental health department?
+Is there a clinical psychology unit?
+Is there a nutrition and dietetics department?
+Do you have an infectious diseases department?
+Is there an isolation ward?
+Do you have a burns ICU?
+Is there a trauma care department?
+Is there a cardiac ICU?
+Do you have a surgical ICU?
+What is the difference between the ICU and HDU here?
+Do you have a dialysis centre and how many machines?
+Is there a vascular surgery department?
+Is there a thoracic surgery unit?
+Is there a neurosurgery department?
+Do you have a bariatric surgery unit?
+Where is the cardiology department located?
+On which floor is the oncology department?
+Which block is the paediatrics department in?
+How do I get to the radiology department from the main entrance?
+Where is the neurology OPD?
+Is the maternity ward in the main building?
+Where is the dialysis unit?
+which dept treats skin problems
+do u have a cancer dept
+is there a heart dept
+Wat does the ortho dept do
+What specialities does your hospital cover?
+Give me a list of all departments
+Which departments are available at the city branch?
+Do you have an allergy clinic?
+Is there a vaccination department?
+Is there a preventive health check-up department?
+Is there a department for organ donation?
+Does the hospital have a research department?
+Is there a department for clinical trials?
+# --- hard negatives / boundary examples ---
+Hi, do you have a neurology department?
+Not a specific doctor, I just want to know what the cardiology department does
+What kind of services does the ENT department offer?
+Does your orthopaedic department do keyhole surgery?
+Is there a separate department for children's heart problems?
+Which department handles kidney problems?
+Which department should I go to for skin problems?
+Where is the paediatrics department?
+Does the hospital have an oncology wing?
+What facilities does the radiology department have?

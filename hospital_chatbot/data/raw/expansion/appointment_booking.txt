@@ -1,0 +1,117 @@
+# Curated expansion for appointment_booking. Theme: user has NO existing appointment and wants a NEW one.
+I don't have an appointment yet. Can I book one?
+I've never been to your hospital before, how do I get an appointment?
+I'd like to schedule a consultation with a cardiologist next week
+Could you help me arrange a visit with the gastroenterology team?
+Is there a slot available with a cardiologist on Thursday?
+Can I book a same-day appointment?
+Please make me an appointment for a general check-up
+I need to see a GP, can you book that for me?
+I want to book a new appointment, not change an old one
+Do you have any free slots this Saturday morning?
+book appointment
+appt for tomorrow pls
+Can I get an appointment with Dr. Kapoor on Friday afternoon?
+Need to book a consultation for my wife with the gynaecology department
+I'd like to set up my first visit with the endocrinology clinic
+How soon can I get an appointment with a neurologist?
+What's the earliest available appointment with the skin doctor?
+I want to book a slot for a full body health check
+Can I schedule a pre-surgery consultation?
+I would like to request an appointment for my elderly father
+Kindly arrange an OPD appointment for me at the earliest
+Could I get a teleconsultation booked for this evening?
+I need a video consultation appointment
+Is it possible to book an appointment for next month already?
+I want to make a booking for a dental cleaning
+Please register me for a consultation with the orthopaedic surgeon
+I'd like an appointment for a second opinion
+Can you fit me in with any available doctor today?
+Book my daughter in for her vaccination appointment
+I want to book a slot for a blood test
+How do I schedule a mammogram?
+I need to arrange a physiotherapy session for my knee
+Can I book an eye test appointment?
+I'm a new patient and want to schedule my first consultation
+I need an appointment, my old one already happened last month
+Please put me down for an appointment on the 15th
+Can I reserve a consultation slot online through the app?
+Is walk-in allowed or do I need to book an appointment first?
+I want to schedule a follow up with the doctor who operated on me
+Can you get me in to see a pediatrician this week?
+I'd like to book a prenatal check-up
+Need an appt with ENT asap
+Plz book a doc appointment for me
+can i get an apointment with a cardiologist
+I want to book an appoinment for monday
+Could you book a slot with Dr. Fernandes for next Tuesday?
+I'd like to book an annual health screening package
+Can I book appointments for both my kids at the same time?
+I need to book a consultation before my surgery date
+I want to fix up a time with the dietitian
+I'd like to schedule an appointment with the psychologist
+Book a counselling session for me please
+Can I book a hearing test?
+I need an ultrasound appointment
+How do I book an appointment for a CT scan?
+I want to schedule a check-up for my grandmother
+Are any appointments open for late evening?
+I'd like to book the first available slot with any cardiologist
+My doctor told me to come back in two weeks, can I book that visit now?
+We would like to book a family consultation
+Can I make a reservation for a consultation?
+Can you schedule me with the same doctor I saw last year?
+I want a booking for an allergy test
+Please secure an appointment for me on Wednesday
+Is there availability for a consultation tomorrow morning?
+Can I book a home visit by a doctor?
+I need to book a slot for my child's growth check-up
+I want to register a new appointment for my husband
+How far in advance can I book an appointment?
+I want to book an appointment with a urologist
+Can I book a slot without creating an account?
+I would like to schedule a diabetic foot check
+I don't have any booking yet, I just want to see a doctor
+Is there a waitlist I can join for an appointment with Dr. Nair?
+I need an appointment for a medical fitness certificate
+I'd like to book a pre-employment medical check
+Can I get a consultation slot during my lunch break?
+Can you arrange a joint appointment with both the surgeon and anaesthetist?
+Could you put me on the schedule for a hernia consultation?
+I need a gynae appointment for next week
+I want to schedule an appointment for a sports injury
+I would like to see the doctor about my migraines, can you set up a time?
+Can I book an appointment over the phone?
+I'm traveling from another city, can I book my appointment in advance?
+Please book me in for a vaccination
+I want to start physio, how do I book my first session?
+My GP referred me, I need to book an appointment with oncology
+Book me with a female doctor if possible
+Can I book an appointment for an online consultation with a psychiatrist?
+I want an appointment slot after 6 pm
+Can I get a token number for today's OPD?
+I'd like to arrange a consultation with the cardiac surgeon
+Need to schedule a check-up before I travel abroad
+Can my wife and I book back-to-back appointments?
+I want to book an appointment, how much notice do you need?
+I'd like a slot for a pap smear
+Can you make an appointment for my mother with the rheumatologist?
+I'm hoping to get an appointment this weekend
+Could you check if Dr. Banerjee has an opening and book it?
+I wish to schedule a consultation regarding my sleep problems
+I'd like to book a new patient visit with the lung specialist
+Help me book an appointment
+Where can I book a consultation?
+Can you schedule a dental appointment for my son after school?
+# --- hard negatives / boundary examples ---
+Hi, I'd like to book an appointment with a cardiologist
+Hello, can I make a new booking for Friday?
+My last appointment is over, now I need a fresh one for next month
+I cancelled my earlier appointment, but now I'd like to book a new one
+I want an additional appointment, keep my existing one as it is
+Thanks for the info, now can you book me a slot for tomorrow?
+Could you book me an appointment with the heart specialist on Monday?
+I know which doctor I want, I just need you to book the slot
+Please schedule an appointment at the neurology OPD for my father
+I'd like to fix a time to meet the orthopaedic doctor this week
+Can I book an appointment for tomorrow morning?

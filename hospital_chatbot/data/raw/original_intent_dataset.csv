@@ -1,0 +1,401 @@
+text,intent
+"I want to book an appointment",appointment_booking
+"Can I see a doctor tomorrow?",appointment_booking
+"I need to schedule a consultation",appointment_booking
+"Book me an appointment with the cardiology department",appointment_booking
+"How do I make an appointment?",appointment_booking
+"I would like to schedule a check-up",appointment_booking
+"Is there a slot available on Monday?",appointment_booking
+"Please book a visit for my mother",appointment_booking
+"Can you set up an appointment for next week?",appointment_booking
+"I want to fix an appointment with the dentist",appointment_booking
+"Can I get an appointment this afternoon?",appointment_booking
+"I need an appointment for my child",appointment_booking
+"Book a slot with the orthopedic doctor",appointment_booking
+"I'd like to arrange a hospital visit",appointment_booking
+"Are there any openings for a new patient?",appointment_booking
+"Schedule an appointment for me please",appointment_booking
+"I want to register for an OPD consultation",appointment_booking
+"Can I book online?",appointment_booking
+"I need a follow-up appointment booked",appointment_booking
+"Reserve a time with the ENT specialist",appointment_booking
+"I want to cancel my appointment",appointment_cancellation
+"Please cancel my booking for tomorrow",appointment_cancellation
+"I can't make it to my appointment, cancel it",appointment_cancellation
+"Cancel my consultation with Dr. Sharma",appointment_cancellation
+"How do I cancel an appointment?",appointment_cancellation
+"I no longer need my appointment",appointment_cancellation
+"Remove my appointment from the schedule",appointment_cancellation
+"I'd like to call off my visit on Friday",appointment_cancellation
+"Can you cancel my lab test appointment?",appointment_cancellation
+"Please drop my appointment",appointment_cancellation
+"I need to cancel the check-up I booked",appointment_cancellation
+"Cancel all my upcoming appointments",appointment_cancellation
+"Is there a fee for cancelling an appointment?",appointment_cancellation
+"I want to withdraw my appointment request",appointment_cancellation
+"My son is better now so please cancel his appointment",appointment_cancellation
+"Delete my booking",appointment_cancellation
+"I won't be coming, please cancel",appointment_cancellation
+"Cancel the scan I scheduled for next week",appointment_cancellation
+"Can I cancel online?",appointment_cancellation
+"Cancel my physiotherapy session",appointment_cancellation
+"I need to reschedule my appointment",appointment_rescheduling
+"Can I change my appointment time?",appointment_rescheduling
+"Move my appointment to next Monday",appointment_rescheduling
+"I want to shift my consultation to another day",appointment_rescheduling
+"Can we postpone my appointment?",appointment_rescheduling
+"Please change the date of my booking",appointment_rescheduling
+"I need a different time slot for my appointment",appointment_rescheduling
+"Can I move my visit to the evening?",appointment_rescheduling
+"Reschedule my check-up please",appointment_rescheduling
+"I can't come on Tuesday, can I come Thursday instead?",appointment_rescheduling
+"Push my appointment back by a week",appointment_rescheduling
+"Can I bring my appointment forward?",appointment_rescheduling
+"How do I reschedule a booking?",appointment_rescheduling
+"Change my appointment with Dr. Rao to Friday",appointment_rescheduling
+"I want to rebook my appointment for a later date",appointment_rescheduling
+"Is it possible to change my appointment?",appointment_rescheduling
+"Shift my MRI appointment to the morning",appointment_rescheduling
+"I need to move my follow-up visit",appointment_rescheduling
+"Can I switch my appointment to another doctor on the same day?",appointment_rescheduling
+"Delay my appointment by two days",appointment_rescheduling
+"I need a cardiologist",doctor_search
+"Which doctor should I see for a heart problem?",doctor_search
+"Find me a good dermatologist",doctor_search
+"Do you have a pediatrician?",doctor_search
+"Who is the best neurologist here?",doctor_search
+"I'm looking for a female gynecologist",doctor_search
+"Is Dr. Mehta available today?",doctor_search
+"Which doctors work in orthopedics?",doctor_search
+"I want to consult a cardiac specialist",doctor_search
+"Can you recommend a doctor for back pain?",doctor_search
+"List the ENT doctors",doctor_search
+"Does Dr. Gupta still work at this hospital?",doctor_search
+"I need a specialist for diabetes",doctor_search
+"What are the qualifications of Dr. Iyer?",doctor_search
+"Is there an eye doctor available?",doctor_search
+"Who should I consult for kidney stones?",doctor_search
+"Find a psychiatrist for me",doctor_search
+"Which doctor treats thyroid issues?",doctor_search
+"Are there any doctors who speak Tamil?",doctor_search
+"Can I speak to someone about my heart?",doctor_search
+"What are the hospital timings?",hospital_timings
+"When does the hospital open?",hospital_timings
+"What time does the OPD close?",hospital_timings
+"What are the visiting hours?",hospital_timings
+"Is the hospital open on Sunday?",hospital_timings
+"What are your working hours?",hospital_timings
+"When can I visit a patient in the ward?",hospital_timings
+"Is the hospital open 24 hours?",hospital_timings
+"What time does the lab open?",hospital_timings
+"Are you open on public holidays?",hospital_timings
+"What are the OPD timings on Saturday?",hospital_timings
+"Until what time can visitors stay?",hospital_timings
+"What time does the outpatient department start?",hospital_timings
+"Is the clinic open in the evening?",hospital_timings
+"When does the registration counter open?",hospital_timings
+"What are the ICU visiting hours?",hospital_timings
+"What time does the billing counter close?",hospital_timings
+"Are you open today?",hospital_timings
+"What are the timings for blood sample collection?",hospital_timings
+"When is the pharmacy open?",hospital_timings
+"This is an emergency",emergency_assistance
+"I need an ambulance right now",emergency_assistance
+"My father is having chest pain",emergency_assistance
+"Someone has collapsed and is not breathing",emergency_assistance
+"Help, there's been an accident",emergency_assistance
+"Where is the emergency room?",emergency_assistance
+"My child swallowed something and is choking",emergency_assistance
+"I think I'm having a heart attack",emergency_assistance
+"She is bleeding heavily",emergency_assistance
+"Send an ambulance to my house",emergency_assistance
+"My mother fainted and won't wake up",emergency_assistance
+"I need urgent help",emergency_assistance
+"Someone is having a seizure",emergency_assistance
+"He can't breathe properly",emergency_assistance
+"Is the emergency department open now?",emergency_assistance
+"I was bitten by a snake",emergency_assistance
+"My wife is in labour and the pain is severe",emergency_assistance
+"There's a burn injury, what should I do?",emergency_assistance
+"I think someone is having a stroke",emergency_assistance
+"Emergency! Please help",emergency_assistance
+"I have a question about my bill",billing_query
+"How much do I owe?",billing_query
+"Can I pay my bill online?",billing_query
+"Why is my bill so high?",billing_query
+"I want a copy of my invoice",billing_query
+"What payment methods do you accept?",billing_query
+"I was charged twice",billing_query
+"Can I get a breakdown of the charges?",billing_query
+"How much does a consultation cost?",billing_query
+"I need a refund",billing_query
+"Can I pay in installments?",billing_query
+"Where is the billing counter?",billing_query
+"Do you accept credit cards?",billing_query
+"I need an estimate for surgery costs",billing_query
+"My receipt is missing",billing_query
+"What is the cost of an MRI scan?",billing_query
+"I haven't received my final bill",billing_query
+"Is there a deposit for admission?",billing_query
+"Can I pay by UPI?",billing_query
+"There is a wrong charge on my bill",billing_query
+"Do you accept my insurance?",insurance_query
+"Is this treatment covered by insurance?",insurance_query
+"How do I file an insurance claim?",insurance_query
+"Do you offer cashless treatment?",insurance_query
+"Which insurance companies are you tied up with?",insurance_query
+"My insurance claim was rejected",insurance_query
+"What documents are needed for insurance?",insurance_query
+"Is pre-authorization required for surgery?",insurance_query
+"Can I use my health insurance here?",insurance_query
+"What is the status of my insurance claim?",insurance_query
+"Is my policy valid at this hospital?",insurance_query
+"Where is the insurance desk?",insurance_query
+"Do you accept government health schemes?",insurance_query
+"How long does claim approval take?",insurance_query
+"Is my TPA on your panel?",insurance_query
+"Does my insurance cover maternity?",insurance_query
+"I want to know about reimbursement",insurance_query
+"Will insurance pay for my room charges?",insurance_query
+"Do you work with corporate insurance?",insurance_query
+"Can I add my insurance details to my file?",insurance_query
+"Are my lab reports ready?",lab_reports
+"I want my blood test results",lab_reports
+"When will my test report be available?",lab_reports
+"How can I download my lab report?",lab_reports
+"Can you email me my reports?",lab_reports
+"I need my X-ray report",lab_reports
+"Where do I collect my test results?",lab_reports
+"Has my MRI report come out?",lab_reports
+"I haven't received my lab results yet",lab_reports
+"Can I see my urine test report online?",lab_reports
+"How long does a biopsy report take?",lab_reports
+"I lost my lab report, can I get another copy?",lab_reports
+"Send my thyroid test results to my doctor",lab_reports
+"Are the results of my CT scan ready?",lab_reports
+"My report shows an error",lab_reports
+"I want to check my sugar test report",lab_reports
+"Is my COVID test result out?",lab_reports
+"Can someone explain my lab report?",lab_reports
+"Where can I pick up my ECG report?",lab_reports
+"I need my pathology report",lab_reports
+"Where is the pharmacy?",pharmacy_query
+"Is this medicine available at your pharmacy?",pharmacy_query
+"Do you deliver medicines?",pharmacy_query
+"Is the pharmacy open 24 hours?",pharmacy_query
+"Can I buy medicines without a prescription?",pharmacy_query
+"How much does this medicine cost?",pharmacy_query
+"Do you have insulin in stock?",pharmacy_query
+"Can I order medicines online?",pharmacy_query
+"Is there a discount on medicines?",pharmacy_query
+"Do you sell generic medicines?",pharmacy_query
+"Can I return unused medicines?",pharmacy_query
+"Is there a pharmacy inside the hospital?",pharmacy_query
+"Do you have baby formula at the pharmacy?",pharmacy_query
+"Can I pick up my medicines from the pharmacy?",pharmacy_query
+"Is my medicine ready for pickup?",pharmacy_query
+"Do you accept insurance at the pharmacy?",pharmacy_query
+"I need to buy a blood pressure monitor",pharmacy_query
+"Is there a pharmacy near the emergency ward?",pharmacy_query
+"Can someone else collect my medicines?",pharmacy_query
+"Does the pharmacy stock surgical supplies?",pharmacy_query
+"Tell me about the cardiology department",department_information
+"What departments do you have?",department_information
+"Do you have a neurology department?",department_information
+"Where is the radiology department?",department_information
+"What services does the oncology department offer?",department_information
+"Is there a pediatrics wing?",department_information
+"Which floor is the orthopedic department on?",department_information
+"Do you have a dialysis unit?",department_information
+"What does the physiotherapy department do?",department_information
+"Is there a maternity ward?",department_information
+"Do you have a burns unit?",department_information
+"What treatments are available in dermatology?",department_information
+"Does the hospital have a cancer center?",department_information
+"Is there a psychiatry department?",department_information
+"Tell me about your ENT services",department_information
+"Do you have a NICU?",department_information
+"What does the gastroenterology department treat?",department_information
+"Is there a dental department?",department_information
+"Where is the ICU located?",department_information
+"Do you have a fertility clinic?",department_information
+"What is the hospital's phone number?",contact_information
+"How can I contact the hospital?",contact_information
+"Give me the email address of the hospital",contact_information
+"What is the address of the hospital?",contact_information
+"How do I reach the reception?",contact_information
+"Can I talk to a customer care executive?",contact_information
+"What is the helpline number?",contact_information
+"How do I contact the cardiology department?",contact_information
+"Is there a WhatsApp number?",contact_information
+"Who do I call for complaints?",contact_information
+"Give me the contact details of the billing department",contact_information
+"How can I reach the administration office?",contact_information
+"I want to speak to a human",contact_information
+"What's the fax number?",contact_information
+"How do I get in touch with the patient relations team?",contact_information
+"Do you have a toll-free number?",contact_information
+"What's the best way to contact you?",contact_information
+"I need the number of the front desk",contact_information
+"Can I get the hospital's location on the map?",contact_information
+"How do I send feedback to the hospital?",contact_information
+"Is there parking at the hospital?",facility_information
+"Do you have a cafeteria?",facility_information
+"Is there free Wi-Fi?",facility_information
+"Do you have wheelchair access?",facility_information
+"Are there private rooms available?",facility_information
+"Is there an ATM inside the hospital?",facility_information
+"Do you have a prayer room?",facility_information
+"Can attendants stay overnight?",facility_information
+"Is there a waiting area for families?",facility_information
+"Do you provide wheelchairs?",facility_information
+"Are there lockers for visitors?",facility_information
+"Is there a guest house for relatives?",facility_information
+"Do rooms have air conditioning?",facility_information
+"Do you have an elevator?",facility_information
+"Is there a children's play area?",facility_information
+"Are there charging points for phones?",facility_information
+"Is food provided to patients?",facility_information
+"Do you offer interpreter services?",facility_information
+"Is there a baby feeding room?",facility_information
+"What amenities do the deluxe rooms have?",facility_information
+"How do I get admitted to the hospital?",admission_query
+"What is the admission process?",admission_query
+"What documents do I need for admission?",admission_query
+"My doctor said I need to be admitted",admission_query
+"Is a bed available for admission?",admission_query
+"How much is the admission deposit?",admission_query
+"Can I get admitted today?",admission_query
+"What should I bring when I get admitted?",admission_query
+"How do I admit my father?",admission_query
+"Where is the admission desk?",admission_query
+"Can I choose my room type during admission?",admission_query
+"Do I need a referral to be admitted?",admission_query
+"How long does the admission process take?",admission_query
+"Can I pre-register for admission?",admission_query
+"What time should I arrive for admission?",admission_query
+"Is planned admission possible for surgery next week?",admission_query
+"Can a relative complete the admission formalities?",admission_query
+"What are the admission rules?",admission_query
+"Is insurance verification done at admission?",admission_query
+"I need to admit my mother for surgery",admission_query
+"When will I be discharged?",discharge_query
+"What is the discharge process?",discharge_query
+"How long does discharge take?",discharge_query
+"My father is being discharged today, what do we do?",discharge_query
+"Can I get discharged early?",discharge_query
+"What documents will I get at discharge?",discharge_query
+"Who signs the discharge papers?",discharge_query
+"Can I go home today?",discharge_query
+"Is the discharge summary ready?",discharge_query
+"What time is discharge?",discharge_query
+"Do I need to clear the bill before discharge?",discharge_query
+"Can I leave against medical advice?",discharge_query
+"What happens after discharge?",discharge_query
+"When can my mother come home?",discharge_query
+"Who will explain the discharge instructions?",discharge_query
+"Can the discharge be delayed until evening?",discharge_query
+"Is there a discharge checklist?",discharge_query
+"We are waiting for discharge for hours",discharge_query
+"Will a nurse help with discharge?",discharge_query
+"Can we arrange transport at discharge?",discharge_query
+"I need a copy of my medical records",medical_records
+"How do I get my medical history?",medical_records
+"Can I access my health records online?",medical_records
+"I want my old hospital records",medical_records
+"How do I request my patient file?",medical_records
+"Can you transfer my records to another hospital?",medical_records
+"I need my records for an insurance claim",medical_records
+"Who can access my medical records?",medical_records
+"How long do you keep medical records?",medical_records
+"Can I get my records from five years ago?",medical_records
+"I want to update my personal details in my records",medical_records
+"My medical record has incorrect information",medical_records
+"Can my family member get my records?",medical_records
+"Is there a fee for medical records?",medical_records
+"I need a copy of my old discharge summary for my files",medical_records
+"How can I get my child's vaccination records?",medical_records
+"Can I get my records on a CD?",medical_records
+"Where is the medical records department?",medical_records
+"I need my surgery notes",medical_records
+"How do I get my complete medical file?",medical_records
+"I need a refill of my prescription",prescription_query
+"Can my doctor renew my prescription?",prescription_query
+"I lost my prescription",prescription_query
+"Can you send my prescription to the pharmacy?",prescription_query
+"I can't read my doctor's prescription",prescription_query
+"My prescription has expired",prescription_query
+"Can I get a digital copy of my prescription?",prescription_query
+"I need a new prescription for my blood pressure medicine",prescription_query
+"Is my prescription ready?",prescription_query
+"The prescription has the wrong dosage written",prescription_query
+"Can the doctor change my prescription?",prescription_query
+"How do I get a repeat prescription?",prescription_query
+"My prescription is missing a medicine",prescription_query
+"Can I get my prescription without visiting?",prescription_query
+"Who can I ask about my prescription?",prescription_query
+"I need a prescription for my insulin",prescription_query
+"Can a nurse renew my prescription?",prescription_query
+"How long is a prescription valid?",prescription_query
+"I want to discuss side effects of the medicine I was prescribed",prescription_query
+"Can you email my prescription?",prescription_query
+"Hello",greeting
+"Hi there",greeting
+"Good morning",greeting
+"Hey",greeting
+"Good evening",greeting
+"Hi, is anyone there?",greeting
+"Hello, I need some help",greeting
+"Good afternoon",greeting
+"Hey there!",greeting
+"Namaste",greeting
+"Hi, how are you?",greeting
+"Hello, good morning",greeting
+"Greetings",greeting
+"Hi assistant",greeting
+"Yo",greeting
+"Hello hospital",greeting
+"Hiya",greeting
+"Hey, can you help?",greeting
+"Hi there, good day",greeting
+"Hello?",greeting
+"Thank you",thank_you
+"Thanks a lot",thank_you
+"Thank you so much",thank_you
+"Thanks for your help",thank_you
+"I appreciate it",thank_you
+"Many thanks",thank_you
+"Thanks, that was helpful",thank_you
+"Great, thank you",thank_you
+"Thank you for the information",thank_you
+"Thanks!",thank_you
+"Much appreciated",thank_you
+"Thank you very much",thank_you
+"Thanks a ton",thank_you
+"I'm grateful for your help",thank_you
+"Thank you for booking it",thank_you
+"Thx",thank_you
+"Thanks for clearing that up",thank_you
+"You've been very helpful, thanks",thank_you
+"Cheers",thank_you
+"Thanks for your patience",thank_you
+"Goodbye",goodbye
+"Bye",goodbye
+"See you later",goodbye
+"That's all, thanks, bye",goodbye
+"Have a nice day",goodbye
+"Talk to you later",goodbye
+"Bye bye",goodbye
+"I'm done for now",goodbye
+"Good night",goodbye
+"See you",goodbye
+"Take care",goodbye
+"That's everything I needed",goodbye
+"Catch you later",goodbye
+"Goodbye and have a good day",goodbye
+"I'll leave now",goodbye
+"Ok bye",goodbye
+"Signing off",goodbye
+"Farewell",goodbye
+"Nothing else, bye",goodbye
+"Bye for now",goodbye

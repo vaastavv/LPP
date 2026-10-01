@@ -1,0 +1,4 @@
+text,old_intent,new_intent,reason
+"Is the pharmacy open 24 hours?",pharmacy_query,hospital_timings,"Boundary rule: opening-hours questions for any service are hospital_timings (seed also labels 'When is the pharmacy open?' as hospital_timings)"
+"How much is the admission deposit?",admission_query,billing_query,"Boundary rule: money amounts/deposits are billing_query (seed labels 'Is there a deposit for admission?' as billing_query)"
+"Do you accept insurance at the pharmacy?",pharmacy_query,insurance_query,"Boundary rule: insurance acceptance/coverage questions are insurance_query regardless of department"

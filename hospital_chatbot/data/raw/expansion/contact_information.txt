@@ -1,0 +1,108 @@
+# Curated expansion for contact_information. Theme: how to reach the hospital or a team - phone, email, address, human agent, complaints.
+What number should I call to reach the hospital?
+Can I have the main switchboard number?
+What's the reception phone number?
+Is there a number for appointment enquiries?
+How do I contact the appointment desk?
+What is the email for general enquiries?
+Can I email my questions to someone?
+What's the official website of the hospital?
+Where exactly is the hospital located?
+What is your full postal address?
+Can you share the hospital's location pin?
+How do I get directions to the hospital?
+Which landmark is the hospital near?
+How do I reach the hospital by metro?
+What is the contact number for the insurance desk?
+Who do I contact in the billing department?
+How can I reach the lab directly?
+What's the phone number of the pharmacy?
+How do I contact the medical records department?
+Can I get the extension for the ICU nurses' station?
+How do I call the ward where my father is admitted?
+What number do I call to check on an admitted patient?
+Can I get the contact for the patient relations officer?
+Who do I contact for a complaint about staff?
+How do I file a complaint?
+I'd like to give feedback about my experience
+Where can I leave a review or suggestion?
+Can I speak to a manager?
+I want to talk to someone at the front desk
+Can you connect me to a real person?
+Is there a live agent I can chat with?
+I need to talk to customer support
+Can somebody call me back?
+Can I request a callback from the hospital?
+How do I reach the hospital on WhatsApp?
+Do you have a chat support number?
+What are your social media pages?
+Is there a contact for international patients?
+Who should international patients email?
+How can I contact the doctor's secretary?
+How do I reach Dr. Rao's office?
+Can I get the contact number of the cardiology OPD?
+How do I contact the HR department for jobs?
+Who do I contact for media enquiries?
+What's the contact for medical tourism?
+How can I contact the hospital administration?
+Is there a number for the medical superintendent's office?
+contact number pls
+hospital phone no
+whats ur email
+how to contact u
+addres of hospital?
+Can you text me the hospital address?
+Can you send me the phone number by SMS?
+What's the number for the ambulance desk?
+Is there a separate number for the emergency department?
+Who do I call if I have questions after discharge?
+How do I contact the nurse on duty?
+What's the number for the blood bank?
+How can I reach the dietitian's office?
+How do I contact the physiotherapy department?
+Is there a contact person for corporate tie-ups?
+Who do I contact for a hospital tour?
+Can I reach someone after office hours?
+Is the helpline available at night?
+Is there a hotline for appointment changes?
+How do I contact the branch in the north of the city?
+What is the contact information for your other branches?
+Can I get the address of your nearest clinic?
+I lost the hospital number, can you give it again?
+How do I reach the billing team by email?
+Who can I write to about a privacy concern?
+How do I contact the data protection officer?
+Can I fax documents to the hospital?
+Where should I post documents?
+What is the PIN code of the hospital?
+How do I contact the volunteer services team?
+Who do I speak to about donating to the hospital?
+How can I contact the hospital chaplain or spiritual care team?
+I need to reach the social worker
+Can I get the contact for the insurance coordinator?
+How do I reach the operator?
+Can you give me a phone number to talk to someone?
+I want to call the hospital, what's the number?
+Is there an email for sending reports to doctors?
+How do I message my doctor?
+Can I get in touch with the doctor who treated me?
+Where do I send my grievance?
+Who do I complain to if I'm unhappy with the treatment?
+How do I contact the nursing supervisor?
+Who do I talk to about lost and found items?
+I left my bag in the hospital, who do I contact?
+Do you have a customer care number?
+How do I contact you on email for an appointment query?
+Is there a phone number for the security office?
+How do I get in touch with your team?
+# --- hard negatives / boundary examples ---
+Hi, what's the hospital's phone number?
+Not the timings, I need the contact number
+I want to call the cardiology department, what's their number?
+I need the email of the billing department
+How do I contact the insurance desk?
+Can I get the phone number for the lab?
+Who can I call about my admitted father?
+What's the number of the pharmacy?
+Where is the hospital located exactly?
+I'd like to speak with someone from customer service

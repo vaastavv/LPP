@@ -1,0 +1,105 @@
+# Curated expansion for discharge_query. Theme: LEAVING the hospital as an inpatient - timing, process, papers, instructions, after-care.
+# Boundary vs medical_records: current-stay discharge papers -> discharge; old summaries/full file -> medical_records.
+When will my father be sent home?
+The doctor said I can go home, what's the process now?
+How long does the discharge process usually take?
+Why is my discharge taking so long?
+We've been waiting since morning for discharge
+Can you speed up my discharge?
+What time will the discharge papers be ready?
+Who prepares the discharge summary?
+Will I get a discharge summary before I leave?
+Can I get the discharge summary today itself?
+What instructions will I get when I'm discharged?
+Who will explain my medicines after discharge?
+Will the nurse go over the discharge instructions?
+Do I need a follow-up appointment after discharge?
+When should I come back after being discharged?
+Can I be discharged in the morning?
+Is discharge possible on a Sunday?
+Can I be discharged tonight?
+Can I go home a day early?
+The doctor hasn't signed my discharge yet
+Who needs to approve the discharge?
+Is the final bill required before discharge?
+What clearances are needed before discharge?
+Do I need insurance clearance before I can be discharged?
+Can I be discharged while the insurance approval is pending?
+Can I leave the hospital before the bill is finalized?
+Can I take my reports with me at discharge?
+Will I get my X-ray films at discharge?
+What happens if I want to leave against medical advice?
+What is the LAMA process?
+Can a patient be discharged on request?
+Can my mother be discharged to a rehab centre?
+Can you arrange an ambulance for going home after discharge?
+Do you help with transport after discharge?
+Can a nurse visit at home after discharge?
+Is home care available after discharge?
+What should I do if I feel unwell after discharge?
+Who do I call if I have questions after I'm discharged?
+Can I get a fitness certificate at discharge?
+Will I get a medical certificate for work when I'm discharged?
+Can my baby be discharged with me after delivery?
+When will my newborn be discharged from the NICU?
+When can my father leave the ICU and go home?
+Is my wife ready for discharge?
+Has the doctor cleared my son for discharge?
+Is my discharge confirmed for today?
+What's the discharge time on the day of leaving?
+Do I need to vacate the room by a certain time after discharge?
+Can I stay a few extra hours after discharge?
+Will I get my discharge medicines before I leave?
+Do I collect the discharge medicines from the pharmacy myself?
+Can the discharge be postponed till tomorrow?
+I'm not ready to go home yet, can discharge wait?
+Can I be discharged even though I'm still in pain?
+discharge kab hoga
+discharge time pls
+when is my discharg
+wat is discharge process
+I want to take my mother home today
+Can I go home after the surgery today?
+Is same-day discharge possible after a day-care procedure?
+How many days after surgery is discharge usually?
+What documents should I keep after discharge?
+Can someone else collect the discharge papers for me?
+My relative is being discharged and I'm not there, what do I do?
+Will the doctor see me before discharge?
+I need to know the discharge diet instructions
+Who explains wound care before I leave?
+Can I get the discharge summary emailed to me?
+The discharge summary has an error in it
+Can the discharge summary be corrected before I leave?
+Is a follow-up booked automatically when I'm discharged?
+What medicines do I need to continue after discharge?
+Can you give us a discharge checklist?
+What should we prepare for going home?
+Do we need to return anything before discharge?
+Can I keep the hospital wristband after discharge?
+Can a discharge happen late at night?
+How is discharge handled for insurance patients?
+Is there a separate discharge lounge?
+Where do we wait after discharge is approved?
+My father is ready to go home but the paperwork isn't done
+Can you check on the status of my discharge?
+Can we arrange home oxygen before discharge?
+Will physiotherapy continue after discharge?
+Can I get a wheelchair to the car at discharge?
+Who arranges equipment for home after discharge?
+What happens on the day of discharge?
+I want to discharge my father and shift him to another hospital
+Can I be transferred to another hospital instead of being discharged home?
+How do I get a referral letter at discharge?
+When will my grandmother be released from the hospital?
+# --- hard negatives / boundary examples ---
+Hi, when will my father be discharged?
+Not admission, I want to know about the discharge process
+I need my discharge summary for this stay before leaving
+My mother is going home today, what do we need to do?
+What paperwork is needed at discharge?
+How long until the discharge is complete?
+Can I be discharged before noon?
+Is the doctor coming to sign the discharge?
+What happens after the bill is cleared at discharge?
+When can my baby go home from the hospital?

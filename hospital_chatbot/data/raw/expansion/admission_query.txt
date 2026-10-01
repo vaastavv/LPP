@@ -1,0 +1,106 @@
+# Curated expansion for admission_query. Theme: getting INTO the hospital as an inpatient - process, documents, beds, planned admission.
+# Boundary vs discharge_query: entering vs leaving. Deposit amounts are billing_query.
+How do I get my mother admitted for her surgery next week?
+What is the procedure to admit a patient?
+What documents should we carry for hospital admission?
+Do I need my ID card for admission?
+Is an Aadhaar card required for admission?
+My doctor has advised admission, what's the next step?
+The doctor wants me admitted tonight, where do I go?
+Is there a bed available in the general ward?
+Are any private rooms available for admission today?
+Is an ICU bed available right now?
+How do I book a bed in advance?
+Can I reserve a room for a planned admission?
+Can I get admitted directly without going through emergency?
+How do I admit someone from the emergency department to a ward?
+Who decides which ward I'll be admitted to?
+Can I request a specific room type when I'm admitted?
+Can I upgrade my room after admission?
+Can I change from a shared room to a private room after getting admitted?
+What should I pack for my hospital stay?
+What personal items can I bring when I'm admitted?
+Can I bring my own medicines when I get admitted?
+Should I come fasting on the day of admission?
+What time is check-in for a planned admission?
+How early should I arrive on admission day?
+Is there an admission counter near the main entrance?
+Who do I meet at the admission desk?
+Can I complete the admission forms online?
+Can I fill the admission paperwork before arriving?
+Do you need a doctor's admission note?
+Can I be admitted without a referral letter?
+Can a foreigner be admitted here?
+What do international patients need for admission?
+Can I get admitted under a specific doctor?
+How do I admit my child to the paediatric ward?
+How do I admit my wife for delivery?
+When should a pregnant woman come for admission?
+Is pre-admission testing required?
+Do I need tests done before admission?
+What happens on the day of admission?
+How long does it take to get a bed after admission is advised?
+What if there's no bed available?
+Can I be put on a waiting list for admission?
+Is day-care admission available for minor procedures?
+Can I be admitted for just one night?
+Is admission needed for chemotherapy?
+Do I need to be admitted for an endoscopy?
+Can a relative sign the consent forms at admission?
+Who has to sign the admission consent?
+Do you need a guardian present for admitting an elderly patient?
+Can I get admitted on a weekend?
+Is admission possible at night?
+admision process?
+how to admit patient
+need admission for my dad
+documents for admisson
+What forms are needed at the time of admission?
+Can I be admitted for observation?
+How do I transfer a patient from another hospital and admit them here?
+Can you arrange admission for a patient coming from another city?
+Can my father be admitted to the ICU directly?
+Do I need a COVID test before admission?
+What are the rules for attendants after admission?
+How many attendants are allowed after admitting a patient?
+Will I get an attendant pass on admission?
+Do you need my insurance card at admission?
+Will the admission be delayed if insurance approval is pending?
+Can I get admitted first and complete the insurance later?
+Can I be admitted for physiotherapy rehabilitation?
+Do you admit psychiatric patients?
+Can patients with infections be admitted?
+Is there an admission process for the de-addiction centre?
+Can my grandfather be admitted for palliative care?
+I was told to get admitted for IV antibiotics, how do I proceed?
+My surgery is scheduled, when do I need to get admitted?
+Do I get admitted the day before surgery or the same day?
+Can I get admitted in the morning and have surgery in the afternoon?
+What is the admission policy for children?
+Can I choose the hospital branch for my admission?
+What details will be asked during admission?
+Can I complete admission at the emergency desk?
+I want to know about inpatient admission
+I'd like to get admitted for a full medical evaluation
+Can a patient be admitted without an attendant?
+Is it possible to be admitted for elective surgery next Monday?
+How do I confirm my admission date?
+Can I postpone my planned admission?
+Who should I contact to arrange admission?
+Do I need an appointment with the doctor before admission?
+Can I be admitted under my company's tie-up?
+How long will I likely stay once admitted?
+Can I bring my laptop when I get admitted?
+Is there a separate admission counter for maternity?
+What is required to admit an unconscious patient?
+# --- hard negatives / boundary examples ---
+Hi, how do I get admitted?
+Not discharge, I want to know how admission works
+My mother needs to be admitted, what's the process?
+We're coming in for admission tomorrow, what should we bring?
+The doctor advised surgery and admission, how do I proceed?
+Can you tell me the admission requirements?
+Is there a bed available for my father to be admitted today?
+What happens when a patient is admitted from the emergency room?
+Do I need insurance details for admission?
+What is the process for a planned admission?

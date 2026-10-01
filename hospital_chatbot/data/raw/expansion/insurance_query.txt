@@ -1,0 +1,109 @@
+# Curated expansion for insurance_query. Theme: coverage, policies, claims, cashless, TPA, pre-authorization, government schemes.
+Is my surgery covered under my health insurance policy?
+Will my insurance cover the cost of an MRI?
+Does my policy cover outpatient consultations?
+Is this hospital on the network list of my insurer?
+Do you have cashless facility for Star Health?
+Is cashless hospitalization available here?
+How do I get pre-approval from my insurer for admission?
+Who handles the pre-authorization request?
+How long does pre-authorization take?
+My insurer has asked for more documents, what should I submit?
+What documents do I need to submit for a reimbursement claim?
+How do I claim reimbursement after paying myself?
+My claim is still pending, can you check?
+The insurance company rejected my claim, what can I do?
+Why was my claim only partially approved?
+Can I appeal a denied insurance claim?
+Do you accept the government health scheme card?
+Is Ayushman Bharat accepted at this hospital?
+Can I use my employer's group insurance here?
+Is my corporate health cover valid for this treatment?
+Does insurance cover maternity and delivery?
+Does my policy cover pre-existing conditions?
+Are dental treatments covered by insurance?
+Is physiotherapy covered by my insurance?
+Will insurance pay for the medicines during my stay?
+Does my insurance cover room rent for a private room?
+What is not covered by insurance at this hospital?
+Who is the TPA for my policy?
+Do you work with Medi Assist TPA?
+Which TPAs are empanelled with you?
+Is there an insurance help desk?
+Where is the TPA desk?
+Can the insurance desk help me fill the claim form?
+I need help filling out my insurance claim form
+Can you send my documents directly to my insurance company?
+My insurance card expired, can I still get cashless treatment?
+I have two insurance policies, can I use both?
+Can I claim the remaining amount from my second insurer?
+What is the co-payment on my insurance?
+How much will insurance pay and how much will I pay?
+Is there a deductible I need to pay before insurance kicks in?
+My policy is from abroad, do you accept international insurance?
+Do you accept travel insurance for treatment?
+I want to add my insurance details before admission
+How do I update my insurance information?
+Can I switch from cash payment to insurance after admission?
+Is the insurance approval done before or after surgery?
+How long does final insurance settlement take at discharge?
+My cashless approval came late, will it delay discharge?
+Is my wife covered under my family floater policy here?
+Can my newborn be added to my insurance at the hospital?
+Does insurance cover the ambulance charges?
+Does my insurance cover diagnostic tests without admission?
+Are day-care procedures covered under insurance?
+Will my insurer cover a second opinion?
+Does health insurance cover mental health treatment here?
+Do you accept CGHS?
+Do you accept ECHS for ex-servicemen?
+Is ESI accepted at this hospital?
+Can I use state government insurance here?
+insurence claim status
+is my insurance accepted
+cashless avlbl?
+Does my mediclaim work here?
+Do you take mediclaim policies?
+Will my insurance cover cataract surgery?
+Is robotic surgery covered by insurance?
+How do I get an insurance query letter resolved?
+The insurer sent a query, what does the hospital need from me?
+I need a hospital letter for my insurance claim
+My insurance company wants the discharge summary, how do I get it to them?
+Who should I contact about an insurance claim rejection?
+What is the claim intimation process?
+Do I need to inform my insurer before a planned admission?
+How many days before admission should I start the insurance process?
+Can emergency admissions be done cashless?
+What happens if my insurance doesn't approve the treatment?
+Can I get the insurance estimate for my procedure?
+Is the insurance sum insured enough for this surgery?
+My insurance limit is exhausted, what now?
+Are consumables covered under my insurance?
+Does my policy have a room rent cap?
+Are vaccinations covered under my health insurance?
+Does insurance pay for follow-up visits after discharge?
+Can insurance be used for outpatient lab tests?
+I want to know if my insurer has a tie-up with your hospital
+Which insurance providers do you accept?
+Is LIC health insurance accepted?
+Is HDFC Ergo cashless available here?
+Do you accept ICICI Lombard?
+I'd like to check my insurance eligibility
+Can someone verify my insurance coverage?
+How do I check whether my claim has been settled?
+I have a question about my health policy
+I want to talk to someone about my insurance
+Why is my insurer asking for my previous medical records?
+# --- hard negatives / boundary examples ---
+Hi, do you accept my health insurance?
+Not the bill amount, I want to know if insurance will cover it
+Before I pay, can you check if my insurance covers this procedure?
+Is the consultation fee covered by my insurance?
+I don't want to pay myself, can I use my policy?
+Will my insurer reimburse the pharmacy bills?
+Does my policy cover the room charges?
+I need help with an insurance claim for my recent admission
+Is the insurance claim approved for my father's surgery?
+Can I go cashless for my planned admission?
+Is my insurance valid for lab tests?

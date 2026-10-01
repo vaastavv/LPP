@@ -1,0 +1,237 @@
+{
+  "note": "All numbers computed by src/intent/evaluate.py on the same held-out test split.",
+  "selection": {
+    "selected": "tfidf_logreg",
+    "rule": "highest validation macro-F1; within 0.005 macro-F1, prefer lower latency",
+    "validation_macro_f1": {
+      "tfidf_logreg": 0.8954
+    },
+    "decided_before_test_evaluation": true
+  },
+  "models": {
+    "tfidf_logreg": {
+      "model": "tfidf_logreg",
+      "validation": {
+        "accuracy": 0.8962765957446809,
+        "macro_precision": 0.8967252223162339,
+        "macro_recall": 0.8963742690058478,
+        "macro_f1": 0.895394923820696,
+        "weighted_f1": 0.8952166669132758
+      },
+      "test": {
+        "accuracy": 0.8696808510638298,
+        "macro_precision": 0.8762783851145342,
+        "macro_recall": 0.8694005847953216,
+        "macro_f1": 0.8683239482980856,
+        "weighted_f1": 0.8685996088921016
+      },
+      "lowest_recall_intents": [
+        {
+          "intent": "facility_information",
+          "recall": 0.5
+        },
+        {
+          "intent": "thank_you",
+          "recall": 0.7368421052631579
+        },
+        {
+          "intent": "pharmacy_query",
+          "recall": 0.7777777777777778
+        },
+        {
+          "intent": "greeting",
+          "recall": 0.7777777777777778
+        },
+        {
+          "intent": "appointment_rescheduling",
+          "recall": 0.8
+        }
+      ],
+      "most_confused_pairs_directed": [
+        {
+          "true": "thank_you",
+          "predicted": "goodbye",
+          "count": 5
+        },
+        {
+          "true": "facility_information",
+          "predicted": "hospital_timings",
+          "count": 3
+        },
+        {
+          "true": "billing_query",
+          "predicted": "admission_query",
+          "count": 2
+        },
+        {
+          "true": "pharmacy_query",
+          "predicted": "facility_information",
+          "count": 2
+        },
+        {
+          "true": "doctor_search",
+          "predicted": "appointment_booking",
+          "count": 2
+        },
+        {
+          "true": "greeting",
+          "predicted": "appointment_booking",
+          "count": 1
+        },
+        {
+          "true": "greeting",
+          "predicted": "doctor_search",
+          "count": 1
+        },
+        {
+          "true": "appointment_cancellation",
+          "predicted": "appointment_rescheduling",
+          "count": 1
+        },
+        {
+          "true": "facility_information",
+          "predicted": "appointment_booking",
+          "count": 1
+        },
+        {
+          "true": "greeting",
+          "predicted": "goodbye",
+          "count": 1
+        }
+      ],
+      "most_confused_pairs_symmetric": [
+        {
+          "pair": [
+            "goodbye",
+            "thank_you"
+          ],
+          "count": 6
+        },
+        {
+          "pair": [
+            "facility_information",
+            "pharmacy_query"
+          ],
+          "count": 3
+        },
+        {
+          "pair": [
+            "appointment_booking",
+            "doctor_search"
+          ],
+          "count": 3
+        },
+        {
+          "pair": [
+            "facility_information",
+            "hospital_timings"
+          ],
+          "count": 3
+        },
+        {
+          "pair": [
+            "appointment_booking",
+            "greeting"
+          ],
+          "count": 2
+        },
+        {
+          "pair": [
+            "admission_query",
+            "billing_query"
+          ],
+          "count": 2
+        },
+        {
+          "pair": [
+            "doctor_search",
+            "facility_information"
+          ],
+          "count": 2
+        },
+        {
+          "pair": [
+            "doctor_search",
+            "greeting"
+          ],
+          "count": 1
+        },
+        {
+          "pair": [
+            "appointment_cancellation",
+            "appointment_rescheduling"
+          ],
+          "count": 1
+        },
+        {
+          "pair": [
+            "appointment_booking",
+            "facility_information"
+          ],
+          "count": 1
+        }
+      ],
+      "calibration_test": {
+        "temperature": 0.4473385749438716,
+        "ece_uncalibrated": 0.24624156323047505,
+        "ece_calibrated": 0.049750836053073254
+      },
+      "selective_prediction_test": {
+        "threshold": 0.56,
+        "in_domain_coverage": 0.8936170212765957,
+        "selective_accuracy": 0.9255952380952381,
+        "confident_errors": 25,
+        "errors_total": 49,
+        "ood_test_size": 71,
+        "ood_false_accept_rate": 0.4647887323943662,
+        "ood_false_accepts": [
+          "Can you order groceries for me?",
+          "How do I learn guitar?",
+          "Is the shopping mall open today?",
+          "What are the symptoms of diabetes?",
+          "What is your name?",
+          "What's your favourite colour?",
+          "When does the bus to the airport leave?",
+          "Recommend a good book",
+          "Do you have feelings?",
+          "How do vaccines work?",
+          "How do I knit a scarf?",
+          "Help me plan a birthday party",
+          "What's the news today?",
+          "Who created you?",
+          "What are the lottery results?",
+          "Can you help me with my maths homework?",
+          "How do I learn to swim?",
+          "Where can I buy a new car?",
+          "How do airplanes fly?",
+          "Where can I adopt a puppy?",
+          "How do I grow tomatoes?",
+          "Can you speak French?",
+          "Sing me a song",
+          "Who is going to win the election?",
+          "Teach me a magic trick",
+          "How do I make coffee?",
+          "How do I file my income tax return?",
+          "Who wrote Romeo and Juliet?",
+          "How do I get a driving licence?",
+          "Recommend a good movie",
+          "Who painted the Mona Lisa?",
+          "What's 2 plus 2?",
+          "What's trending on Twitter?"
+        ]
+      },
+      "emergency_routing_test": {
+        "threshold": 0.16,
+        "recall_on_test": 0.8947368421052632,
+        "false_emergency_rate_in_domain": 0.0028011204481792717,
+        "false_emergency_rate_ood": 0.04225352112676056,
+        "argmax_recall_on_test": 0.8947368421052632
+      },
+      "latency_single_query": {
+        "mean_ms": 0.59,
+        "p95_ms": 0.742
+      },
+      "model_size_mb": 1.36
+    }
+  }
+}

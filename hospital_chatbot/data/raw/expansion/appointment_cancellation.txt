@@ -1,0 +1,115 @@
+# Curated expansion for appointment_cancellation. Theme: user HAS an appointment and wants it removed entirely (not moved).
+I already have an appointment and want to cancel it
+I booked an appointment but I don't need it anymore
+Please cancel the appointment I made for Monday
+I won't need the consultation after all, can you cancel?
+I need to cancel, not reschedule, my appointment
+Please call off tomorrow's visit, I'm feeling better
+I'd like to cancel my upcoming consultation
+cancel appt
+pls cancel my appointment for tmrw
+I want to cancle my appointment
+Cancel my booking with the dermatologist
+Could you cancel my son's vaccination appointment?
+I've decided not to go ahead with the consultation, please cancel it
+Can I cancel my appointment without being charged?
+What is your cancellation policy?
+Will I get a refund if I cancel my appointment?
+How late can I cancel an appointment?
+I found another hospital, so please cancel my appointment here
+Please cancel my mother's appointment, she has been admitted elsewhere
+I'm going out of town and won't be able to come, so cancel the visit entirely
+I want to cancel my MRI booking
+Please cancel my dental appointment and don't rebook it
+Cancel the teleconsultation I booked for tonight
+I need to cancel all appointments under my name
+Kindly cancel the appointment booked under my husband's name
+I booked by mistake, please cancel it
+I accidentally booked two slots, cancel one of them
+Remove the duplicate appointment I made
+I don't want to see the doctor anymore, cancel it
+I'd like to withdraw from tomorrow's appointment
+Can you cancel my follow-up? My doctor said it's not needed
+I want to cancel my surgery consultation
+Cancel my blood test booking for Friday
+Please cancel my physio sessions for the rest of the month
+Is it possible to cancel my appointment through the app?
+How do I cancel a booking I made online?
+I need to cancel my appointment because I have tested positive for flu
+My father passed away, please cancel his appointments
+Please cancel my appointment with Dr. Sharma on the 12th
+I'm not coming in today, cancel my slot
+Can I get my booking fee back if I cancel?
+I paid for the appointment in advance, how do I cancel and get a refund?
+Please cancel my health check package booking
+Cancel my eye test appointment
+I'd like to cancel the appointment, I'll book again later if needed
+I no longer want the consultation that's scheduled for next week
+Please don't keep my appointment, I'm cancelling it
+Can you confirm my appointment has been cancelled?
+Did my cancellation go through?
+I tried to cancel online but it didn't work
+I want to cancel my telemedicine appointment
+Cancel my booking, the issue has resolved on its own
+I'd like to cancel the counselling session I booked
+Please cancel my ultrasound
+Could you cancel my child's appointment with the pediatrician?
+I have to cancel because of a work emergency
+I'm unable to attend so I'm cancelling my appointment
+Cancel my appointment, I don't want a new date
+What happens if I don't show up instead of cancelling?
+Is there a penalty for late cancellation?
+Can someone else cancel my appointment on my behalf?
+Please cancel my booking and close the request
+I need to drop my appointment with orthopaedics
+Kindly cancel the slot booked for my grandmother
+I want to cancel my appointment and get my money back
+Please void my appointment for Thursday
+I want to scrap my visit to the ENT clinic
+Cancel my consultation, I'm going to my family doctor instead
+I'd like to cancel today's OPD token
+Can I cancel an appointment less than 24 hours before?
+Please cancel my scan, my doctor said it's not required anymore
+Cancel my home visit appointment
+I booked a video call with the doctor but want to cancel it
+I need to cancel my appointment due to transport problems
+Please cancel my CT scan appointment, I had it done at another centre
+I won't be able to make it at all, please cancel
+Delete my upcoming appointment from the system
+Cancel the prenatal visit scheduled for Monday
+I'm calling to cancel an appointment
+Can you take me off the schedule for tomorrow?
+I'd like to cancel the follow-up I had booked for my wife
+I want to cancel the allergy test booking
+Please cancel my booking, I don't need any other date
+Can I cancel my vaccination slot?
+Cancel my 10 am appointment
+My insurance didn't approve it, so please cancel the procedure appointment
+Cancel the dietitian appointment I have on Friday
+I have an appointment booked but I need to cancel it completely
+I'd like to cancel my appointment with the cardiologist
+Unbook my appointment please
+How do I cancel my son's booking?
+Can I cancel just one of my two appointments?
+Please cancel my health screening, I'm not interested anymore
+I'm cancelling my appointment, sorry for the short notice
+Do I need to call to cancel or can I do it online?
+I need a cancellation for my lab appointment
+I'd like to cancel my booking reference 4821
+Please cancel the reservation for my consultation
+I want to cancel my upcoming visit and I will not reschedule
+Will my cancellation be confirmed by SMS?
+I want to cancel my appointment for personal reasons
+Get rid of my appointment for next week please
+# --- hard negatives / boundary examples ---
+Hi, I need to cancel my appointment for tomorrow
+I don't want to reschedule, just cancel it please
+Don't move my appointment, cancel it
+No new date needed, please cancel the booking
+I have a booking next week which I want cancelled
+Thanks, and please cancel my Friday appointment as well
+I no longer require the appointment I booked with the cardiologist
+Please cancel my slot, I'll call when I need a new one
+Cancel the consultation booked for my daughter and don't reschedule
+The appointment is not needed anymore, kindly cancel it
+Please take my name off tomorrow's appointment list

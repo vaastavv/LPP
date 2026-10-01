@@ -1,0 +1,110 @@
+# Curated expansion for greeting. Theme: opening the conversation WITHOUT a concrete request. "Hi, <request>" belongs to the request's intent.
+Hello there
+Hi!
+Hey hi
+Hi, good morning
+Good morning, doctor
+Good morning to you
+Good afternoon, is this the hospital assistant?
+Good evening, anyone available?
+Hello, is this the hospital helpdesk?
+Hi, am I chatting with the hospital?
+Is this the hospital chatbot?
+Hello, can you hear me?
+Hi, are you a bot?
+Hey, you there?
+Anybody there?
+Hello hello
+Helo
+Hellooo
+Heyy
+hii
+hiii there
+hlo
+Hai
+Hey buddy
+Morning!
+Evening!
+Afternoon!
+Hi, hope you're doing well
+Hello, how's it going?
+How are you doing today?
+Hi, how's your day?
+Hope you're well
+Hi there, I have a few questions
+Hello, I have a question
+Hey, quick question
+Hi, I wanted to ask something
+Hello, I need assistance
+Hi, can I ask you something?
+Hello, I'm new here
+Hi, first time using this chat
+Hi, I'm a patient here
+Hello, I'm calling on behalf of my father
+Hi, I'm messaging for my mom
+Namaskar
+Vanakkam
+Hola
+Salaam
+Assalamu alaikum
+Sat Sri Akal
+Bonjour
+Hello sir
+Hello madam
+Hi team
+Hello everyone
+Dear sir, good day
+Hi, good to meet you
+Nice to meet you
+Pleased to meet you
+Hey there, good afternoon
+Hello, good evening
+Hi there, how are you?
+Hey, how are things?
+Hello again
+Hi, it's me again
+I'm back
+Hello, I'm back with another question
+Hey, good day to you
+Greetings to the hospital team
+Good day
+Hi there friend
+Hello assistant, are you available?
+Hello, is someone available to help?
+Hey, I need a little help
+Hi, help please
+Hello, can you assist me?
+Hello, anyone online?
+Hi hi
+Good morning, hope you're well
+Top of the morning
+Howdy
+What's up
+Sup
+Hey what's up
+Hello, nice to be here
+Hi, I'm here
+Hello from Mumbai
+Hello, good afternoon to you
+Hi, are you open for chat?
+Hey, can we talk?
+Hello, may I ask a few things?
+Hi, is this the right place to ask questions?
+Ahoy
+Hello friend
+Hi, good evening to you
+Hi, I hope I'm not disturbing
+Hey, how are you today?
+Hello, how may I start?
+Hi there, anyone home?
+# --- hard negatives / boundary examples ---
+Hi there, hello
+Hey, good evening
+Hello, good to be chatting
+Hello, nice talking to you
+Hi, hello, how are you
+Good morning, how are you today?
+Hiya, how are you doing?
+Hey, is anyone available to chat?
+Hi, I'm here to ask a question
+Hello, hope your day is going well

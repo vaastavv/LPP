@@ -1,0 +1,111 @@
+# Curated expansion for hospital_timings. Theme: WHEN things are open/hours/visiting times (for any hospital service).
+# Boundary vs facility_information: "when" questions -> timings; "is there / do you have" an amenity -> facility_information.
+What time does the hospital close tonight?
+What are the hospital's opening hours on weekdays?
+Is the OPD open on Sundays?
+What are the timings for the outpatient clinics?
+When does the morning OPD start?
+What time does the evening OPD finish?
+Till what time is the reception open?
+Are you open during Diwali?
+Is the hospital open on Christmas day?
+What are your holiday timings?
+When can family members visit patients?
+What are the general ward visiting hours?
+Can I visit my mother in the ICU at night?
+Are visitors allowed in the evening?
+What time do visiting hours end?
+How long are visiting hours on weekends?
+When can I visit someone in the maternity ward?
+What are the NICU visiting times for parents?
+What time does the blood collection centre open?
+When does the lab close for sample collection?
+What time does the radiology department open?
+Is the X-ray department open at night?
+What are the pharmacy hours?
+What time does the hospital pharmacy close?
+Until when is the pharmacy open on Sundays?
+When does the billing counter open in the morning?
+What are the insurance desk timings?
+What hours does the medical records office work?
+When is the medical records counter open?
+What are the timings of the cafeteria?
+When does the canteen close?
+When is the physiotherapy department open?
+What time does the dental clinic open?
+Is the eye clinic open on Saturday afternoons?
+What are the timings for teleconsultations?
+What are the doctor's consultation hours?
+At what time does Dr. Mehta's OPD start?
+What are the working hours on Saturdays?
+Are you open late on Fridays?
+What time do you open tomorrow?
+Is the hospital closed on any day of the week?
+Are you open right now?
+open hours?
+timings pls
+wat time does opd open
+What are the visting hours
+when does the hosptial open on sunday
+What's the earliest time I can come in for a blood test?
+When is the vaccination clinic open?
+What days and times is the diabetes clinic held?
+What time does the dialysis unit start?
+What are the timings for collecting reports?
+When can I collect my reports, what are the counter hours?
+What time is the admission desk open till?
+When does the discharge counter open?
+Is the help desk open 24/7?
+What are the hours of the patient relations office?
+What time do the outpatient registrations stop?
+What time should I arrive if the OPD opens at 9?
+What hours are visitors allowed in the private rooms?
+How early does the hospital open on weekdays?
+Is there a lunch break for the OPD?
+Is the OPD closed between 1 and 2 pm?
+What are the timings during Ramadan?
+Do the timings change on public holidays?
+What are the summer timings for the hospital?
+Are the evening clinics running this week?
+What are the timings of the health check-up centre?
+When is the fasting blood test counter open?
+What are the visiting hours for the children's ward?
+How late is the outpatient pharmacy open?
+What time does the hospital open for walk-in patients?
+Are the clinics open on second Saturdays?
+What are the hours for the ultrasound department?
+Until what time can I get an ECG done?
+When does the vaccination centre close?
+Are the OPD hours different on Sundays?
+When can I meet the doctor during rounds?
+What time are doctor rounds in the ward?
+What's the timing for the morning visiting slot?
+How long can one visitor stay during visiting time?
+When does the night shift start for attendant passes?
+At what hours can I bring food for my relative?
+What are your timings for the physiotherapy sessions?
+Is the hospital working today, it's a holiday?
+What are the weekend hours for the lab?
+What time does the CT scan centre open?
+What are the operating hours of the blood bank?
+Is the blood bank open at night?
+What time does the hospital close on Saturdays?
+When does the counselling clinic run?
+What are the hours for the dental department on weekdays?
+When do the specialist clinics run each week?
+What are the timings for the antenatal clinic?
+What are the ICU visiting slots?
+Can visitors come before 10 am?
+What time does the main gate close at night?
+What are the OPD hours for paediatrics?
+# --- hard negatives / boundary examples ---
+Hi, what time does the OPD open?
+Not where the cafeteria is, I need to know when it's open
+I know there's parking, but what time does the hospital close?
+What time does the radiology department close today?
+When is the admission desk open?
+What are the timings to visit a patient after admission?
+When is the medical records office open for collection?
+What time is the insurance desk open till?
+When are the specialist doctors available in OPD each day?
+Until what time can I come for a walk-in consultation?

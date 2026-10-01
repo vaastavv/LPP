@@ -1,0 +1,114 @@
+# Curated expansion for doctor_search. Theme: finding WHICH doctor/specialist (a person), their availability, profile, expertise.
+# Boundary vs department_information: questions about a person/specialist type -> doctor_search; questions about a unit's services/location -> department_information.
+I need to see a dermatologist next week
+I need to see a neurologist soon
+I'd like to consult a cardiac specialist
+Who is the head of cardiology?
+Which cardiologist is available on weekends?
+Can you suggest a doctor for my skin rash?
+I'm looking for a child specialist
+Who treats asthma at your hospital?
+I want a doctor who specializes in sports injuries
+Is there a kidney specialist I can consult?
+Do you have a nephrologist?
+I need an oncologist for a second opinion
+Which surgeon does knee replacements here?
+Who is the most experienced spine surgeon at this hospital?
+Can you tell me about Dr. Reddy's experience?
+Is Dr. Thomas a cardiologist or a cardiac surgeon?
+I want to know which days Dr. Pillai sees patients
+Which doctor should I go to for chronic headaches?
+Who can help me with hair loss?
+I need a specialist for my stomach issues
+Find me a gastroenterologist
+Do you have any lady doctors in gynaecology?
+I'd prefer a male urologist, do you have one?
+Which doctor handles pregnancy care?
+Is there an endocrinologist who sees thyroid patients?
+Who should my father see for his memory problems?
+I'm looking for a geriatric specialist for my grandmother
+Is there a doctor who treats sleep apnea?
+Which ENT doctor is good for sinus problems?
+I want an eye specialist for cataract surgery
+Can you name a good pulmonologist here?
+Who is the rheumatologist at this hospital?
+I need a heart doctor
+Looking for a bone doctor
+Need a good skin specialist
+is there a dentist on staff
+pls suggest a doc for joint pain
+I need a peadiatrician for my baby
+Which doctr is best for diabetes?
+Do you have a hematologist?
+I want to find a doctor who speaks Hindi
+Is there a doctor available for consultation right now?
+Which doctors are on duty today in general medicine?
+Who is the consultant on call for orthopaedics tonight?
+Is Dr. Ahmed in the hospital today?
+When is Dr. Kulkarni available?
+Does Dr. Singh see children as well?
+Has Dr. Das moved to another hospital?
+Which specialist should I see for chest discomfort that comes and goes?
+What kind of doctor treats vertigo?
+Who do I consult for allergies?
+I'd like to know the names of your cardiologists
+Can I get a list of doctors in the neurology team?
+I'm looking for a plastic surgeon
+Who does cosmetic procedures here?
+Which doctor does laser eye surgery?
+I want to consult a psychiatrist about anxiety
+Is there a psychologist or counsellor I can talk to?
+I need a doctor for my child's speech delay
+Who is the best obstetrician at this hospital?
+Is there a fertility specialist I can consult?
+Which surgeon performs bariatric surgery?
+Do you have a vascular surgeon?
+I need a doctor experienced in treating PCOS
+Recommend a doctor for my father's prostate problem
+Who treats varicose veins?
+Is there a doctor for physiotherapy referrals?
+I need a specialist for my liver condition
+Do you have a hepatologist?
+Which oncologist treats breast cancer?
+Who is the senior neurosurgeon?
+I need a general physician
+I'm looking for a family doctor
+Can I see the profile of Dr. Menon?
+What languages does Dr. Chen speak?
+Where did Dr. Joseph train?
+How many years of experience does the cardiologist have?
+Do any of your doctors specialize in tropical diseases?
+Who treats infectious diseases here?
+I need a doctor who can treat my chronic cough
+Which doctor should I see about my blood pressure?
+I'm searching for a pain management specialist
+Is there an anaesthetist I can speak to before surgery?
+Do you have a dietitian or nutrition expert?
+I want a second opinion from another cardiologist
+Can I see a different doctor from the one I saw last time?
+Which doctor treats children with asthma?
+Who looks after newborn babies?
+I need an ophthalmologist
+Can you help me find the right specialist for my symptoms?
+I don't know which doctor to see for my back
+Which specialist deals with hormone problems?
+I want to know if there's a heart specialist free this afternoon
+Who is the doctor in charge of the dialysis patients?
+Is there a doctor for hearing problems?
+I'd like to find an audiologist
+Who should I talk to about my knee pain?
+I want a doctor who has experience with elderly patients
+Is there a specialist who treats migraines?
+Is there any doctor available who works late evenings?
+# --- hard negatives / boundary examples ---
+Hi, which doctor should I see for knee pain?
+I don't need the cardiology department info, I need the name of a good cardiologist
+Not the department, I want to know which specialist to see
+Which neurologist in the neurology department is available today?
+Who are the doctors in the oncology department?
+I'm looking for a cardiologist who can see me soon
+I need to see an orthopaedic specialist next week
+Is there an ENT specialist who can see my son?
+I'm searching for a kidney doctor for my mother
+Which doctor is best for my child's recurring fever?
+Can you tell me which gynaecologists are working here?

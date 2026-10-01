@@ -1,0 +1,902 @@
+{
+  "generated_at": "2026-10-01T18:28:59+00:00",
+  "dataset_version": "v1.0-reconstructed",
+  "steps": [
+    {
+      "step": "label_corrections",
+      "count": 3,
+      "items": [
+        {
+          "text": "Is the pharmacy open 24 hours?",
+          "old": "pharmacy_query",
+          "new": "hospital_timings",
+          "reason": "Boundary rule: opening-hours questions for any service are hospital_timings (seed also labels 'When is the pharmacy open?' as hospital_timings)"
+        },
+        {
+          "text": "How much is the admission deposit?",
+          "old": "admission_query",
+          "new": "billing_query",
+          "reason": "Boundary rule: money amounts/deposits are billing_query (seed labels 'Is there a deposit for admission?' as billing_query)"
+        },
+        {
+          "text": "Do you accept insurance at the pharmacy?",
+          "old": "pharmacy_query",
+          "new": "insurance_query",
+          "reason": "Boundary rule: insurance acceptance/coverage questions are insurance_query regardless of department"
+        }
+      ]
+    },
+    {
+      "step": "seed_exact_or_trivial_duplicates_removed",
+      "count": 1,
+      "items": [
+        {
+          "text": "Hello?",
+          "intent": "greeting"
+        }
+      ]
+    },
+    {
+      "step": "expansion_exact_or_trivial_duplicates_removed",
+      "count": 1,
+      "label_conflicts": [],
+      "items": [
+        {
+          "text": "emergency please help",
+          "intent": "emergency_assistance",
+          "source_ref": "expansion/emergency_assistance.txt:35"
+        }
+      ]
+    },
+    {
+      "step": "near_duplicates_removed",
+      "threshold": 0.9,
+      "count": 23,
+      "items": [
+        {
+          "kept": "Where exactly is the hospital located?",
+          "dropped": "Where is the hospital located exactly?",
+          "kept_intent": "contact_information",
+          "dropped_intent": "contact_information",
+          "similarity": 1.0,
+          "cross_intent": false
+        },
+        {
+          "kept": "Hi!",
+          "dropped": "Hi hi",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 1.0,
+          "cross_intent": false
+        },
+        {
+          "kept": "Bye",
+          "other": "Bye bye",
+          "similarity": 1.0,
+          "action": "kept_both_originals",
+          "cross_intent": false
+        },
+        {
+          "kept": "Hello",
+          "dropped": "Hello hello",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 1.0,
+          "cross_intent": false
+        },
+        {
+          "kept": "Do you have a neurology department?",
+          "dropped": "Hi, do you have a neurology department?",
+          "kept_intent": "department_information",
+          "dropped_intent": "department_information",
+          "similarity": 0.976,
+          "cross_intent": false
+        },
+        {
+          "kept": "I need a copy of my medical records",
+          "dropped": "Hi, I need a copy of my medical records",
+          "kept_intent": "medical_records",
+          "dropped_intent": "medical_records",
+          "similarity": 0.97,
+          "cross_intent": false
+        },
+        {
+          "kept": "Many thanks",
+          "dropped": "Many many thanks",
+          "kept_intent": "thank_you",
+          "dropped_intent": "thank_you",
+          "similarity": 0.97,
+          "cross_intent": false
+        },
+        {
+          "kept": "Is there parking at the hospital?",
+          "dropped": "Hi, is there parking at the hospital?",
+          "kept_intent": "facility_information",
+          "dropped_intent": "facility_information",
+          "similarity": 0.969,
+          "cross_intent": false
+        },
+        {
+          "kept": "Bye, take care",
+          "dropped": "Bye bye, take care",
+          "kept_intent": "goodbye",
+          "dropped_intent": "goodbye",
+          "similarity": 0.968,
+          "cross_intent": false
+        },
+        {
+          "kept": "Bye bye, thanks",
+          "dropped": "Thanks, bye",
+          "kept_intent": "goodbye",
+          "dropped_intent": "goodbye",
+          "similarity": 0.966,
+          "cross_intent": false
+        },
+        {
+          "kept": "Good morning",
+          "dropped": "Hi, good morning",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 0.951,
+          "cross_intent": false
+        },
+        {
+          "kept": "Good morning",
+          "dropped": "Good morning to you",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 0.943,
+          "cross_intent": false
+        },
+        {
+          "kept": "What does the gastroenterology department treat?",
+          "dropped": "What does the gastroenterology department do?",
+          "kept_intent": "department_information",
+          "dropped_intent": "department_information",
+          "similarity": 0.939,
+          "cross_intent": false
+        },
+        {
+          "kept": "Who do I call if I have questions after discharge?",
+          "dropped": "Who do I call if I have questions after I'm discharged?",
+          "kept_intent": "contact_information",
+          "dropped_intent": "discharge_query",
+          "similarity": 0.931,
+          "cross_intent": true
+        },
+        {
+          "kept": "Bye for now",
+          "dropped": "Bye now",
+          "kept_intent": "goodbye",
+          "dropped_intent": "goodbye",
+          "similarity": 0.931,
+          "cross_intent": false
+        },
+        {
+          "kept": "Hello there",
+          "dropped": "Hi there, hello",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 0.922,
+          "cross_intent": false
+        },
+        {
+          "kept": "Wonderful, thank you",
+          "dropped": "Thank you for the wonderful care",
+          "kept_intent": "thank_you",
+          "dropped_intent": "thank_you",
+          "similarity": 0.922,
+          "cross_intent": false
+        },
+        {
+          "kept": "What is the hospital's phone number?",
+          "dropped": "Hi, what's the hospital's phone number?",
+          "kept_intent": "contact_information",
+          "dropped_intent": "contact_information",
+          "similarity": 0.915,
+          "cross_intent": false
+        },
+        {
+          "kept": "Hey there!",
+          "dropped": "Hey, you there?",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 0.914,
+          "cross_intent": false
+        },
+        {
+          "kept": "Do you deliver medicines?",
+          "dropped": "Do you home deliver medicines?",
+          "kept_intent": "pharmacy_query",
+          "dropped_intent": "pharmacy_query",
+          "similarity": 0.912,
+          "cross_intent": false
+        },
+        {
+          "kept": "Thank you so much",
+          "dropped": "thank u so much",
+          "kept_intent": "thank_you",
+          "dropped_intent": "thank_you",
+          "similarity": 0.909,
+          "cross_intent": false
+        },
+        {
+          "kept": "What are the visiting hours?",
+          "other": "What are the ICU visiting hours?",
+          "similarity": 0.908,
+          "action": "kept_both_originals",
+          "cross_intent": false
+        },
+        {
+          "kept": "Good night",
+          "dropped": "Have a good night",
+          "kept_intent": "goodbye",
+          "dropped_intent": "goodbye",
+          "similarity": 0.904,
+          "cross_intent": false
+        },
+        {
+          "kept": "Good evening",
+          "dropped": "Hi, good evening to you",
+          "kept_intent": "greeting",
+          "dropped_intent": "greeting",
+          "similarity": 0.903,
+          "cross_intent": false
+        },
+        {
+          "kept": "Talk to you later",
+          "dropped": "I'll talk to you later",
+          "kept_intent": "goodbye",
+          "dropped_intent": "goodbye",
+          "similarity": 0.903,
+          "cross_intent": false
+        }
+      ]
+    },
+    {
+      "step": "capped_to_max_per_intent",
+      "count": 0,
+      "items": []
+    },
+    {
+      "step": "label_consistency_flags",
+      "count": 84,
+      "note": "out-of-fold TF-IDF/LR disagreement with conf>=0.5; review, not auto-removed",
+      "items": [
+        {
+          "text": "How much does a strip of metformin cost?",
+          "intent": "pharmacy_query",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.975
+        },
+        {
+          "text": "Is there a medical shop in the hospital?",
+          "intent": "pharmacy_query",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.952
+        },
+        {
+          "text": "Goodbye and thank you for everything",
+          "intent": "goodbye",
+          "oof_pred": "thank_you",
+          "oof_conf": 0.952
+        },
+        {
+          "text": "I want to cancle my appointment",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.944
+        },
+        {
+          "text": "I need to reschedule because my test results are not ready yet",
+          "intent": "appointment_rescheduling",
+          "oof_pred": "lab_reports",
+          "oof_conf": 0.894
+        },
+        {
+          "text": "Is there a blood bank in the hospital?",
+          "intent": "department_information",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.874
+        },
+        {
+          "text": "Is there a deposit for admission?",
+          "intent": "billing_query",
+          "oof_pred": "admission_query",
+          "oof_conf": 0.871
+        },
+        {
+          "text": "Can I get a final invoice before discharge?",
+          "intent": "billing_query",
+          "oof_pred": "discharge_query",
+          "oof_conf": 0.87
+        },
+        {
+          "text": "Don't cancel my appointment, just change the date",
+          "intent": "appointment_rescheduling",
+          "oof_pred": "appointment_cancellation",
+          "oof_conf": 0.864
+        },
+        {
+          "text": "Do I collect the discharge medicines from the pharmacy myself?",
+          "intent": "discharge_query",
+          "oof_pred": "pharmacy_query",
+          "oof_conf": 0.86
+        },
+        {
+          "text": "How much will insurance pay and how much will I pay?",
+          "intent": "insurance_query",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.849
+        },
+        {
+          "text": "Do I need an appointment with the doctor before admission?",
+          "intent": "admission_query",
+          "oof_pred": "appointment_booking",
+          "oof_conf": 0.841
+        },
+        {
+          "text": "How many days before admission should I start the insurance process?",
+          "intent": "insurance_query",
+          "oof_pred": "admission_query",
+          "oof_conf": 0.834
+        },
+        {
+          "text": "I need a fresh prescription before I can buy my medicines",
+          "intent": "prescription_query",
+          "oof_pred": "pharmacy_query",
+          "oof_conf": 0.829
+        },
+        {
+          "text": "I'd like to reschedule the scan, not cancel it",
+          "intent": "appointment_rescheduling",
+          "oof_pred": "appointment_cancellation",
+          "oof_conf": 0.829
+        },
+        {
+          "text": "Why is my insurer asking for my previous medical records?",
+          "intent": "insurance_query",
+          "oof_pred": "medical_records",
+          "oof_conf": 0.816
+        },
+        {
+          "text": "Do you offer interpreter services?",
+          "intent": "facility_information",
+          "oof_pred": "department_information",
+          "oof_conf": 0.796
+        },
+        {
+          "text": "Anybody there?",
+          "intent": "greeting",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.789
+        },
+        {
+          "text": "Can I go cashless for my planned admission?",
+          "intent": "insurance_query",
+          "oof_pred": "admission_query",
+          "oof_conf": 0.788
+        },
+        {
+          "text": "Do you have a labour room?",
+          "intent": "department_information",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.784
+        },
+        {
+          "text": "Do you have an elevator?",
+          "intent": "facility_information",
+          "oof_pred": "department_information",
+          "oof_conf": 0.781
+        },
+        {
+          "text": "Do you have a business centre or printing facility?",
+          "intent": "facility_information",
+          "oof_pred": "department_information",
+          "oof_conf": 0.754
+        },
+        {
+          "text": "Does the hospital have a 24-hour emergency department?",
+          "intent": "emergency_assistance",
+          "oof_pred": "department_information",
+          "oof_conf": 0.745
+        },
+        {
+          "text": "Okay, thanks, I'm done",
+          "intent": "goodbye",
+          "oof_pred": "thank_you",
+          "oof_conf": 0.735
+        },
+        {
+          "text": "How much does this medicine cost?",
+          "intent": "pharmacy_query",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.726
+        },
+        {
+          "text": "Can I see a doctor tomorrow?",
+          "intent": "appointment_booking",
+          "oof_pred": "doctor_search",
+          "oof_conf": 0.726
+        },
+        {
+          "text": "What are the qualifications of Dr. Iyer?",
+          "intent": "doctor_search",
+          "oof_pred": "hospital_timings",
+          "oof_conf": 0.72
+        },
+        {
+          "text": "Can I pay the balance after discharge?",
+          "intent": "billing_query",
+          "oof_pred": "discharge_query",
+          "oof_conf": 0.717
+        },
+        {
+          "text": "Can you take me off the schedule for tomorrow?",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_booking",
+          "oof_conf": 0.713
+        },
+        {
+          "text": "Do you have a nephrologist?",
+          "intent": "doctor_search",
+          "oof_pred": "department_information",
+          "oof_conf": 0.71
+        },
+        {
+          "text": "hiii there",
+          "intent": "greeting",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.708
+        },
+        {
+          "text": "Who do I call if I have questions after discharge?",
+          "intent": "contact_information",
+          "oof_pred": "discharge_query",
+          "oof_conf": 0.695
+        },
+        {
+          "text": "Do you need my insurance card at admission?",
+          "intent": "admission_query",
+          "oof_pred": "insurance_query",
+          "oof_conf": 0.694
+        },
+        {
+          "text": "Do you have a hematologist?",
+          "intent": "doctor_search",
+          "oof_pred": "department_information",
+          "oof_conf": 0.692
+        },
+        {
+          "text": "Do you have a hepatologist?",
+          "intent": "doctor_search",
+          "oof_pred": "department_information",
+          "oof_conf": 0.692
+        },
+        {
+          "text": "I need a receipt for the amount I paid, not an insurance claim",
+          "intent": "billing_query",
+          "oof_pred": "insurance_query",
+          "oof_conf": 0.687
+        },
+        {
+          "text": "I need immediate medical attention",
+          "intent": "emergency_assistance",
+          "oof_pred": "medical_records",
+          "oof_conf": 0.686
+        },
+        {
+          "text": "What are the admission rules?",
+          "intent": "admission_query",
+          "oof_pred": "hospital_timings",
+          "oof_conf": 0.681
+        },
+        {
+          "text": "Do you admit psychiatric patients?",
+          "intent": "admission_query",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.67
+        },
+        {
+          "text": "Is there a bed available in the general ward?",
+          "intent": "admission_query",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.632
+        },
+        {
+          "text": "which dept treats skin problems",
+          "intent": "department_information",
+          "oof_pred": "doctor_search",
+          "oof_conf": 0.629
+        },
+        {
+          "text": "Do you share reports with insurance companies directly?",
+          "intent": "lab_reports",
+          "oof_pred": "insurance_query",
+          "oof_conf": 0.625
+        },
+        {
+          "text": "Is there a live agent I can chat with?",
+          "intent": "contact_information",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.613
+        },
+        {
+          "text": "Can I use last year's prescription to buy medicines?",
+          "intent": "prescription_query",
+          "oof_pred": "pharmacy_query",
+          "oof_conf": 0.61
+        },
+        {
+          "text": "need my prescripton renewed",
+          "intent": "prescription_query",
+          "oof_pred": "medical_records",
+          "oof_conf": 0.61
+        },
+        {
+          "text": "How do I get pre-approval from my insurer for admission?",
+          "intent": "insurance_query",
+          "oof_pred": "admission_query",
+          "oof_conf": 0.607
+        },
+        {
+          "text": "I don't have time to book, my son can't breathe",
+          "intent": "emergency_assistance",
+          "oof_pred": "appointment_booking",
+          "oof_conf": 0.607
+        },
+        {
+          "text": "What will I have to pay myself since I don't have insurance?",
+          "intent": "billing_query",
+          "oof_pred": "insurance_query",
+          "oof_conf": 0.606
+        },
+        {
+          "text": "Unbook my appointment please",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.602
+        },
+        {
+          "text": "Do I need to inform my insurer before a planned admission?",
+          "intent": "insurance_query",
+          "oof_pred": "admission_query",
+          "oof_conf": 0.6
+        },
+        {
+          "text": "How long does final insurance settlement take at discharge?",
+          "intent": "insurance_query",
+          "oof_pred": "discharge_query",
+          "oof_conf": 0.598
+        },
+        {
+          "text": "Much appreciated",
+          "intent": "thank_you",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.593
+        },
+        {
+          "text": "I need the final bill for my records",
+          "intent": "billing_query",
+          "oof_pred": "medical_records",
+          "oof_conf": 0.592
+        },
+        {
+          "text": "Is there a hotline for appointment changes?",
+          "intent": "contact_information",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.584
+        },
+        {
+          "text": "Much obliged",
+          "intent": "thank_you",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.583
+        },
+        {
+          "text": "Get rid of my appointment for next week please",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.581
+        },
+        {
+          "text": "I need to cancel, not reschedule, my appointment",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.58
+        },
+        {
+          "text": "Is the final bill required before discharge?",
+          "intent": "discharge_query",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.579
+        },
+        {
+          "text": "What are your social media pages?",
+          "intent": "contact_information",
+          "oof_pred": "hospital_timings",
+          "oof_conf": 0.57
+        },
+        {
+          "text": "Are any appointments open for late evening?",
+          "intent": "appointment_booking",
+          "oof_pred": "hospital_timings",
+          "oof_conf": 0.568
+        },
+        {
+          "text": "Do you have a cold chain for injections I'm buying?",
+          "intent": "pharmacy_query",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.567
+        },
+        {
+          "text": "Can I get a token number for today's OPD?",
+          "intent": "appointment_booking",
+          "oof_pred": "contact_information",
+          "oof_conf": 0.567
+        },
+        {
+          "text": "Do you have crutches for sale?",
+          "intent": "pharmacy_query",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.567
+        },
+        {
+          "text": "Who approves billing adjustments?",
+          "intent": "billing_query",
+          "oof_pred": "doctor_search",
+          "oof_conf": 0.564
+        },
+        {
+          "text": "I'm unable to attend so I'm cancelling my appointment",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.562
+        },
+        {
+          "text": "How do I update my phone number in my hospital file?",
+          "intent": "medical_records",
+          "oof_pred": "contact_information",
+          "oof_conf": 0.559
+        },
+        {
+          "text": "Is there an ambulance service for non-emergency transfers?",
+          "intent": "facility_information",
+          "oof_pred": "emergency_assistance",
+          "oof_conf": 0.558
+        },
+        {
+          "text": "Who is allowed to see my health file?",
+          "intent": "medical_records",
+          "oof_pred": "doctor_search",
+          "oof_conf": 0.549
+        },
+        {
+          "text": "Are linen and towels provided?",
+          "intent": "facility_information",
+          "oof_pred": "emergency_assistance",
+          "oof_conf": 0.546
+        },
+        {
+          "text": "Is rescheduling free of charge?",
+          "intent": "appointment_rescheduling",
+          "oof_pred": "billing_query",
+          "oof_conf": 0.545
+        },
+        {
+          "text": "Is there a sleep lab?",
+          "intent": "department_information",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.54
+        },
+        {
+          "text": "Is there a charity scheme for patients who can't afford the bill?",
+          "intent": "billing_query",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.537
+        },
+        {
+          "text": "Is there a trauma centre at this hospital?",
+          "intent": "emergency_assistance",
+          "oof_pred": "department_information",
+          "oof_conf": 0.533
+        },
+        {
+          "text": "What are the rules for attendants after admission?",
+          "intent": "admission_query",
+          "oof_pred": "hospital_timings",
+          "oof_conf": 0.533
+        },
+        {
+          "text": "I want an additional appointment, keep my existing one as it is",
+          "intent": "appointment_booking",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.532
+        },
+        {
+          "text": "Can I speak to someone about my heart?",
+          "intent": "doctor_search",
+          "oof_pred": "contact_information",
+          "oof_conf": 0.532
+        },
+        {
+          "text": "I have the doctor's prescription, where can I buy the tablets?",
+          "intent": "pharmacy_query",
+          "oof_pred": "prescription_query",
+          "oof_conf": 0.525
+        },
+        {
+          "text": "I want to dispute a charge",
+          "intent": "billing_query",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.524
+        },
+        {
+          "text": "Thank you for explaining the discharge process",
+          "intent": "thank_you",
+          "oof_pred": "discharge_query",
+          "oof_conf": 0.522
+        },
+        {
+          "text": "Please void my appointment for Thursday",
+          "intent": "appointment_cancellation",
+          "oof_pred": "appointment_rescheduling",
+          "oof_conf": 0.522
+        },
+        {
+          "text": "What are the charges for an ambulance?",
+          "intent": "billing_query",
+          "oof_pred": "hospital_timings",
+          "oof_conf": 0.521
+        },
+        {
+          "text": "Is insurance verification done at admission?",
+          "intent": "admission_query",
+          "oof_pred": "insurance_query",
+          "oof_conf": 0.518
+        },
+        {
+          "text": "Do you have a vascular surgeon?",
+          "intent": "doctor_search",
+          "oof_pred": "department_information",
+          "oof_conf": 0.514
+        },
+        {
+          "text": "is there a dentist on staff",
+          "intent": "doctor_search",
+          "oof_pred": "facility_information",
+          "oof_conf": 0.504
+        }
+      ]
+    }
+  ],
+  "original_size": 400,
+  "original_per_intent": {
+    "appointment_booking": 20,
+    "appointment_cancellation": 20,
+    "appointment_rescheduling": 20,
+    "doctor_search": 20,
+    "hospital_timings": 20,
+    "emergency_assistance": 20,
+    "billing_query": 20,
+    "insurance_query": 20,
+    "lab_reports": 20,
+    "pharmacy_query": 20,
+    "department_information": 20,
+    "contact_information": 20,
+    "facility_information": 20,
+    "admission_query": 20,
+    "discharge_query": 20,
+    "medical_records": 20,
+    "prescription_query": 20,
+    "greeting": 20,
+    "thank_you": 20,
+    "goodbye": 20
+  },
+  "expansion_candidates": 2134,
+  "enhanced_size": 2509,
+  "enhanced_per_intent": {
+    "appointment_booking": 135,
+    "appointment_cancellation": 133,
+    "appointment_rescheduling": 131,
+    "doctor_search": 131,
+    "hospital_timings": 129,
+    "emergency_assistance": 125,
+    "billing_query": 128,
+    "insurance_query": 128,
+    "lab_reports": 125,
+    "pharmacy_query": 121,
+    "department_information": 127,
+    "contact_information": 124,
+    "facility_information": 122,
+    "admission_query": 122,
+    "discharge_query": 121,
+    "medical_records": 122,
+    "prescription_query": 121,
+    "greeting": 120,
+    "thank_you": 124,
+    "goodbye": 120
+  },
+  "per_intent_by_source": {
+    "admission_query": {
+      "expansion": 103,
+      "original": 19
+    },
+    "appointment_booking": {
+      "expansion": 115,
+      "original": 20
+    },
+    "appointment_cancellation": {
+      "expansion": 113,
+      "original": 20
+    },
+    "appointment_rescheduling": {
+      "expansion": 111,
+      "original": 20
+    },
+    "billing_query": {
+      "expansion": 107,
+      "original": 21
+    },
+    "contact_information": {
+      "expansion": 104,
+      "original": 20
+    },
+    "department_information": {
+      "expansion": 107,
+      "original": 20
+    },
+    "discharge_query": {
+      "expansion": 101,
+      "original": 20
+    },
+    "doctor_search": {
+      "expansion": 111,
+      "original": 20
+    },
+    "emergency_assistance": {
+      "expansion": 105,
+      "original": 20
+    },
+    "facility_information": {
+      "expansion": 102,
+      "original": 20
+    },
+    "goodbye": {
+      "expansion": 100,
+      "original": 20
+    },
+    "greeting": {
+      "expansion": 101,
+      "original": 19
+    },
+    "hospital_timings": {
+      "expansion": 108,
+      "original": 21
+    },
+    "insurance_query": {
+      "expansion": 107,
+      "original": 21
+    },
+    "lab_reports": {
+      "expansion": 105,
+      "original": 20
+    },
+    "medical_records": {
+      "expansion": 102,
+      "original": 20
+    },
+    "pharmacy_query": {
+      "expansion": 103,
+      "original": 18
+    },
+    "prescription_query": {
+      "expansion": 101,
+      "original": 20
+    },
+    "thank_you": {
+      "expansion": 104,
+      "original": 20
+    }
+  }
+}
