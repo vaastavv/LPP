@@ -1,0 +1,17 @@
+{
+  "model_name": "SamLowe/roberta-base-go_emotions",
+  "aggregation": "max",
+  "neutral_override_threshold": 0.25,
+  "min_confidence": 0.10,
+  "default_group": "neutral",
+  "groups": {
+    "positive": [
+      "admiration", "amusement", "approval", "caring", "desire", "excitement",
+      "gratitude", "joy", "love", "optimism", "pride", "relief"
+    ],
+    "neutral": ["neutral", "curiosity", "realization", "surprise", "confusion"],
+    "sadness": ["sadness", "grief", "disappointment", "remorse", "embarrassment"],
+    "fear": ["fear", "nervousness"],
+    "anger": ["anger", "annoyance", "disapproval", "disgust"]
+  }
+}

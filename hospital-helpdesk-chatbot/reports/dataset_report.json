@@ -1,0 +1,52 @@
+{
+  "input": "intents.csv",
+  "raw_rows": 2100,
+  "missing_values": {
+    "text": 0,
+    "intent": 0
+  },
+  "rows_dropped_missing": 0,
+  "unknown_labels": [],
+  "absent_labels": [],
+  "exact_duplicates": 0,
+  "near_duplicates": 0,
+  "label_conflict_rows": 0,
+  "imbalance": {
+    "class_counts": {
+      "appointment_booking": 150,
+      "appointment_cancellation": 150,
+      "appointment_rescheduling": 150,
+      "billing_query": 150,
+      "contact_information": 150,
+      "doctor_search": 150,
+      "emergency_assistance": 150,
+      "goodbye": 150,
+      "greetings": 150,
+      "hospital_timings": 150,
+      "insurance_query": 150,
+      "lab_reports": 150,
+      "pharmacy_query": 150,
+      "thank_you": 150
+    },
+    "imbalance_ratio": 1.0,
+    "is_balanced": true
+  },
+  "text_stats": {
+    "n_rows": 2100,
+    "n_intents": 14,
+    "words_min": 1,
+    "words_mean": 9.07,
+    "words_max": 33
+  },
+  "leakage": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "splits": {
+    "train": 1470,
+    "val": 315,
+    "test": 315,
+    "seed": 42
+  }
+}

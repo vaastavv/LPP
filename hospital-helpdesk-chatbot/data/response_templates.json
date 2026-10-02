@@ -1,0 +1,100 @@
+{
+  "appointment_booking": {
+    "positive": "Wonderful, I'd be happy to help you book an appointment! You can book instantly on our patient portal ({patient_portal}), call {helpline}, or message us on WhatsApp at {whatsapp}. Please share the department or doctor you'd like to see and your preferred date and time.",
+    "neutral": "Sure, I can help you book an appointment. Please tell me the department or doctor you wish to consult and your preferred date and time. You can also book through {patient_portal} or by calling {helpline}. OPD hours are {opd_hours}.",
+    "sadness": "I'm sorry you're not feeling well, and I'll do my best to get you seen soon. Please share the doctor or specialty you need and a convenient date, and I'll look for the earliest available slot. You can also call {helpline} and our team will assist you personally.",
+    "fear": "I understand this may feel worrying, and you're doing the right thing by reaching out. Let's get you an appointment as early as possible - please share the specialty or doctor and your preferred time. If your symptoms are severe or getting worse, please don't wait: call {emergency_number} or visit our 24x7 Emergency department.",
+    "anger": "I'm sorry for any trouble you've had while trying to book an appointment - that shouldn't happen. Let me help you right away. Please share the doctor or department and your preferred date, or call our priority helpline {helpline} and a coordinator will confirm your booking directly."
+  },
+  "appointment_cancellation": {
+    "positive": "No problem at all! You can cancel your appointment on {patient_portal} under 'My Appointments', or share your appointment ID / registered mobile number with me. We hope to see you again whenever you need us.",
+    "neutral": "I can help you cancel your appointment. Please share your appointment ID or registered mobile number along with the date of the appointment. Cancellations made at least 4 hours before the slot are eligible for a full refund of any advance paid.",
+    "sadness": "I'm sorry to hear you need to cancel - I hope everything is alright. Please share your appointment ID or registered mobile number and I'll take care of it. Whenever you're ready, we'll be glad to help you book a new appointment.",
+    "fear": "Please don't worry, cancelling is simple and there's no penalty for most appointments. Just share your appointment ID or registered mobile number and I'll handle it. If you're cancelling because you're unwell and it feels serious, please call {emergency_number} or come to our Emergency department.",
+    "anger": "I'm sorry for the inconvenience. Let's get this cancelled for you right away - please share your appointment ID or registered mobile number. If you were charged an advance, the refund will be processed to your original payment method within 5-7 working days."
+  },
+  "appointment_rescheduling": {
+    "positive": "Of course! Rescheduling is easy. Please share your appointment ID or registered mobile number and the new date and time you prefer, and I'll check the doctor's availability. You can also reschedule anytime on {patient_portal}.",
+    "neutral": "I can help you reschedule. Please share your appointment ID or registered mobile number, along with your preferred new date and time. Rescheduling is free if done at least 4 hours before your current slot.",
+    "sadness": "I understand plans change, and that's completely okay. Please share your appointment ID and the date and time that work better for you, and I'll find the closest available slot with your doctor.",
+    "fear": "Please don't worry - your appointment won't be lost. Share your appointment ID and the new date and time you prefer, and I'll move it for you. If your symptoms are worsening and you feel you shouldn't wait, please visit our Emergency department or call {emergency_number}.",
+    "anger": "I'm sorry for the hassle with your appointment. Let me fix this quickly - please share your appointment ID and your preferred new date and time. If it's easier, call {helpline} and a coordinator will reschedule it for you on priority."
+  },
+  "doctor_search": {
+    "positive": "Happy to help you find the right doctor! Please tell me the specialty or the doctor's name, and I'll share their OPD days, timings and consultation fee. You can also browse all our doctors' profiles on {website}.",
+    "neutral": "I can help you find a doctor. Please share the specialty you need or the doctor's name, and I'll provide their availability, qualifications and consultation fee. If you're unsure which specialist to see, describe your symptoms and I'll guide you.",
+    "sadness": "I'm sorry you're going through this. Let's find the right doctor for you. Please tell me your symptoms or the specialty you need, and I'll suggest an experienced specialist with the earliest availability.",
+    "fear": "I understand that health concerns can be worrying. Our specialists are experienced and caring, and we'll make sure you're in good hands. Tell me your symptoms or the specialty you need and I'll suggest the right doctor. If it feels urgent, please go straight to our Emergency department or call {emergency_number}.",
+    "anger": "I'm sorry if finding the right doctor has been frustrating. Let me make this easy for you - share the specialty or doctor's name and I'll give you their exact availability. You can also call {helpline} to speak with our patient coordinator."
+  },
+  "hospital_timings": {
+    "positive": "Glad you asked! Our OPD runs {opd_hours} and {sunday_hours}. Emergency, pharmacy and ambulance services are available 24x7. Visiting hours are {visiting_hours}.",
+    "neutral": "Here are our timings: OPD - {opd_hours}; {sunday_hours}. Laboratory - {lab_hours}. Pharmacy - {pharmacy_hours}. Visiting hours - {visiting_hours}. The Emergency department is open 24x7.",
+    "sadness": "I hope you and your loved ones are doing okay. Our OPD is open {opd_hours} and {sunday_hours}. Visiting hours for admitted patients are {visiting_hours}. Our Emergency department is always open, 24x7, if you need us.",
+    "fear": "Please don't worry - our Emergency department is open 24 hours a day, every day, so help is always available. For regular consultations, the OPD runs {opd_hours} and {sunday_hours}. If this is urgent, please come directly to Emergency or call {emergency_number}.",
+    "anger": "I'm sorry for any confusion about our timings. To be clear: OPD - {opd_hours}; {sunday_hours}; Lab - {lab_hours}; Pharmacy - {pharmacy_hours}; Emergency - 24x7. If you were turned away within these hours, please tell us so we can look into it."
+  },
+  "emergency_assistance": {
+    "positive": "For any medical emergency, please call {emergency_number} for an ambulance or our emergency line {hospital_emergency_line}. Our Emergency department at {address} is open 24x7 with trauma and critical care teams ready to help.",
+    "neutral": "If this is a medical emergency, please call {emergency_number} for an ambulance immediately or our 24x7 emergency line {hospital_emergency_line}. Our Emergency department is located at {address}. Stay with the patient and keep them calm until help arrives.",
+    "sadness": "I'm so sorry you're going through this. Please call {emergency_number} for an ambulance right now, or our emergency line {hospital_emergency_line}. Our emergency team is ready 24x7 at {address}. You're not alone - help is on the way as soon as you call.",
+    "fear": "Please stay calm - help is available right now. Call {emergency_number} for an ambulance immediately, or our emergency line {hospital_emergency_line}. If the person is not breathing or unresponsive, start CPR if you know how and keep them lying flat. Our Emergency department at {address} is open 24x7.",
+    "anger": "I understand this is an extremely stressful situation. Please call {emergency_number} for an ambulance immediately or our direct emergency line {hospital_emergency_line} - they will respond right away. Our Emergency department at {address} is open 24x7 and will attend to you on priority."
+  },
+  "billing_query": {
+    "positive": "Happy to help with your billing question! You can view and pay bills online on {patient_portal}, or visit the billing desk at {billing_desk}. We accept cash, cards, UPI and net banking.",
+    "neutral": "For billing queries, please share your UHID or bill number. You can view itemised bills and pay online on {patient_portal}, or visit the billing desk at {billing_desk}. We accept cash, credit/debit cards, UPI and net banking. For cost estimates, our billing team can be reached at {helpline}.",
+    "sadness": "I understand medical expenses can be a real burden, and I'm sorry you're dealing with this. Please share your UHID or bill number and I'll help you understand the charges. Our billing desk at {billing_desk} can also guide you on payment plans and available assistance.",
+    "fear": "Please don't worry, we'll help you understand everything clearly. Share your UHID or bill number and we'll explain each charge. You can also ask our billing desk at {billing_desk} for an estimate before any procedure, and about EMI options if needed.",
+    "anger": "I'm sorry about the trouble with your bill - I understand how frustrating billing errors can be. Please share your UHID or bill number and the charge in question, and I'll raise it with our billing team for review. Any confirmed excess charge will be refunded within 5-7 working days. You can also email {email}."
+  },
+  "insurance_query": {
+    "positive": "Great question! We are empanelled with most major insurers and TPAs, including government schemes. Visit our TPA desk at {billing_desk} with your insurance card, photo ID and doctor's advice, and our team will initiate cashless approval for you.",
+    "neutral": "We accept most major health insurers and TPAs, including CGHS and other government schemes. For cashless treatment, please bring your insurance card, photo ID, policy details and the doctor's admission advice to the TPA desk at {billing_desk}. For reimbursement, we provide the bills, discharge summary and reports you'll need.",
+    "sadness": "I'm sorry you're having to deal with insurance during a difficult time. Our TPA team will handle as much of the paperwork as possible for you. Please share your insurer name and policy number, or visit the TPA desk at {billing_desk}, and we'll guide you step by step.",
+    "fear": "Please don't worry - our TPA desk handles insurance cases every day and will guide you through the process. Share your insurer name and policy details and we'll check your coverage before treatment. In an emergency, treatment is never delayed for insurance approval.",
+    "anger": "I'm sorry about the difficulty with your insurance claim. Please share your insurer name, policy number and claim reference, and our TPA team will follow up with the insurer on priority. You can also reach the TPA desk at {helpline} or {email}."
+  },
+  "lab_reports": {
+    "positive": "Good news - you can access your lab reports anytime on {patient_portal} using your registered mobile number. Reports are also sent by SMS/WhatsApp once ready. Most routine reports are available within 24 hours.",
+    "neutral": "You can view and download your lab reports on {patient_portal} using your registered mobile number, or collect printed copies from the report counter (lab hours: {lab_hours}). Routine blood tests are usually ready within 24 hours; imaging and specialised tests may take 2-5 days.",
+    "sadness": "I understand waiting for results can be hard. Please share your UHID or sample ID and I'll check the status of your report. Once ready, your doctor can also explain the results to you during a follow-up consultation.",
+    "fear": "I understand that waiting for test results can make you anxious - that's completely natural. Please share your UHID or sample ID and I'll check the status. Your doctor will go through the results with you and explain everything clearly. If you feel unwell in the meantime, please contact {hospital_emergency_line}.",
+    "anger": "I'm sorry your report has been delayed - I understand how frustrating that is. Please share your UHID or sample ID and I'll escalate it to the lab on priority. You can also call {helpline} for an immediate status update."
+  },
+  "pharmacy_query": {
+    "positive": "Happy to help! Our in-house pharmacy is open {pharmacy_hours} on the ground floor. You can also send your prescription on WhatsApp at {whatsapp} for availability checks and home delivery.",
+    "neutral": "Our pharmacy is open {pharmacy_hours}. Please share the medicine name and strength to check availability, or send your prescription on WhatsApp at {whatsapp}. Prescription medicines are dispensed only against a valid doctor's prescription. Home delivery is available within the city.",
+    "sadness": "I'm sorry you're unwell. Let's make sure you get your medicines without any hassle. Please share the medicine name or your prescription on WhatsApp at {whatsapp}, and our pharmacist will check availability and arrange delivery if needed.",
+    "fear": "Please don't worry, our pharmacists are here to help {pharmacy_hours}. Share the medicine name or your prescription and we'll confirm availability. If you have questions about dosage or side effects, our pharmacist can guide you - and if you've had a reaction to a medicine, please contact {hospital_emergency_line} right away.",
+    "anger": "I'm sorry for the trouble with your medicines. Please share the details of the issue - the medicine name and your bill or prescription - and our pharmacy in-charge will resolve it on priority. You can also call {helpline}."
+  },
+  "contact_information": {
+    "positive": "Sure! You can reach us at: Helpline {helpline}, WhatsApp {whatsapp}, Email {email}. Our address is {address}. We look forward to helping you!",
+    "neutral": "Here are our contact details: Helpline - {helpline}; WhatsApp - {whatsapp}; Email - {email}; Emergency - {hospital_emergency_line}. Address - {address}. Website - {website}.",
+    "sadness": "I'm here for you. You can talk to our patient care team anytime on {helpline}, or message us on WhatsApp at {whatsapp}. Our address is {address}. Please don't hesitate to reach out.",
+    "fear": "Help is always within reach. For emergencies, call {emergency_number} or our emergency line {hospital_emergency_line} (24x7). For other queries, call our helpline {helpline} or WhatsApp {whatsapp}. We are located at {address}.",
+    "anger": "I'm sorry you've had difficulty reaching us. For immediate help, please call {helpline} or WhatsApp {whatsapp}. To raise a complaint, email {email} - our patient relations team responds within 24 hours."
+  },
+  "greetings": {
+    "positive": "Hello and welcome to {hospital_name}! It's lovely to hear from you. I can help with appointments, doctors, timings, reports, billing, insurance and more. How can I help you today?",
+    "neutral": "Hello! Welcome to the {hospital_name} helpdesk. I can help you with appointments, finding doctors, hospital timings, lab reports, billing, insurance and pharmacy queries. How may I assist you?",
+    "sadness": "Hello, and welcome to {hospital_name}. I'm sorry if you're having a tough day - I'm here to help in any way I can. Please tell me what you need.",
+    "fear": "Hello, welcome to {hospital_name}. Please don't worry, you're in the right place and I'm here to help. If this is an emergency, call {emergency_number} right away. Otherwise, tell me how I can assist you.",
+    "anger": "Hello, welcome to {hospital_name}. I'm sorry if something has upset you - I'm here to help sort it out. Please tell me what happened and how I can assist."
+  },
+  "thank_you": {
+    "positive": "You're most welcome! It was a pleasure helping you. Wishing you good health - feel free to reach out anytime.",
+    "neutral": "You're welcome! Is there anything else I can help you with?",
+    "sadness": "You're very welcome. I hope things get better soon - please take care of yourself, and remember we're here whenever you need us.",
+    "fear": "You're welcome. Please don't hesitate to reach out again if you have any concerns - our team is here 24x7, and for emergencies you can always call {emergency_number}.",
+    "anger": "Thank you for your patience, and I'm sorry again for any inconvenience. If anything still isn't resolved, please let me know or email {email} and we'll make it right."
+  },
+  "goodbye": {
+    "positive": "Goodbye, and thank you for choosing {hospital_name}! Have a wonderful day and stay healthy.",
+    "neutral": "Goodbye! Thank you for contacting {hospital_name}. Feel free to come back anytime you need help.",
+    "sadness": "Take care of yourself. I hope you feel better soon - we're always here if you need us. Goodbye.",
+    "fear": "Goodbye, and please take care. Remember, our Emergency department is open 24x7 and you can call {emergency_number} anytime you need urgent help.",
+    "anger": "Goodbye. I'm sorry if your experience wasn't what you expected - your feedback matters to us. Please share it at {email} so we can do better."
+  }
+}

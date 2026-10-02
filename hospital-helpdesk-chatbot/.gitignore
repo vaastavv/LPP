@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Trained weights & checkpoints are build artifacts: reproduce with `make train`
+!/models/
+models/*
+!models/intent_classifier/
+models/intent_classifier/*
+!models/intent_classifier/.gitkeep
+
+# Generated evaluation outputs (dataset_report.json is kept)
+reports/*
+!reports/dataset_report.json
+
+.streamlit/secrets.toml
+*.mp3
+*.wav

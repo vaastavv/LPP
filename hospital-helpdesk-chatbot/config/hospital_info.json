@@ -1,0 +1,17 @@
+{
+  "hospital_name": "City Care Hospital",
+  "emergency_number": "108",
+  "hospital_emergency_line": "+91-11-4000-1111",
+  "helpline": "+91-11-4000-2222",
+  "whatsapp": "+91-98100-00000",
+  "email": "helpdesk@citycarehospital.example",
+  "address": "12 Ring Road, New Delhi 110001",
+  "website": "www.citycarehospital.example",
+  "patient_portal": "portal.citycarehospital.example",
+  "opd_hours": "Monday to Saturday, 8:00 AM to 8:00 PM",
+  "sunday_hours": "Sunday, 9:00 AM to 1:00 PM (limited OPD)",
+  "visiting_hours": "11:00 AM to 1:00 PM and 5:00 PM to 7:00 PM",
+  "pharmacy_hours": "24 hours, 7 days a week",
+  "lab_hours": "7:00 AM to 9:00 PM daily",
+  "billing_desk": "Ground floor, Block A (counter 4-6)"
+}
