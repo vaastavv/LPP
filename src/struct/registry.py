@@ -17,7 +17,6 @@ CODE_MODELS = {
     "qwen25c-3b":   "Qwen/Qwen2.5-Coder-3B",
     "deepseek-1.3b": "deepseek-ai/deepseek-coder-1.3b-base",
     "starcoder2-3b": "bigcode/starcoder2-3b",
-    "codegen-2b":   "Salesforce/codegen-350M-mono",  # small stand-in; swap up
 }
 
 # Static metadata keyed by model id OR short key.

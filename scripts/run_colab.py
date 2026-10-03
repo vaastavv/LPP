@@ -29,6 +29,17 @@ from src.model_runner import ModelRunner
 OUT = os.path.join(config.RESULTS_DIR, "struct")
 
 
+def _purge(model_id: str):
+    """Delete a model's Hugging Face cache folder to free disk between runs."""
+    import shutil
+    from pathlib import Path
+    hub = Path(os.environ.get("HF_HOME", Path.home() / ".cache" / "huggingface")) / "hub"
+    folder = hub / ("models--" + model_id.replace("/", "--"))
+    if folder.exists():
+        shutil.rmtree(folder, ignore_errors=True)
+        print(f"  purged cache: {folder}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--models", nargs="*", default=list(CODE_MODELS),
@@ -36,6 +47,8 @@ def main():
     ap.add_argument("--skip-downstream", action="store_true")
     ap.add_argument("--max-new-tokens", type=int, default=128)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--purge-cache", action="store_true",
+                    help="delete each model's HF cache after profiling (saves disk)")
     args = ap.parse_args()
 
     os.makedirs(OUT, exist_ok=True)
@@ -63,6 +76,8 @@ def main():
             print(f"  downstream: {d['scores']}")
 
         del runner  # free memory before the next model
+        if args.purge_cache:
+            _purge(model_id)
 
     # build everything
     os.system(f"{sys.executable} {os.path.join(config.ROOT, 'run_tables.py')}")
