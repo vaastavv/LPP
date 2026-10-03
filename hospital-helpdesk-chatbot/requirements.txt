@@ -1,0 +1,23 @@
+# Python 3.11+
+# --- Core ML ---
+torch>=2.2
+transformers>=4.46,<5.0      # Trainer(processing_class=...), eval_strategy
+accelerate>=0.33
+datasets>=2.20
+evaluate>=0.4.2
+sentencepiece>=0.2.0
+scikit-learn>=1.4
+pandas>=2.1
+numpy>=1.26
+matplotlib>=3.8              # confusion-matrix plot
+
+# --- Voice & translation ---
+openai-whisper>=20240930     # speech-to-text (requires ffmpeg on the system)
+gTTS>=2.5
+deep-translator>=1.11
+
+# --- App ---
+streamlit>=1.40              # st.audio_input
+
+# --- Dev ---
+pytest>=8.0

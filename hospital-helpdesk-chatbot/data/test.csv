@@ -1,0 +1,316 @@
+text,intent
+Can you fix an appointment in cardiology for Tuesday 11:30?,appointment_booking
+"hey there, please confirm a booking with dr. thomas for my father :)",appointment_booking
+I tried the website but could not understand the process. Do you have amoxicillin in stock?,pharmacy_query
+What part of the billl will insurnce not cover?,insurance_query
+Appointment booking for dentist please,appointment_booking
+"Respected helpdesk, Whom should I call for my brother's admission enquiry?",contact_information
+How long does the covvid test repport take?,lab_reports
+yo my bill has a wrong charge for lipid profile yaar,billing_query
+"I am 72 years old, i don't need the appointment anymore, please cancel it I cannot see the screen very well.",appointment_cancellation
+Which physiotherapist is available Saturday?,doctor_search
+"Hello, anybody available? my child.",greetings
+Whre is the emerncy ward?,emergency_assistance
+is inhaler available in ur pharmacy ??,pharmacy_query
+is the hospital open during diwali fr,hospital_timings
+What are the timings of cardiology?,hospital_timings
+"That was helpful, thnaks",thank_you
+Please confirm a booking with Dr. Fernandes for my sister Please reply fast!!,appointment_booking
+Later,goodbye
+What are your working hours on this weekend?,hospital_timings
+Do you have a feale dentist?,doctor_search
+"ASAP: My father can't breathe properly, need help now",emergency_assistance
+can someone else collect my reports on my behalf fr,lab_reports
+"Bye, see you at the hosptil",goodbye
+Good night,goodbye
+"hey there, i need to refill my prescription for pain killers thx",pharmacy_query
+Need the bill breakdown for my friend's treatment,billing_query
+Hey,greetings
+Helol sir,greetings
+r appointments open for dr. gupta this week,appointment_booking
+"Help, my neighbour fell down the stairs and is not responding",emergency_assistance
+Morning!,greetings
+"Beta, i have not received my report yet",lab_reports
+Hi there,greetings
+cahlo bye!!,goodbye
+"Hello madam, I am an old lady and my policy is with my mediclaim, can I get cashless admission? Please explain slowly.",insurance_query
+umm how do i access old reports from last year bro,lab_reports
+I want to change the doctor and date for my appointment,appointment_rescheduling
+"great, thanks ya",thank_you
+Hey beta.,greetings
+Godbye,goodbye
+I am writing to enquire. Need cough syrup,pharmacy_query
+"Bye, have a good evening",goodbye
+Wihch department handles skin rash?,doctor_search
+Greetings. Is there a WhatsApp number for the hospital?,contact_information
+hi bot yaar,greetings
+quick q - price of vitamin d test ?,billing_query
+"I can't make it today, can we reschedule?",appointment_rescheduling
+Do you have any eye specialist visiting the 15th 11:30?,doctor_search
+"I lost my lab report, can I get a duplicate? It's urgent!",lab_reports
+Thanks for helping my friend,thank_you
+"Hello, anybody available?",greetings
+"ok that's it, goodbye rn",goodbye
+Is it possible to see Dr. Thomas Monday without waiting too long? I want to book,appointment_booking
+shifted to morning,appointment_rescheduling
+Shift my booking with the pediatrician to tomorrow,appointment_rescheduling
+I am coming from another city so I need to plan my travel. Is my grandmother's X-ray report available? Thank you in advance.,lab_reports
+Insurancce claim status plase,insurance_query
+"Excuse me, My insurance claim was rejected, what should I do?",insurance_query
+When can I visit my grandmoter in the ward?,hospital_timings
+"Please drop my slot with Dr. Fernandes, I am feeling better now",appointment_cancellation
+my husband fainted and is not waking up 😅,emergency_assistance
+Can I get a GST invoce for the treatment?,billing_query
+I would be grateful if you could help. Please change my appointment to Wednesday 10 am,appointment_rescheduling
+Till what time is the physiotherapy open? Need help right now.,hospital_timings
+I would be grateful if you could help. Is there a WhatsApp number for the hospital?,contact_information
+Kindly book an OPD appointment with the physiotherapist,appointment_booking
+"Dear team, Thank you for the quick response.",thank_you
+Allvida,goodbye
+Can you fix an appointement in patholoy lab for tomorow afternoon?,appointment_booking
+Urgent - What are the consultation charges for a physiotherapist?,billing_query
+Is it possible to see Dr. Fernandes this weekend without waiting too long? I want to book,appointment_booking
+quick q - give me the helpline number bro,contact_information
+My grandson told me to message here. which doctor treats chest congestion in my baby? Please explain slowly.,doctor_search
+I am looking for a kidney specialist,doctor_search
+when does the phhysiotherapy cloes,hospital_timings
+"thank u, u were very helpful fr",thank_you
+Is there a generic alternative for metformin?,pharmacy_query
+I have been trying to call the reception since morning but nobody picks up. I want to book an appointment with a neurologist Please let me know the process.,appointment_booking
+"quick q - get me an appoimnent for my son, she has chest congestion pls",appointment_booking
+I think my husband is having a heart attack,emergency_assistance
+"hey get me an appointment for my friend, she has high sugar thx",appointment_booking
+Can I buy metformin without a prescription?,pharmacy_query
+"I am 72 years old, is there a cancellation fee if I cancel my appointment with Dr. Banerjee? I cannot see the screen very well.",appointment_cancellation
+I have been trying to call the reception since morning but nobody picks up. What is the reception number?,contact_information
+"Thank you, God bless you",thank_you
+"Something came up, I have to cancel my Tuesday appointment I would appreciate your guidance.",appointment_cancellation
+"We are travelling, cancel my grandfather's visit with the diabetologist",appointment_cancellation
+yo can you send my reports by email :),lab_reports
+Why is my bill so high?,billing_query
+Can you push my appointment in pediatrics to Saturday?,appointment_rescheduling
+My faimly doc referred me to your hospitel. Whiich docter should I see for ear pain?,doctor_search
+why is my bill so high rn,billing_query
+thx for the update,thank_you
+"There has been an accident, we need emergency help urgent!!!",emergency_assistance
+Do you have parking at the hospital?,contact_information
+which bus goes to ur hospital pls,contact_information
+"I am stuck at work, can my todya appointement be shifted to evening?",appointment_rescheduling
+What is the hospital address? It's urgent!,contact_information
+"Dear team, Alvida.",goodbye
+URGENT: What time can I come for my ECG?,hospital_timings
+Thanks for the update my child.,thank_you
+Thanks for booking it,thank_you
+What is the price of thyroxine?,pharmacy_query
+I was here last month for a checkup and the staff were very kind. Can I pay the bill online? Please let me know the process.,billing_query
+who is the head of pathology lab rn,doctor_search
+"Hello, I am a senior citizen and when does Dr. Nair sit in the clinic?",doctor_search
+"Beta, can I get an itemiized billll for my stay?",billing_query
+I would like to cancel my scheduled visit in cardiology,appointment_cancellation
+Hello madam beta.,greetings
+"Good afternoon, Can I get an appointment for Tuesday evening?",appointment_booking
+"Respected sir, No more questions, bye.",goodbye
+How do I acceess old repotrs from last year?,lab_reports
+I am an existing patient and my UHID is with me. Report status for sample given tomorrow Please let me know the process.,lab_reports
+URGENT: Swap my appointment to next week 11:30 if available,appointment_rescheduling
+time does the opd open,hospital_timings
+"Excuse me, I need the final bill for discharge",billing_query
+I want a copy of my hosptl bil,billing_query
+Need to change my slot from afternoon to evening,appointment_rescheduling
+How much will the liver function test cost?,billing_query
+My liver function test report is delayed,lab_reports
+"Respected helpdesk, Please cancel all my upcoming appointments",appointment_cancellation
+Can I move my appointment from the 15th to another day?,appointment_rescheduling
+"Emergency contact number please, it's urgent",emergency_assistance
+Timings of pediatrics on Saturday?,hospital_timings
+I am an existing patient and my UHID is with me. How can I reach the patient relations team? What should I do?,contact_information
+Kindly reschedule my grandfather's visit with Dr. Fernandes,appointment_rescheduling
+"hallo, nice to meet u fr",greetings
+"First time patient here, how do I get an appointment with Dr. Khan?",appointment_booking
+How can I reach the patient relations team? Please reply fast!!,contact_information
+"Dear team, Hey assistant.",greetings
+gudbye and take care,goodbye
+I am an existing patient and my UHID is with me. I paid but didn't receive the receipt Please let me know the process.,billing_query
+Is the emergency department open now?,emergency_assistance
+"I am an existing patient and my UHID is with me. Something came up, I have to cancel my Saturday appointment",appointment_cancellation
+Can the doctor review my ECG report online?,lab_reports
+"How should I take the prescribed antibiotics, can the pharmacist explain?",pharmacy_query
+"Hello, I am a senior citizen and what is the consultation fee of Dr. Nair? My hearing is weak so please write it.",doctor_search
+from last year,lab_reports
+Can the doctor review my ultrasound report online?,lab_reports
+Is OPD consuultaion coverde by my TPA?,insurance_query
+Do you accept CGHS?,insurance_query
+Shift my booking with the pulmonologist to Tuesday Need help right now.,appointment_rescheduling
+X-ray report ready?,lab_reports
+"ASAP: Someone is unconscious, what should I do?",emergency_assistance
+I was here last month for a checkup and the staff were very kind. Can I prepone my appointment to the 15th?,appointment_rescheduling
+I am an existing patient and my UHID is with me. Contact details of the pharmacy please What shoould I do?,contact_information
+close the chat rn,goodbye
+quick q - can i pick up my wife's medicines ?,pharmacy_query
+Good nght,goodbye
+need the prescribed antibiotics,pharmacy_query
+"Good afternoon, My child swallowed something and is choking",emergency_assistance
+yo what time can i come for my blodo test :),hospital_timings
+Withdraw my appointment for day after tomorrow please,appointment_cancellation
+cancel appt pls,appointment_cancellation
+cancel the appt i booked with the psychiatrist fr,appointment_cancellation
+I want to reschedule my appointment with Dr. Thomas,appointment_rescheduling
+Can I send my prescription on WhatsApp to the pharmacy?,pharmacy_query
+hi is there a senior diabetologist who speaks hindi yaar,doctor_search
+"My appointment on Friday afternoon is not needed, cancel it",appointment_cancellation
+How can I rach the patient relations team?,contact_information
+"Respected helpdesk, Which bus goes to your hospital?",contact_information
+I am looking for a pulmonologist,doctor_search
+Do you acceept credit cards and UPI?,billing_query
+"Something came up, I have to cancel my Monday appointment",appointment_cancellation
+do u have any psychiatrist visiting tuesday 10 am ??,doctor_search
+thanks for helping my daughter 🙏,thank_you
+the tpa desk,insurance_query
+"Respected helpdesk, Phone number of the cardiology?",contact_information
+Can I pick up my husband's medicines?,pharmacy_query
+Many thanks dear.,thank_you
+Do you accept ECHS?,insurance_query
+"helo, who am I speakig with?",greetings
+r u open on sundays and public holidays fr,hospital_timings
+Thanks for helping my mother,thank_you
+how do i reach the hospital from the railway station fr,contact_information
+ok so swap my appointment to friday after 5 pm if available ?,appointment_rescheduling
+Thank you for your patience,thank_you
+heyy yaar,greetings
+Thanks buddy,thank_you
+for reimbursement claims,insurance_query
+When can I visit my father in the ward?,hospital_timings
+Could you kindly assist: What part of the bill will insurance not cover?,insurance_query
+I have been trying to call the reception since morning but nobody picks up. When does the billing department close? What should I do?,hospital_timings
+Could you help me schedule a video consultation with Dr. Thomas? urgent!!!,appointment_booking
+My brother is having a seizure right now!!,emergency_assistance
+umm do you deliver medicines at home yaar,pharmacy_query
+Can you canell the follow up with Dr. Fernandes?,appointment_cancellation
+I need to call off my visit on Thursday after 5 pm Please reply fast!!,appointment_cancellation
+Can you cancel the follow up with Dr. Fernandes?,appointment_cancellation
+"I tried the website but could not understand the process. Please drop my slot with Dr. Kapoor, I am feeling better now Thank you in advance.",appointment_cancellation
+is the tpa desk,insurance_query
+I would be grateful if you could help. Is Dr. Banerjee still practicing at your hospital?,doctor_search
+Can I buy insulin without a prescription?,pharmacy_query
+Is OPD open in the after 5 pm?,hospital_timings
+"My doctor prescribed inhaler, where can I get it?",pharmacy_query
+chalo bye ya,goodbye
+Need my BP tablets,pharmacy_query
+Can I pay the billl online?,billing_query
+quick q - timings of orthopedics on tuesday yaar,hospital_timings
+Hey assistant dear.,greetings
+Can relatives visit at night?,hospital_timings
+My child swallowed something and is choking,emergency_assistance
+"hey there, is cashless treatment available with cghs :)",insurance_query
+Is my treatment covered under New India Assurance?,insurance_query
+yo yaar,greetings
+"Bye, have a good evenign",goodbye
+How can I contact the emergancy ward?,contact_information
+"Thank you, God bless you beta.",thank_you
+"Respected sir, See you later.",goodbye
+my child swallowed something and is choking rn,emergency_assistance
+"Hello madam, I am an old lady and is the hospital empanelled with my mediclaim?",insurance_query
+thx for ur help rn,thank_you
+I am coming from another city so I need to plan my travel. What time can I come for my vitamin D test? What should I do?,hospital_timings
+"Beta, can I get an itemized bill for my stay?",billing_query
+Who is the head of billing department?,doctor_search
+"How should I take amoxicillin, can the pharmacist explain?",pharmacy_query
+really grateful for your help yaar,thank_you
+change appt date pls fr,appointment_rescheduling
+May I requets your assistance? What is the cost of a room per day?,billing_query
+"Dear team, Hi, how does this work?.",greetings
+"I would be grateful if you could help. My insurance claim was rejected, what should I do?",insurance_query
+"Dear team, Hello, nice to meet you.",greetings
+thx for the update rn,thank_you
+Greetings. Is there a toll free number?,contact_information
+hiiii fr,greetings
+do u stock imported medicines,pharmacy_query
+I tried the website but could not understand the process. How long does cashless approval take?,insurance_query
+Cath you laater,goodbye
+Send an ambulance to my house quickly,emergency_assistance
+is the hospital open during diwali pls,hospital_timings
+cancel my ecg appt scheduled for tmrw ??,appointment_cancellation
+"My brother has very high fever and is shivering badly, it's an emergency I would appreciate your guidance.",emergency_assistance
+yo what is your email address asap,contact_information
+I have been trying to call the reception since morning but nobody picks up. Kindly book an OPD appoinment with the psychiatrist pls let me know the process.,appointment_booking
+Namaskar,greetings
+Need paracetamol,pharmacy_query
+"Hi, God bless.",greetings
+Insurance claim status please,insurance_query
+List of ENT specialist doctors in the hospital,doctor_search
+Please give me another date for my appointment with Dr. Sharma,appointment_rescheduling
+What is the consultation fee of Dr. Iyer?,doctor_search
+morning ya,greetings
+What part of the bill will insurance not cover?,insurance_query
+Withdraw my appointment for this weekend please,appointment_cancellation
+"Respected sir, I appreciate your help.",thank_you
+My MRI report is delayed Kindly do the needful.,lab_reports
+Need liver function test rprot urgently for my dr,lab_reports
+How do I reshedule an appointment?,appointment_rescheduling
+When does the billing counter close? Please reply fast!!,hospital_timings
+Hi,greetings
+Does ECHS cover the cost of CT scan?,insurance_query
+My family doctor reefrred me to your hospitel. Is OPD consultation covered by ICICI Lombard?,insurance_query
+umm report status for sample given monday ?,lab_reports
+"Somebody took too many pills, overdose, please help urgent!!!",emergency_assistance
+"I tried the website but could not understand the process. Somebody took too many pills, overdose, please help Please let me know the process.",emergency_assistance
+thx for ur help pls,thank_you
+"ASAP: Urgent help needed, pregnant woman in labour pain",emergency_assistance
+Change appointment date please urgent!!!,appointment_rescheduling
+cansel the appt I boooked with the physiotherapist,appointment_cancellation
+Do you have a female pediatrician?,doctor_search
+"Okay that's it, goodbye",goodbye
+I want to book an appointment with a psychiatrist,appointment_booking
+Pone no. of the pathology lab?,contact_information
+URGENT: Where is the pharmacy located?,pharmacy_query
+Remove my appointment for Satruday,appointment_cancellation
+"Hello madam, I am an old lady and what is the procss for reimburesment claims?",insurance_query
+Urgent - Can I get a GST invoice for the treatment?,billing_query
+"Respected helpdesk, Who is the best orthopedic in your hospital?",doctor_search
+Greetings. Can you push my appointment in pediatrics to Tuesday?,appointment_rescheduling
+I paid but didn't receve the receipt,billing_query
+Can I get an appointment for today evening?,appointment_booking
+"Close the chat, God bless.",goodbye
+relativs visit at niht,hospital_timings
+I am coming from another city so I need to plan my travel. Can the doctor review my MRI report online? Please let me know the process.,lab_reports
+How long does cashless approval take?,insurance_query
+"Hello dear, can someone else collect my reports on my behalf? Please tell me in simple words.",lab_reports
+Shiift my booking with the ENT specalist to this weekend,appointment_rescheduling
+tnx buddy,thank_you
+is there a cancellation fee if i cancel my appt with dr. fernandes,appointment_cancellation
+Greetings. Need the bill breakdown for my mother's treatment,billing_query
+What is the ambulance number? I would appreciate your guidance.,emergency_assistance
+Will my insurance cover my wife's delivery?,insurance_query
+accept credit cards and upi,billing_query
+Contact details of the radiology please!!,contact_information
+"Hello, I am a senior citizen and how can I reach the patient relations team? Please help this old man.",contact_information
+"Thank you, you were very helpful",thank_you
+URGENT: Need MRI report urgently for my doctor,lab_reports
+"Excuse me young man, is there a generic alternative for the prescribed antibiotics? Please tell me in simple words.",pharmacy_query
+"Hello, I am a senior citizen and give me the helpline number Bless you.",contact_information
+How much will the MRI cost?,billing_query
+May I request your assistance? I want details of doctors in radiology,doctor_search
+"Respected sir, See ya.",goodbye
+Please schedule a visit with the pulmonologist for my grandfather,appointment_booking
+later pls,goodbye
+"Urgent - There has been an accident, we need emergency help",emergency_assistance
+"Hello madam, I am an old lady and when will my thyroid test report be ready? Please help this old man.",lab_reports
+"My chest congestion is not going away, I want to book a docter",appointment_booking
+"Rspected sir, Talk to you later.",goodbye
+Have a nice day,goodbye
+"Ecuse me young man, how can I downlod my lab reports?",lab_reports
+"Beta, burn injury from hot oil, need emergency treatment Please help this old man.",emergency_assistance
+Okay tahnk you,thank_you
+"Something came up, I have to cancle my Tuesday appt",appointment_cancellation
+"Somebody took too many pills, overdose, please help pleas reply fast!!",emergency_assistance
+"hey there, can i get an itemized bill for my stay :)",billing_query
+with a orthopedic,appointment_booking
+can i prepone my appt to next week 😅,appointment_rescheduling
+"Excuse me, Snake bite emergency, what to do?",emergency_assistance
+Give me the helpline number,contact_information
+"Excuse me young man, is it possible to see Dr. Patel tomorrow without waiting too long? I want to book Please tell me in simple words.",appointment_booking
+"Quickly please, What time does the evening OPD start?",hospital_timings
+I am coming from another city so I need to plan my travel. What are the hospital timings? Please let me know the process.,hospital_timings
+prescribed antibiotics avail in your farmacy,pharmacy_query
+am looking for a psychiatrist,doctor_search
+a doctor for back pain,doctor_search
