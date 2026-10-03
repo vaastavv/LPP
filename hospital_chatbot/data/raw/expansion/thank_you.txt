@@ -1,0 +1,109 @@
+# Curated expansion for thank_you. Theme: expressing thanks/appreciation.
+Thank you, that's very kind
+Thanks so much for the help
+Thanks a million
+Thank you kindly
+Thanks heaps
+Thanks loads
+Thanks, really appreciate it
+Really appreciate your help
+I really appreciate this
+I appreciate the quick response
+Thanks for the quick reply
+Thanks for being so patient with me
+Thank you for your time
+Thanks for your time today
+Thank you for explaining
+Thanks for explaining it so clearly
+Thanks for the details
+Thank you for the update
+Thanks for letting me know
+Thanks for confirming
+Thanks for checking
+Thank you for checking on that
+That helps, thanks
+That's helpful, thank you
+That was really useful, thanks
+Perfect, thanks
+Awesome, thanks!
+Great, thanks a lot
+Wonderful, thank you
+Excellent, thank you so much
+Okay thanks
+Ok thank you
+ok thx
+ty
+tysm
+thnx
+thanx a lot
+thank u
+thank u so much
+Tq
+Thank you very much for the information
+Thanks for the info
+Thank you for helping my mother
+Thank you for helping my family
+Thank you for taking care of my father
+Thank you for your kindness
+Thank you, you've been a great help
+You've been a lifesaver, thank you
+You're the best, thanks
+Bless you, thank you
+God bless you for helping
+I'm so grateful, thank you
+Many many thanks
+A big thank you
+Thank you, everything is clear now
+Thanks, that answers my question
+Thanks, that's exactly what I needed
+Thanks, that solved my problem
+Thanks, I'll do that
+Thanks, I'll follow those steps
+Thank you, I understand now
+Thanks for sorting that out
+Thanks for arranging everything
+Thanks for the support
+Thanks for the assistance
+Thank you for the assistance
+Thank you for your guidance
+Thanks for guiding me
+Thanks for the help with the booking
+Thank you for cancelling it for me
+Thanks for moving my appointment
+Thanks for the reminder
+Thanks, you've been very kind
+Thanks a bunch
+Thank you, I'm relieved
+Thank you so much, that's a relief
+Thank you for being so helpful
+Thanks for responding so fast
+Thank you for answering my questions
+Thank you doctor
+Thank you nurse
+Thanks to the whole team
+Please thank the staff for me
+I want to thank the hospital staff
+My thanks to everyone who helped
+Shukriya
+Dhanyavaad
+Nandri
+Gracias
+Merci
+Thank you for the wonderful care
+Thanks for the excellent service
+Much obliged
+I owe you one, thanks
+Cheers mate
+Cheers for that
+# --- hard negatives / boundary examples ---
+Thanks for helping me book the appointment
+Thank you for finding the right doctor for me
+Thanks for the information about the bill
+Thanks for telling me the visiting hours
+Thanks, that's all the help I needed with my reports
+Thank you for explaining the discharge process
+Thanks for the insurance details
+Thank you, the directions were very helpful
+Thanks for your quick help with my prescription
+Thank you for your help today
+Thanks for being so kind to my family

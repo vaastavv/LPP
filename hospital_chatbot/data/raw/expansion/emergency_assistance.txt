@@ -1,0 +1,108 @@
+# Curated expansion for emergency_assistance. Theme: urgent/life-threatening situations, ambulance, emergency department.
+My father is having severe chest pain right now
+My grandmother suddenly can't speak and her face is drooping
+Someone in my family has fallen down the stairs and is unconscious
+My baby is not breathing properly
+My child has a very high fever and is having a fit
+There's been a car accident and someone is badly hurt
+I need an ambulance urgently at my address
+Please send help, my husband collapsed
+I think my friend has overdosed
+My son drank something poisonous
+He is bleeding a lot from his head
+I cut my hand badly and the bleeding won't stop
+My mother is having trouble breathing and her lips are turning blue
+I'm having severe chest pain and sweating
+I feel like I'm going to pass out and my chest hurts
+My dad is having a heart attack, what do I do?
+Someone is choking and can't breathe
+My wife's water broke and the baby is coming
+She's pregnant and bleeding heavily
+My child fell and hit his head and is vomiting
+I've been stung by a bee and my throat is swelling
+I'm having a severe allergic reaction
+I can't breathe
+Help me please, I'm in a lot of pain
+He's having a seizure and won't stop shaking
+Somebody got electrocuted
+There's a fire and people are injured
+My neighbour is unconscious on the floor
+My father isn't responding to us
+I think my mother is having a stroke
+My friend is talking about ending his life
+I want to hurt myself
+I'm thinking of killing myself
+emergency please help
+URGENT need ambulance
+help help my dad cant breathe
+plz send ambulance fast
+emergancy my son is hurt
+My husband is having a severe asthma attack and the inhaler isn't working
+My child swallowed a battery
+My dog bit my daughter and it's bleeding badly
+I've been in an accident and I think my leg is broken
+I fell and can't move my legs
+My elderly father fell and is not getting up
+I'm diabetic and feeling extremely dizzy and confused
+My sugar level dropped and I'm shaking badly
+My kid swallowed my pills
+I was hit by a vehicle
+There's someone lying unconscious on the road outside your hospital
+Is the emergency ward open, I'm bringing a patient now?
+Where should I go for emergency treatment?
+How do I get to the casualty department quickly?
+Where is the ER entrance?
+Does the hospital have a 24-hour emergency department?
+Is there a trauma centre at this hospital?
+I need to bring someone to emergency immediately
+Which gate do I use for the emergency department?
+My baby has stopped crying and is very limp
+My mother's heartbeat is very irregular and she feels faint
+I have sudden severe pain in my stomach and I'm vomiting blood
+I'm coughing up blood
+My vision suddenly went dark and my head is pounding
+There's a gas leak and people are fainting
+Someone drowned and we pulled him out
+My father had a heart attack before and now the pain is back
+My wife is having contractions and we're on the way
+I've burned my arm badly with boiling water
+My son has a deep cut and needs stitches urgently
+My child has a high fever and a rash and is very drowsy
+Someone has been stabbed
+There's an injured person here who needs urgent care
+I need immediate medical attention
+This is life or death please hurry
+I think I'm dying
+My grandfather's breathing is very slow and he won't wake up
+Can you send an ambulance to the market area?
+How fast can an ambulance get here?
+I need an emergency doctor now
+My mother took too many sleeping pills
+My friend is having a panic attack and can't breathe
+My sister fainted and hit her head
+My brother is having chest pain after exercise
+I need help immediately, my baby is turning blue
+I've had a severe head injury
+I'm bleeding and feeling weak
+Severe chest pain, what should I do?
+Someone is unconscious and not breathing, help
+My husband is sweating, has chest pain and his arm hurts
+My child is having difficulty breathing after eating peanuts
+My mom suddenly can't move one side of her body
+There's been a serious accident on the highway
+Urgent help needed for a pregnant woman
+My dad's blood pressure is extremely high and he has a severe headache
+I can't stop vomiting and I'm very weak
+I took the wrong medicine and feel very sick
+# --- hard negatives / boundary examples ---
+Hi, my father has chest pain and is sweating, please help
+Not an appointment, this is an emergency, my mother collapsed
+I don't have time to book, my son can't breathe
+Please help, my husband suddenly fainted and is not responding
+My child is having a severe asthma attack right now
+My grandmother fell and is bleeding from her head
+I have crushing chest pain and my left arm is numb
+Someone here has a very bad injury and needs help now
+My wife is having a seizure, what do we do?
+I need emergency help, my friend is unconscious
+My baby has swallowed a coin and is struggling to breathe

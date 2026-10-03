@@ -1,0 +1,50 @@
+true_intent,predicted,confidence,status,query
+pharmacy_query,billing_query,0.9976,confident,How much does a strip of metformin cost?
+pharmacy_query,facility_information,0.986,confident,Is there a medical shop in the hospital?
+billing_query,admission_query,0.9818,confident,Is there a deposit for admission?
+emergency_assistance,department_information,0.98,confident,Is there a trauma centre at this hospital?
+admission_query,appointment_booking,0.9787,confident,Do I need an appointment with the doctor before admission?
+goodbye,thank_you,0.9672,confident,Thanks and goodbye
+appointment_booking,doctor_search,0.9529,confident,Can I see a doctor tomorrow?
+lab_reports,insurance_query,0.9404,confident,Do you share reports with insurance companies directly?
+doctor_search,appointment_booking,0.9229,confident,I'd like to find an audiologist
+appointment_rescheduling,billing_query,0.9199,confident,Is rescheduling free of charge?
+greeting,doctor_search,0.887,confident,"Good morning, doctor"
+prescription_query,medical_records,0.8831,confident,need my prescripton renewed
+billing_query,facility_information,0.8679,confident,Is there a charity scheme for patients who can't afford the bill?
+appointment_rescheduling,facility_information,0.8079,confident,Is there a charge for rescheduling?
+appointment_booking,greeting,0.755,confident,"Hello, can I make a new booking for Friday?"
+doctor_search,appointment_booking,0.7286,confident,I need an ophthalmologist
+appointment_cancellation,appointment_booking,0.7223,confident,Is there a fee for cancelling an appointment?
+facility_information,department_information,0.6813,confident,do u have lifts
+billing_query,admission_query,0.6331,confident,How much is the admission deposit?
+appointment_rescheduling,lab_reports,0.628,confident,I need my follow-up visit moved to after my reports come
+pharmacy_query,department_information,0.6155,confident,Do you have an auto-refill delivery service?
+medical_records,insurance_query,0.5862,confident,I need my past records for an insurance claim
+pharmacy_query,facility_information,0.5843,confident,Do you have an oxygen cylinder for home use?
+appointment_rescheduling,appointment_booking,0.5791,confident,I'd like to rebook the same appointment for a later date
+appointment_booking,contact_information,0.5609,confident,How do I schedule a mammogram?
+discharge_query,appointment_cancellation,0.5583,uncertain,What happens if I want to leave against medical advice?
+doctor_search,facility_information,0.5479,uncertain,Is there a fertility specialist I can consult?
+appointment_cancellation,appointment_rescheduling,0.504,uncertain,I'd like to call off my visit on Friday
+facility_information,appointment_booking,0.4892,uncertain,any canteen?
+thank_you,goodbye,0.4811,uncertain,Cheers for that
+contact_information,medical_records,0.4656,uncertain,How do I file a complaint?
+doctor_search,department_information,0.4649,uncertain,Is there an anaesthetist I can speak to before surgery?
+thank_you,goodbye,0.4649,uncertain,ok thx
+facility_information,hospital_timings,0.4567,uncertain,Are pets allowed in the hospital?
+greeting,goodbye,0.4424,uncertain,Evening!
+greeting,hospital_timings,0.421,uncertain,Top of the morning
+contact_information,facility_information,0.4112,uncertain,Is there an email for sending reports to doctors?
+discharge_query,medical_records,0.3869,uncertain,Can I leave against medical advice?
+facility_information,hospital_timings,0.3208,uncertain,Does the hospital provide newspapers?
+facility_information,medical_records,0.3097,uncertain,Can I keep my valuables in a safe?
+facility_information,pharmacy_query,0.2923,uncertain,Can I borrow a wheelchair at the entrance?
+facility_information,hospital_timings,0.2778,uncertain,Can I bring outside food for the patient?
+greeting,appointment_booking,0.2685,uncertain,Morning!
+facility_information,admission_query,0.2667,uncertain,Can I bring a service dog?
+facility_information,doctor_search,0.2605,uncertain,"Not the timing, I want to know if there is a cafeteria at all"
+thank_you,goodbye,0.1963,uncertain,Cheers
+thank_you,goodbye,0.1963,uncertain,Thx
+thank_you,goodbye,0.1963,uncertain,Cheers mate
+emergency_assistance,contact_information,0.1504,uncertain,Somebody got electrocuted

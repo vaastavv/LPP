@@ -1,0 +1,105 @@
+# Curated expansion for medical_records. Theme: the patient's overall FILE/history - copies, access, transfer, corrections, retention, privacy.
+How do I request a copy of my complete medical file?
+I need all my treatment records from the last three years
+Can I get my old admission records?
+I was treated here in 2015, can I get those records?
+Please send my medical records to my new doctor
+Can you transfer my case file to another hospital?
+I'm moving abroad and need my full medical history
+Can I get my records in English for a foreign hospital?
+How do I apply for my medical records?
+Is there a form to request medical records?
+How many days does it take to get my records?
+Can I get certified copies of my medical records?
+I need attested medical records for a court case
+I need my records for a legal case
+My lawyer needs my hospital records
+Can my employer get my medical records?
+Who is allowed to see my health file?
+Is my medical information kept confidential?
+Can I stop my family from seeing my records?
+I want to give my son permission to access my records
+Can I get my late father's medical records?
+What documents do I need to collect a deceased relative's records?
+Can I see my medical records on the patient portal?
+How do I link my records to my digital health ID?
+Can I download my health history from the app?
+My patient portal doesn't show my older visits
+I need copies of my old discharge summaries from previous admissions
+I want the operation notes from my surgery last year
+Can I get the anaesthesia records from my operation?
+Can I get my ICU records?
+I need my child's birth records from the hospital
+Can I get my baby's birth notes?
+I need my immunization history
+Can you provide my vaccination certificate from my records?
+I need my MLC records
+How do I get my case sheet?
+Can I get a copy of my in-patient case sheet?
+Can I get the doctor's consultation notes from my visits?
+I want a summary of all my diagnoses on file
+My records have the wrong blood group listed
+My date of birth is wrong in my hospital records
+Please correct my name in my medical file
+I want to update my address in my patient records
+How do I update my phone number in my hospital file?
+I want to add my allergy information to my records
+My records show a medicine I never took
+Can you merge my two patient IDs into one?
+I have two hospital numbers, can they be combined?
+What's my patient ID number?
+I forgot my medical record number
+How long does the hospital keep old records?
+Are records from before 2010 still available?
+Can I get my records digitized?
+Can I get my medical records on a pen drive?
+Can I get all my scans and reports in one file?
+Can I get my medical records sent by courier?
+Is there a fee for photocopying my file?
+Who is in charge of the medical records department?
+Where is the MRD?
+med records copy
+i need my old reocrds
+how to get medical histroy
+need my case file
+Can I access my wife's records with her consent?
+Can my insurance company access my medical records?
+Has anyone accessed my records without permission?
+I want to know who viewed my medical file
+Can my medical records be deleted?
+I want to download my records under data protection law
+Can I get my records for a visa application?
+I need my treatment history for a disability certificate
+I need records of my past surgeries for a new doctor
+Can I share my health records with a doctor in another country?
+Can the hospital share my records with my GP?
+Can you fax my records to another clinic?
+Where can I collect my medical records?
+Can I collect my records on behalf of my mother?
+I need a medical history summary for my school admission
+Can I get a copy of my old prescriptions from my file?
+Can I get a list of all my previous hospital visits?
+What information is included in my medical records?
+Are my mental health records stored separately?
+How do I get my dental records?
+Can I review my file before my next appointment?
+I want to check my records for accuracy
+Can I add notes to my own medical records?
+Who do I talk to about errors in my records?
+Can I get my emergency room visit records?
+I need my maternity records for my second pregnancy
+I want my complete hospitalization history
+Can you provide records of my previous physiotherapy sessions?
+Can I get my health check-up records from previous years?
+Can I get my electronic health record exported?
+# --- hard negatives / boundary examples ---
+Hi, I need a copy of my medical records
+Not just one test report, I need my complete medical file
+I need all my reports and treatment notes from my previous stays
+I want my entire treatment history, not just the latest result
+Can I get a copy of the discharge summary from my admission two years ago?
+I need my past records for an insurance claim
+Can I get all my past prescriptions and notes in one file?
+I need my old hospital file for my new doctor
+How do I get my medical history printed?
+Can I get my full records sent to another hospital?

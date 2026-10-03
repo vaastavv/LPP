@@ -1,0 +1,108 @@
+# Curated expansion for pharmacy_query. Theme: buying/obtaining medicines and supplies from the pharmacy - stock, price, delivery, location.
+# Boundary vs prescription_query: getting/buying the product -> pharmacy; the doctor-issued prescription document/renewal -> prescription.
+# Pharmacy opening hours are labelled hospital_timings.
+Do you have paracetamol in stock?
+Is this tablet available in your pharmacy?
+Can I check if a medicine is available before I come?
+Does the hospital pharmacy have this antibiotic?
+Is there a generic version of this medicine available?
+Can I get a cheaper alternative brand at the pharmacy?
+What's the price of this medicine?
+How much does a strip of metformin cost?
+Can I buy medicines for a whole month at once?
+Do you home deliver medicines?
+Can my medicines be delivered to my house?
+How long does medicine delivery take?
+Is there a delivery charge for medicines?
+Can I order my medicines on WhatsApp?
+Can I order medicines through the hospital app?
+Where is the pharmacy located in the hospital?
+Which floor is the pharmacy on?
+Is there a pharmacy near the OPD?
+Is there a separate pharmacy for inpatients?
+Can I get my discharge medicines from your pharmacy?
+Can I collect medicines for my admitted relative?
+Can my son pick up my medicines?
+Do I need to show ID to collect medicines?
+Can I return medicines that were not used?
+Will I get a refund for returned medicines?
+Can I exchange a medicine I bought by mistake?
+Do you sell over-the-counter medicines?
+Do you sell vitamins and supplements?
+Do you have diabetic supplies like test strips?
+Do you sell glucometers?
+Do you sell nebulizers?
+Can I buy a wheelchair from the pharmacy?
+Do you sell surgical masks and gloves?
+Do you sell baby diapers at the pharmacy?
+Can I buy adult diapers here?
+Do you stock cancer medicines?
+Do you have the vaccine in stock?
+Can I buy insulin pens here?
+Is there any discount on medicines for senior citizens?
+Do you offer a discount on bulk purchase of medicines?
+Can I pay by card at the pharmacy?
+Does the pharmacy take UPI payments?
+The pharmacy gave me the wrong medicine
+I got fewer tablets than I paid for
+The medicine I received is expired
+The pharmacist gave me a different brand, is that okay?
+Can I talk to the pharmacist?
+Is a pharmacist available to answer questions?
+My medicine is out of stock, when will it be available?
+Can you order a medicine that you don't have?
+Can you reserve a medicine for me?
+Do you keep imported medicines?
+pharmacy near me in hospital?
+is ther a chemist inside
+medicine avlbl?
+do u deliver medicnes
+Where can I buy my medicines after the consultation?
+Is there a medical shop in the hospital?
+Where is the chemist?
+Is there a pharmacy at the emergency side?
+Can I buy medicines without seeing a doctor here?
+Can I buy medicines with a prescription from another hospital?
+Do you accept prescriptions from outside doctors at the pharmacy?
+Can I get my regular medicines refilled at the pharmacy every month?
+Do you have an auto-refill delivery service?
+Do you provide medicine reminders with home delivery?
+How do I store the medicine I bought?
+Does the pharmacy sell ayurvedic products?
+Can I buy a thermometer here?
+Do you sell blood pressure machines?
+Do you have crutches for sale?
+Can I rent medical equipment from the pharmacy?
+Do you have an oxygen cylinder for home use?
+Do you sell compression stockings?
+Can I buy eye drops here?
+Do you sell hearing aid batteries?
+Is the pharmacy bill separate from the hospital bill?
+Can I get a GST bill from the pharmacy?
+I need a bill for the medicines I bought
+Can I get a list of medicine prices?
+How do I know if my medicine is genuine?
+Can I buy medicine for my pet here?
+Can I place a pharmacy order for pickup?
+Is my pharmacy order ready?
+Has my medicine order been dispatched?
+My medicine delivery hasn't arrived
+Can I track my medicine delivery?
+Do you have a cold chain for injections I'm buying?
+Can I buy my chemotherapy drugs at the hospital pharmacy?
+Is the medicine I need a controlled drug that needs special approval?
+Do you stock the syrup for children?
+Can I buy the injection here and get it administered at the clinic?
+Can I get my medicines packed in daily doses?
+Do you sell first aid kits?
+# --- hard negatives / boundary examples ---
+Hi, is this medicine in stock?
+I already have the prescription, I just want to buy the medicines
+I have the doctor's prescription, where can I buy the tablets?
+Not a new prescription, I just need to pick up my medicines
+Can I buy the medicines on my prescription at your pharmacy?
+Does the pharmacy have the medicine my doctor prescribed?
+I need to buy the injection the doctor prescribed
+Can I get these medicines delivered to my home?
+How much will the prescribed medicines cost at the pharmacy?
+Is the pharmacy inside the main building?

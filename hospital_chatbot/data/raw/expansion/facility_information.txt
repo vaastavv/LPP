@@ -1,0 +1,106 @@
+# Curated expansion for facility_information. Theme: amenities and infrastructure - parking, food, rooms, accessibility, services for visitors.
+# Boundary vs hospital_timings: whether an amenity exists / what it offers -> facility; WHEN it is open -> timings.
+Is parking available for visitors?
+Is there paid parking or is it free?
+Do you have valet parking?
+Is there parking for two-wheelers?
+Is there disabled parking near the entrance?
+Can I park my car overnight?
+Is there a food court in the hospital?
+Is there a canteen for attendants?
+Do you serve vegetarian food to patients?
+Can patients get special diet meals?
+Can I bring outside food for the patient?
+Is there a coffee shop nearby inside the campus?
+Do you have drinking water facilities?
+Are there clean restrooms for visitors?
+Is there a lift for patients?
+Is the building wheelchair friendly?
+Do you have ramps for wheelchair users?
+Can I borrow a wheelchair at the entrance?
+Are stretchers available at the entrance?
+Do you provide a porter to help patients move around?
+Is there a pick-up and drop facility?
+Do you have a shuttle from the metro station?
+Do you provide transport for patients?
+Is there an ambulance service for non-emergency transfers?
+What types of rooms do you have?
+Do you have single occupancy rooms?
+Are there twin-sharing rooms?
+Do you have suite rooms?
+Does the private room have a TV?
+Does the room have an attached bathroom?
+Is there a sofa bed for the attendant?
+Can more than one attendant stay with the patient?
+Is there an attendant lounge?
+Is there accommodation for families coming from out of town?
+Do you have tie-ups with nearby hotels?
+Is there a dharamshala near the hospital?
+Is Wi-Fi available in the patient rooms?
+What's the Wi-Fi password for visitors?
+Can I charge my phone in the waiting area?
+Is there a laundry service for patients?
+Is there a temple or meditation room?
+Is there a mosque or namaz area?
+Is there a chapel in the hospital?
+Do you have a library or reading area?
+Is there a kids' corner?
+Is there a breastfeeding room?
+Do you have baby changing facilities?
+Is there a gift shop?
+Is there a flower shop?
+Is there a bank branch inside the hospital?
+Is there a currency exchange counter for foreign patients?
+Do you have translators for foreign languages?
+Do you have sign language interpreters?
+Are there facilities for visually impaired patients?
+Is the hospital air-conditioned?
+Is there a smoking area?
+Is smoking allowed anywhere on campus?
+Are pets allowed in the hospital?
+Can I bring a service dog?
+Is there a lost and found?
+Is there CCTV and security in the wards?
+Do you have a cloak room for luggage?
+Can I keep my valuables in a safe?
+Is there a locker in the room?
+Is there a garden or open space for patients?
+Is there a gym for staff and patients?
+Do you have a business centre or printing facility?
+Can I get photocopies done inside the hospital?
+Is there a fuel station nearby?
+Does the hospital have a helipad?
+Do you have an international patient lounge?
+Is there a separate lounge for VIP patients?
+Is there housekeeping in the rooms daily?
+Are linen and towels provided?
+Is the hospital accessible by public transport?
+is there parkng
+any canteen?
+wifi availble?
+do u have lifts
+Are there water coolers on each floor?
+Is there a place for attendants to sleep?
+Can attendants get meals from the hospital kitchen?
+Does the hospital provide newspapers?
+Is there a microwave I can use to heat food?
+Do rooms have a refrigerator?
+Is there hot water in the bathrooms?
+Do you have a visitor waiting lounge near the ICU?
+Is there seating outside the operation theatre for families?
+Is there a facility for bathing bedridden patients?
+Is there an electric vehicle charging point in the parking?
+What facilities are available for elderly visitors?
+Is the hospital child-friendly?
+What facilities does the hospital have?
+# --- hard negatives / boundary examples ---
+Hi, is there parking at the hospital?
+Not the timing, I want to know if there is a cafeteria at all
+Do you have a canteen, and what kind of food does it serve?
+Is there a waiting room for family during surgery?
+Is there accommodation for attendants?
+Do the private rooms have Wi-Fi?
+Can a family member stay overnight with the patient?
+Do you have wheelchairs for visitors?
+Is there an ATM on campus?
+What amenities are available in the general ward?

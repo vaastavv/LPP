@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# Large Transformer weights are reproducible from configs/ + src/intent/train.py and src/emotion/predictor.py download
+models/intent/model/*.safetensors
+models/intent/model/*.bin
+models/emotion/*.safetensors
+models/emotion/*.bin

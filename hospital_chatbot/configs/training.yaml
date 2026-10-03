@@ -1,0 +1,66 @@
+# Central configuration. All paths are relative to the hospital_chatbot/ project root.
+seed: 42
+dataset_version: "v1.0-reconstructed"
+
+paths:
+  raw_dataset: data/raw/original_intent_dataset.csv
+  expansion_dir: data/raw/expansion
+  label_corrections: data/raw/label_corrections.csv
+  processed_dataset: data/processed/intent_dataset.csv
+  provenance: data/processed/dataset_provenance.csv
+  changelog: data/processed/dataset_changelog.json
+  train: data/processed/train.csv
+  validation: data/processed/validation.csv
+  test: data/processed/test.csv
+  ood_source: data/ood/out_of_domain_queries.txt
+  ood_validation: data/ood/ood_validation.csv
+  ood_test: data/ood/ood_test.csv
+  raw_response_templates: data/raw/original_response_templates.json
+  response_templates: data/response_templates.json
+  intent_model_dir: models/intent
+  baseline_dir: models/baseline
+  emotion_model_dir: models/emotion
+  evaluation_dir: evaluation
+
+dataset:
+  min_per_intent: 100
+  max_per_intent: 150
+  near_duplicate_threshold: 0.90     # char n-gram cosine; pairs above are removed as near-duplicates
+  leakage_group_threshold: 0.75      # pairs above are forced into the same split
+  split: {train: 0.70, validation: 0.15, test: 0.15}
+  ood_validation_fraction: 0.5
+
+intent_model:
+  model_name: distilbert-base-uncased
+  max_length: 64
+  learning_rate: 2.0e-5
+  batch_size: 16
+  epochs: 5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  dropout: 0.1
+  early_stopping_patience: 2
+  early_stopping_metric: macro_f1
+  class_weighting: auto              # auto -> enabled only if max/min class ratio > imbalance_ratio_threshold
+  imbalance_ratio_threshold: 1.5
+
+baseline:
+  ngram_range: [1, 2]
+  sublinear_tf: true
+  min_df: 1
+  C_grid: [0.5, 1.0, 2.0, 5.0, 10.0, 20.0]   # selected on validation macro-F1
+
+confidence:
+  # Threshold on temperature-scaled max softmax probability, chosen on validation (+ OOD validation).
+  min_in_domain_coverage: 0.90       # constraint when selecting the threshold
+  threshold_grid_step: 0.01
+  ece_bins: 10
+  # Emergency recall matters more than precision: emergency routing uses its own (lower) threshold on
+  # P(emergency_assistance), selected on validation to keep false emergency routes <= this rate.
+  max_emergency_false_positive_rate: 0.02
+
+emotion_model:
+  model_name: SamLowe/roberta-base-go_emotions
+  max_length: 128
+  # The model is multi-label (sigmoid). 0.5 is the model's default decision threshold; below it we fall back to neutral.
+  min_confidence: 0.5

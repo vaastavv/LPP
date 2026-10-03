@@ -1,0 +1,113 @@
+# Curated expansion for appointment_rescheduling. Theme: user HAS an appointment and wants it MOVED to a different time/date.
+I already have an appointment but need to move it to another day
+I have a booking on Monday, can I change it to Wednesday?
+I can't make my appointment time, can I get a later slot the same day?
+Please move my consultation from 10 am to 4 pm
+Can I reschedule instead of cancelling?
+I want to keep my appointment but at a different time
+resched my appt pls
+I need to reshedule my appointment
+Can my Friday appointment be moved to next week?
+Could you postpone my check-up by a few days?
+Something came up, can we push my appointment to the afternoon?
+I'd like to bring my appointment forward if there's an earlier slot
+Is there an earlier date than the one I have booked?
+I want to change the date of my MRI scan
+Please change my appointment to the same doctor but a different day
+I'd like to swap my appointment with a later one
+Can I change my teleconsultation to an in-person visit on another day?
+My flight got delayed, so I need to move my appointment
+Can you reschedule my mother's appointment to the morning?
+Please shift my son's appointment to after school hours
+I need to change my appointment time because of work
+Can I move my follow-up to the end of the month?
+I want to reschedule my surgery consultation
+Can my blood test appointment be moved to an earlier time?
+How many times can I reschedule an appointment?
+Is there a charge for rescheduling?
+I want to reschedule online, how do I do that?
+Change my appointment from Tuesday the 3rd to Thursday the 5th
+Can I move my physiotherapy session to Saturday?
+I'll be late, can my appointment be pushed back an hour?
+Postpone my dental appointment to next month please
+My doctor is on leave on my appointment day, can you move it?
+I got a message that my doctor is unavailable, I need a new time for my appointment
+Can I reschedule my vaccination slot?
+Please move my booking to the next available slot
+I'd like to rebook the same appointment for a later date
+I need to change the timing of my ultrasound
+I have an appointment tomorrow but I'd prefer next week instead
+Could you shift my check-up to an evening slot?
+I want to adjust the time of my appointment
+Can I change my appointment day without losing my booking fee?
+Please reschedule my wife's prenatal visit to Monday
+My appointment clashes with an exam, can you move it?
+Can I postpone the procedure appointment until after the holidays?
+Move my 9 am appointment to 11 am
+Need to change my appt date
+I have a slot with Dr. Rao on Monday, is Wednesday possible instead?
+I want to defer my appointment by two weeks
+Can I reschedule my home visit?
+I need to move my appointment because my child is sick
+Please change my consultation to a video call at the same time
+I'd like to reschedule the scan, not cancel it
+Can I change the appointment I booked yesterday to a different date?
+Is it possible to get my appointment moved up to this week?
+I need a new date for my follow-up appointment
+Can I keep the same doctor but change the time?
+My appointment is on a holiday, can it be rescheduled?
+Shift my booking to the weekend please
+I can come in later in the day, can my appointment be adjusted?
+Please reschedule all my appointments for next week to the week after
+Push back my lab appointment to the afternoon
+Can you reschedule my counselling session?
+I'd like to change my ENT appointment to the morning
+I want to postpone my health check package
+My appointment was missed, can I reschedule it?
+I missed my appointment yesterday, can I get a new time?
+I couldn't attend my appointment, can we set a new date?
+Reschedule my CT scan to Friday
+Could my eye test be moved to next Monday?
+I want to move my appointment closer to my surgery date
+Can I reschedule if I'm running late due to traffic?
+Please move my orthopaedic appointment to a later time
+Can I change my booking to an earlier hour?
+I booked for Thursday but I'm free on Tuesday, can you change it?
+Is there a slot later than my current one?
+My appointment needs to be rescheduled due to bad weather
+Can I change my appointment with the dietitian to next week?
+Move my vaccination appointment to the following Saturday
+I'd like to reschedule my appointment with the cardiologist to a later date
+How do I change the time of an existing appointment?
+Please update my appointment to the 20th
+I want to change my appointment slot, I already have one booked
+Can I trade my current slot for one in the evening?
+Kindly reschedule my consultation, I'm unwell and can't travel this week
+Can you delay my appointment until I get back from my trip?
+I need my follow-up visit moved to after my reports come
+Rearrange my appointment for a later time please
+I want to reschedule my child's dental checkup
+Can I change the doctor and time of my current appointment?
+Can I move my appointment from the main branch timing to an earlier slot?
+I need to reschedule because my test results are not ready yet
+Can my appointment be moved to the same time next week?
+Please find me another time for my existing appointment
+Could you move my session to the afternoon?
+I'd like to change my booked slot to tomorrow
+I'm stuck at work, can my appointment be postponed to the evening?
+Can I reschedule my appointment through WhatsApp?
+Is rescheduling free of charge?
+My existing appointment is too far away, can I get an earlier one?
+I want to move my appointment instead of cancelling it
+# --- hard negatives / boundary examples ---
+Hi, can I move my appointment to Thursday?
+Don't cancel my appointment, just change the date
+I want to keep the booking but at a later time
+I have an appointment already, can you change it to the afternoon?
+Thanks, also could you shift my appointment to Monday?
+I need to change my appointment, not book a new one
+My appointment with the cardiologist needs a new date
+Can my consultation be pushed to the evening instead of being cancelled?
+Can you change my existing booking to next Friday?
+I'd like a different day for the appointment I already have
+Instead of tomorrow, can I come in on Saturday for my appointment?

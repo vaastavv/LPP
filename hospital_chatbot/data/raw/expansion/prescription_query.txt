@@ -1,0 +1,104 @@
+# Curated expansion for prescription_query. Theme: the doctor-issued PRESCRIPTION - renewal, refill authorization, copies, errors, clarification.
+# Boundary vs pharmacy_query: obtaining/buying the medicine itself -> pharmacy.
+Can my doctor send a new prescription for my thyroid tablets?
+I'm running out of my medicine, how do I get my prescription renewed?
+My prescription ran out, can it be extended?
+Can I get a repeat prescription without seeing the doctor again?
+Do I need an appointment to renew my prescription?
+Can the doctor renew my prescription over a teleconsultation?
+I need my prescription updated with the new dose the doctor mentioned
+The doctor forgot to write one medicine on my prescription
+My prescription has a spelling mistake in the medicine name
+The prescription doesn't mention how many days to take the tablets
+The dosage instructions on my prescription are unclear
+I can't understand the handwriting on my prescription
+What does BD mean on my prescription?
+What does "1-0-1" on my prescription mean?
+Can someone explain the instructions on my prescription?
+I need a printed copy of my prescription
+Can I get my prescription on WhatsApp?
+Can you send my prescription to my email?
+Where can I see my e-prescription?
+I didn't receive my e-prescription after the online consultation
+Can my prescription be sent directly to the pharmacy?
+Can you send my prescription to an outside pharmacy?
+I lost the prescription the doctor gave me yesterday
+Can I get a duplicate prescription?
+I need a prescription for my travel so customs allows my medicines
+Can I get a prescription letter for carrying medicines abroad?
+Can I get a prescription for a longer duration?
+Can the doctor prescribe three months of medicine at once?
+Is my old prescription still valid?
+How long is my prescription good for?
+Can I use last year's prescription to buy medicines?
+Can I get my prescription changed to a generic medicine?
+Can the doctor change my prescription to a cheaper brand?
+I'm having side effects, can I get my prescription reviewed?
+The prescribed medicine isn't suiting me, who should I talk to about changing it?
+I'm allergic to one of the medicines on my prescription
+Can the doctor check if my prescriptions interact with each other?
+I'm taking medicines from two doctors, can someone review my prescriptions?
+Can I get a prescription for my regular BP tablets?
+I need a prescription for my child's inhaler
+My son's prescription needs to be renewed
+I need a new prescription for my insulin pens
+Can a nurse practitioner write my prescription?
+Who can authorize a prescription refill?
+Has my doctor approved my refill request?
+I requested a refill, what's the status?
+How long does a prescription refill request take?
+Can you check if my prescription has been sent?
+My pharmacy says they never got my prescription
+The pharmacy says my prescription is incomplete
+The pharmacist said the prescription needs a doctor's signature
+My prescription is missing the doctor's stamp
+My prescription has the wrong patient name
+The prescription has the wrong date
+The prescribed strength isn't available, can the doctor change the prescription?
+Can I get a prescription without a physical visit?
+Can I get an online prescription?
+Can you renew the prescription for my mother?
+presciption refill pls
+need my prescripton renewed
+lost my prescrption
+how to get new prescription
+Can I get a copy of the prescription from my last visit?
+Can I get the prescription the doctor gave at discharge again?
+Can my prescription include refills?
+Can I get a prescription for physiotherapy?
+Does a prescription need to be renewed every month?
+Can my GP's prescription be honoured here?
+I want my prescription reviewed before my surgery
+I want to discuss stopping one of my prescribed medicines with the doctor
+Can the doctor reduce the dose on my prescription?
+The doctor said to taper my dose, but the prescription doesn't say how
+I need a prescription for diabetic test strips
+Can I get a prescription for a nebulizer?
+Do I need a prescription for antibiotics?
+I need a written prescription for my eye drops
+Can I get my glasses prescription?
+I need my spectacle prescription copy
+Can I get a prescription in digital format with a QR code?
+Can the doctor send the prescription to my insurer?
+Is a prescription required for this injection?
+Who should I contact about an error in my prescription?
+Can I get my prescription translated?
+Can I request a prescription refill through the app?
+My prescription ran out and the doctor is on leave, what can I do?
+Can another doctor in the department renew my prescription?
+The prescription says take after food but the pharmacist said before, which is right?
+Can the doctor clarify how long I should continue this medicine?
+I'd like my prescription adjusted, the current dose makes me drowsy
+# --- hard negatives / boundary examples ---
+Hi, I need my prescription renewed
+I don't want to buy anything, I need the doctor to write a new prescription
+Not the pharmacy, I need a copy of the prescription itself
+The pharmacy needs a valid prescription, can the doctor issue one?
+Can the doctor write a prescription for my monthly medicines?
+I need a fresh prescription before I can buy my medicines
+Can my prescription be renewed for another month?
+Can I get a refill authorized by my doctor?
+Is my new prescription ready to collect?
+Can the doctor review my current prescription?
+Who can give me a prescription for my regular medicines?
+Can you resend my prescription?
