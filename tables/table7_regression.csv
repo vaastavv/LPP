@@ -1,0 +1,7 @@
+Task,Predictor,beta,Standard Error,95% CI,p-value,Partial R2
+Bug Localization,SRS,0.53,0.38,"[-0.45, 1.50]",0.222,0.28
+Bug Localization,CFS,-0.03,0.45,"[-1.18, 1.12]",0.945,0.00
+Bug Localization,DFBS,0.99,0.07,"[0.81, 1.17]",<0.001,0.98
+Program Repair,SRS,0.60,0.36,"[-0.31, 1.52]",0.151,0.36
+Program Repair,CFS,0.05,0.45,"[-1.09, 1.20]",0.910,0.00
+Program Repair,DFBS,0.97,0.10,"[0.71, 1.24]",<0.001,0.95

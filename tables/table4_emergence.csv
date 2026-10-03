@@ -1,0 +1,4 @@
+Comparison,Mean Diff.,95% CI,Test Statistic,Adjusted p-value,Effect Size
+Syntax vs control flow,0.000,"[0.000, 0.000]",--,--,0.00
+Syntax vs data flow,0.000,"[0.000, 0.000]",--,--,0.00
+Control flow vs data flow,0.000,"[0.000, 0.000]",--,--,0.00
