@@ -70,6 +70,36 @@ severity 0.2 then falls (detected at 0.30) while the entropy floor is already
 detectable at severity 0.05 — a 4-level lead. Replace it with a real run to test
 the hypothesis on an actual model.
 
+## Adding more models
+
+`config.MODELS` now includes `smollm-1.7b` (`HuggingFaceTB/SmolLM2-1.7B-Instruct`,
+fully open) and `gemma2-2b` (`google/gemma-2-2b-it`, **gated** — accept the
+license on HuggingFace and `huggingface-cli login` once). Every runner takes
+`--model <label>`, and all analyses key off the model label, so a new model flows
+into the sensitivity plots (`latent_analysis.py`), the correlations
+(`analyze_results.py`), and the drift plots automatically once its result files
+exist. With ≥3 models present, the cross-model correlations (#3/#4) become
+meaningful.
+
+```bash
+for m in qwen-0.5b qwen-1.5b smollm-1.7b gemma2-2b; do
+  python run_latent.py       --model $m
+  python run_calibration.py  --model $m
+  python run_drift.py        --model $m --kind char_noise --reps 3
+done
+python latent_analysis.py
+python analyze_results.py
+python drift_analysis.py     # per-model drift plots + drift_lead_comparison_<kind>.png
+```
+
+`drift_analysis.py` also emits `results/plots/drift_lead_comparison_<kind>.png`
+— a bar of the entropy early-warning lead per model — whenever ≥2 models have
+drift results for a kind, so gemma2-2b / smollm-1.7b / qwen appear side by side.
+
+> Note: downloading weights needs network access to `huggingface.co`. If a run
+> fails to reach it, the environment's network policy is blocking that host — add
+> it under the cloud environment's **Network access** settings.
+
 ## Caveats / honest limitations
 
 - A single small model (qwen-0.5b) can only show the *method*; the paper's claim
