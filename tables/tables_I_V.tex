@@ -1,0 +1,84 @@
+\begin{table}[t]
+\centering
+\caption{Characteristics of the evaluated CodeLLMs.}
+\label{tab:models}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Family & Parameters & Layers & Hidden Size & Context Length & Language Coverage \\
+\midrule
+tiny & TinyLlama(random) & \textless{}0.01B & 6 & 128 & 1024 & n/a \\
+tiny-A & TinyLlama(random) & 0.04M & 4 & 96 & 1024 & n/a \\
+tiny-B & TinyLlama(random) & 0.10M & 6 & 128 & 1024 & n/a \\
+tiny-C & TinyLlama(random) & 0.15M & 6 & 160 & 1024 & n/a \\
+tiny-D & TinyLlama(random) & 0.29M & 8 & 192 & 1024 & n/a \\
+tiny-E & TinyLlama(random) & 0.50M & 10 & 224 & 1024 & n/a \\
+tiny-F & TinyLlama(random) & 0.79M & 12 & 256 & 1024 & n/a \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Overall structural separability across the evaluated CodeLLMs.}
+\label{tab:sep}
+\begin{tabular}{lrrrrr}
+\toprule
+Structural Dimension & Contrast Condition & Control Condition & Mean Diff. & Effect Size & Adjusted $p$-value \\
+\midrule
+Syntax & 0.017 & 0.353 & -0.336 & -3.72 & \textless{}0.001 \\
+Control flow & 0.187 & 0.470 & -0.282 & -2.91 & \textless{}0.001 \\
+Data flow & 0.727 & 0.285 & 0.442 & 1.41 & \textless{}0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Maximum structural representation locations.}
+\label{tab:peaks}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & $l^{*}_{\mathrm{syn}}$ & $\lambda^{*}_{\mathrm{syn}}$ & $l^{*}_{\mathrm{cf}}$ & $\lambda^{*}_{\mathrm{cf}}$ & $l^{*}_{\mathrm{df}}$ & $\lambda^{*}_{\mathrm{df}}$ \\
+\midrule
+tiny & 1 & 0.17 & 1 & 0.17 & 1 & 0.17 \\
+tiny-A & 1 & 0.25 & 1 & 0.25 & 1 & 0.25 \\
+tiny-B & 1 & 0.17 & 1 & 0.17 & 1 & 0.17 \\
+tiny-C & 1 & 0.17 & 1 & 0.17 & 1 & 0.17 \\
+tiny-D & 1 & 0.12 & 1 & 0.12 & 1 & 0.12 \\
+tiny-E & 1 & 0.10 & 1 & 0.10 & 1 & 0.10 \\
+tiny-F & 1 & 0.08 & 1 & 0.08 & 1 & 0.08 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Statistical analysis of layer-wise structural emergence.}
+\label{tab:emerge}
+\begin{tabular}{lrrrrr}
+\toprule
+Comparison & Mean Diff. & 95\% CI & Test Statistic & Adjusted $p$-value & Effect Size \\
+\midrule
+Syntax vs control flow & 0.000 & [0.000, 0.000] & -- & -- & 0.00 \\
+Syntax vs data flow & 0.000 & [0.000, 0.000] & -- & -- & 0.00 \\
+Control flow vs data flow & 0.000 & [0.000, 0.000] & -- & -- & 0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Data-flow binding across token-distance strata.}
+\label{tab:strata}
+\begin{tabular}{lrrrrr}
+\toprule
+Distance Stratum & Positive Binding & Negative Binding & DFBS & 95\% CI & Adjusted $p$-value \\
+\midrule
+1-10 tokens & 0.846 & 0.325 & 0.521 & [0.494, 0.548] & \textless{}0.001 \\
+11-25 tokens & 0.581 & 0.253 & 0.328 & [0.302, 0.357] & \textless{}0.001 \\
+26-50 tokens & 0.573 & 0.222 & 0.351 & [0.288, 0.408] & \textless{}0.001 \\
+51-100 tokens & 0.638 & 0.132 & 0.506 & [0.361, 0.659] & 0.016 \\
+\textgreater{}100 tokens & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

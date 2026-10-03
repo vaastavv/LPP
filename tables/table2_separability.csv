@@ -1,0 +1,4 @@
+Structural Dimension,Contrast Condition,Control Condition,Mean Diff.,Effect Size,Adjusted p-value
+Syntax,0.017,0.353,-0.336,-3.72,<0.001
+Control flow,0.187,0.470,-0.282,-2.91,<0.001
+Data flow,0.727,0.285,0.442,1.41,<0.001

@@ -15,6 +15,19 @@ methodology on one model object:
 You can start today with the Llama 1B you already have; add the other models to
 `config.py` as they finish downloading.
 
+> **Second paper — Structural Property Profiling for Code LLMs.** This repo also
+> implements Meher & Mall, *Latent Structural Property Profiling in Code Large
+> Language Model* (`docs/CodeLLM_paper.pdf`) — SRS / CFS / DFBS metrics and the
+> paper's Tables I–VIII + Figures 3–4. It lives in `src/struct/` with drivers
+> `run_struct.py`, `run_downstream.py`, `run_tables.py`. See
+> **`docs/CODELLM_README.md`** for the full description and how to run it
+> (offline smoke-test here, real sweep on Colab/Kaggle). Quick start:
+>
+>     python run_struct.py --model tiny --tag A --seed 1 --hidden 96 --layers 4
+>     python scripts/make_demo_downstream.py   # illustrative SE scores
+>     python run_tables.py                      # build all tables + figures
+>     python tests/test_struct_offline.py       # offline tests
+
 ## Layout
 
     config.py            models, decoding settings, paths

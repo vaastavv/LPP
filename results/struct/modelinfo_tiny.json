@@ -1,0 +1,9 @@
+{
+  "family": "TinyLlama(random)",
+  "params": "<0.01B",
+  "langs": "n/a",
+  "layers": 6,
+  "hidden": 128,
+  "context": 1024,
+  "model_id": "tiny-random-llama"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "tiny-E",
+  "scores": {
+    "bug_localization": 0.4813446492292012,
+    "program_repair": 0.37390344523188895,
+    "code_summarization": 0.20391373118707903,
+    "code_completion": 0.6189979569314028,
+    "code_translation": 0.49320804575740046
+  },
+  "synthetic": true,
+  "note": "ILLUSTRATIVE synthetic scores; replace with real benchmark runs"
+}
